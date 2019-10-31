@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="2d202458-a959-31f4-4324-64bc615ad239" source="coffin.fbx">
+ <Files>
+  <File path="coffin.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">208</Detail>
+  <Detail name="vertexCount">324</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatCoffin.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

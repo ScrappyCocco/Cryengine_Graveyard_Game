@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="4afb18c2-4650-b85f-784e-f9deece8dfbd" source="lightpostSingle.fbx">
+ <Files>
+  <File path="lightpostSingle.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">418</Detail>
+  <Detail name="vertexCount">668</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatLightpostSingle.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

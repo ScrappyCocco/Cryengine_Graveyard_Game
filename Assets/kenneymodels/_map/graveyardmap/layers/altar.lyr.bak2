@@ -1,0 +1,21 @@
+<ObjectLayer>
+ <Layer Name="Altar" FullName="Altar" GUID="a4bd0900-74ca-2019-7a8e-659fe026b214" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1572303607">
+  <LayerObjects>
+   <Object Type="Brush" Layer="Altar" LayerGUID="a4bd0900-74ca-2019-7a8e-659fe026b214" Id="daa9c6c1-bc53-3f6f-74b6-f3b64c9acf5e" Name="detailChalice-2" Pos="513.68756,489.40942,32.536362" Rotate="0.84364748,-0.33594799,-0.15399541,-0.3894653" Scale="2,2,2" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="kenneymodels/bowl/detailChalice.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Altar" LayerGUID="a4bd0900-74ca-2019-7a8e-659fe026b214" Id="3534b5f7-be79-1de2-e5ab-856fdaea742c" Name="altarStone-1" Pos="512.57788,490.21539,32.230087" Rotate="0.91589129,0.26691419,0.21060964,0.21340948" Scale="2,2,2" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="kenneymodels/altar/altarStone.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Altar" LayerGUID="a4bd0900-74ca-2019-7a8e-659fe026b214" Id="38fdf8a2-01c3-0d5c-4583-742539cebcce" Name="detailBowl-2" Pos="514.56854,489.40091,32.551208" Rotate="0.90677208,0.27631363,-0.26897946,-0.17048545" Scale="2,2,2" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="kenneymodels/bowl/detailBowl.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Altar" LayerGUID="a4bd0900-74ca-2019-7a8e-659fe026b214" Id="7d8427e3-f395-1017-bcdc-4c0c24ec2da7" Name="debris-1" Pos="514.08063,489.48053,32.551331" Rotate="0.9725377,0.054496575,-0.18134001,-0.13533811" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="kenneymodels/debris/debris.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Altar" LayerGUID="a4bd0900-74ca-2019-7a8e-659fe026b214" Id="62101614-6a0b-f966-3bf6-166db33355ae" Name="fireBasket-3" Pos="514.4845,490.19415,32.685184" Rotate="0.79065365,0.41209677,-0.41955563,-0.17034127" Scale="2,2,2" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="kenneymodels/fire_basket/fireBasket.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering />
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

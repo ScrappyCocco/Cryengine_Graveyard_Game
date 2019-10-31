@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="c694d54f-6166-edef-47a3-64e6fcb692b4" source="road.fbx">
+ <Files>
+  <File path="road.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">240</Detail>
+  <Detail name="vertexCount">480</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatRoad.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

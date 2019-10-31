@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="71ee5d4d-40bc-04e5-1191-4cd14c08c68a" source="zombie.fbx">
+ <Files>
+  <File path="zombie.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">268</Detail>
+  <Detail name="vertexCount">434</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatZombie.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

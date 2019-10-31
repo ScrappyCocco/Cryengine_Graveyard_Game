@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="2d642600-4481-aa07-9e60-24e4f8e4b35d" source="lanternGlass.fbx">
+ <Files>
+  <File path="lanternGlass.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">184</Detail>
+  <Detail name="vertexCount">292</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatLanternGlass.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

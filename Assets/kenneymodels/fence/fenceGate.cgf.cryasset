@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="3e585d57-13e3-8d16-aee0-63ef2f73c719" source="fenceGate.fbx">
+ <Files>
+  <File path="fenceGate.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">102</Detail>
+  <Detail name="vertexCount">172</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatFenceGate.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

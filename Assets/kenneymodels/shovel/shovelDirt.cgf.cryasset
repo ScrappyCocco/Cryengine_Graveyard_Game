@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="5eb89994-e949-7466-1526-d1d183e65d88" source="shovelDirt.fbx">
+ <Files>
+  <File path="shovelDirt.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">162</Detail>
+  <Detail name="vertexCount">248</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatShovelDirt.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

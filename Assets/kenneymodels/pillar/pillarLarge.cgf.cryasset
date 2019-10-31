@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="4ccc1745-5fb2-c9c9-6f25-044165759593" source="pillarLarge.fbx">
+ <Files>
+  <File path="pillarLarge.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">80</Detail>
+  <Detail name="vertexCount">148</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatPillarLarge.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

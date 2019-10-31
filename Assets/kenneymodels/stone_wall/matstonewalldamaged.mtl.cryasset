@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="a6b9ee37-132e-6e09-5c85-ba693559c018">
+ <Files>
+  <File path="matstonewalldamaged.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">%ENGINE%/EngineAssets/Textures/white.dds</Path>
+  <Path usageCount="2">%ENGINE%/EngineAssets/Textures/white_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

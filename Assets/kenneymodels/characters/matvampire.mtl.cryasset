@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="4c48c3cb-cf36-aae4-c846-97f925ef7d17">
+ <Files>
+  <File path="matvampire.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">8</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="8">%ENGINE%/EngineAssets/Textures/white.dds</Path>
+  <Path usageCount="8">%ENGINE%/EngineAssets/Textures/white_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

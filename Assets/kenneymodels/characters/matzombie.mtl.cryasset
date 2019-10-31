@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="c45bc7d0-dd11-3d90-2b76-5146375057f4">
+ <Files>
+  <File path="matzombie.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">6</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="6">%ENGINE%/EngineAssets/Textures/white.dds</Path>
+  <Path usageCount="6">%ENGINE%/EngineAssets/Textures/white_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

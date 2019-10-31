@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="8ae6adb0-eba0-c916-0b9c-87f7ae40d73a">
+ <Files>
+  <File path="matpumpkintailcarved.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="4">%ENGINE%/EngineAssets/Textures/white.dds</Path>
+  <Path usageCount="4">%ENGINE%/EngineAssets/Textures/white_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

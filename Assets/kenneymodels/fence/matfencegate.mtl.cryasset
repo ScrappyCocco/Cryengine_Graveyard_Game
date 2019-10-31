@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="f0d43dcb-74cd-22d9-3c47-b6a74e8b580a" timestamp="1572213320">
+ <Files>
+  <File path="matfencegate.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">%ENGINE%/EngineAssets/Textures/white.dds</Path>
+  <Path usageCount="2">%ENGINE%/EngineAssets/Textures/white_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

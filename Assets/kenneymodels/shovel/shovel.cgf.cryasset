@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="a97688ec-e829-0c38-a7ff-47a1b7d4bb7c" source="shovel.fbx">
+ <Files>
+  <File path="shovel.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">134</Detail>
+  <Detail name="vertexCount">206</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatShovel.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

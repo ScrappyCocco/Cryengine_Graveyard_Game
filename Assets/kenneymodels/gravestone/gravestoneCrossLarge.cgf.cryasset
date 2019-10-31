@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="d70a9b83-66a1-c073-7df9-5e21b66921b4" source="gravestoneCrossLarge.fbx">
+ <Files>
+  <File path="gravestoneCrossLarge.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">374</Detail>
+  <Detail name="vertexCount">554</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatGravestoneCrossLarge.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

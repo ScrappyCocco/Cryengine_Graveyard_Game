@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="3b41c648-650a-0c44-e458-1ae0e3bff02f" timestamp="1572262840">
+ <Files>
+  <File path="matlanterncandle.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="3">%ENGINE%/EngineAssets/Textures/white.dds</Path>
+  <Path usageCount="3">%ENGINE%/EngineAssets/Textures/white_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

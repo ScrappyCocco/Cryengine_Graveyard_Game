@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="dc6c56f7-822c-664f-971a-ec2e7506e5f2" source="pumpkinCarved.fbx">
+ <Files>
+  <File path="pumpkinCarved.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">132</Detail>
+  <Detail name="vertexCount">214</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatPumpkinCarved.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

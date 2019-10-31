@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="f4df3c4a-29bc-c2f2-c1e4-ff1c6f0565b6" source="crypt.fbx">
+ <Files>
+  <File path="crypt.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">232</Detail>
+  <Detail name="vertexCount">354</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatCrypt.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

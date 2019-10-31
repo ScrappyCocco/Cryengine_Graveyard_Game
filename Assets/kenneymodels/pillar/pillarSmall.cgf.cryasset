@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="d007586b-6af3-20db-5f54-aa5adcf7f22d" source="pillarSmall.fbx">
+ <Files>
+  <File path="pillarSmall.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">62</Detail>
+  <Detail name="vertexCount">120</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatPillarSmall.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

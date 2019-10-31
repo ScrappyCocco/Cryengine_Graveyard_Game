@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="4c707383-726b-afde-cc36-b229d856e9f0" source="urn.fbx">
+ <Files>
+  <File path="urn.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">128</Detail>
+  <Detail name="vertexCount">224</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatUrn.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="81102298-fa39-b27a-0596-5ec2a45359d4" timestamp="1572263596">
+ <Files>
+  <File path="matpillarsmall.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">%ENGINE%/EngineAssets/Textures/white.dds</Path>
+  <Path usageCount="2">%ENGINE%/EngineAssets/Textures/white_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

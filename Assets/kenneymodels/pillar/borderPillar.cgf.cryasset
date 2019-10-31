@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="73dfb580-e77c-9169-d912-34ef346ef31c" source="borderPillar.fbx">
+ <Files>
+  <File path="borderPillar.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">44</Detail>
+  <Detail name="vertexCount">88</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatPillar.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

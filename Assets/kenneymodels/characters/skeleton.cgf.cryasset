@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="fc98aa5d-0676-045b-2263-f7ec58e9a14b" source="skeleton.fbx">
+ <Files>
+  <File path="skeleton.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">342</Detail>
+  <Detail name="vertexCount">530</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatSkeleton.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

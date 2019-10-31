@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="09d7e29a-dc0a-5ab2-ff90-a1beed80647d" timestamp="1572262594">
+ <Files>
+  <File path="matcoffinold.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="3">%ENGINE%/EngineAssets/Textures/white.dds</Path>
+  <Path usageCount="3">%ENGINE%/EngineAssets/Textures/white_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

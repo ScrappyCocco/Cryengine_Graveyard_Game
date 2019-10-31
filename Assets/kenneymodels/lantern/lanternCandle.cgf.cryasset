@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="ebecad3d-aa20-ab75-7a08-ace5a0cfc938" source="lanternCandle.fbx">
+ <Files>
+  <File path="lanternCandle.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">244</Detail>
+  <Detail name="vertexCount">364</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatLanternCandle.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

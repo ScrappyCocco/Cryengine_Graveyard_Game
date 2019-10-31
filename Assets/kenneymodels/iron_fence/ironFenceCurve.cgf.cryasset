@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="229be888-2671-12f7-3ff1-21c943bd2440" source="ironFenceCurve.fbx">
+ <Files>
+  <File path="ironFenceCurve.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">1624</Detail>
+  <Detail name="vertexCount">2352</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatIronfencecurve.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

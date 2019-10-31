@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="27c13540-6371-26b9-05cd-f8f0f74512ba" source="cross.fbx">
+ <Files>
+  <File path="cross.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">154</Detail>
+  <Detail name="vertexCount">246</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatCross.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

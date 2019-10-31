@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="edeabd0a-1e2b-2114-cf61-9b993e1970e3" source="lightpostAll.fbx">
+ <Files>
+  <File path="lightpostAll.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">1414</Detail>
+  <Detail name="vertexCount">2228</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatLightpostAll.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

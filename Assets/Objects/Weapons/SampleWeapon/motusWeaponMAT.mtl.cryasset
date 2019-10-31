@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="66d1c158-2549-47bf-6955-8625a9c7aa11">
+ <Files>
+  <File path="motusWeaponMAT.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">1</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/defaults/grey.dds</Path>
+ </Dependencies>
+</AssetMetadata>

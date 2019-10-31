@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="04e8d30b-26f8-360f-4c17-e5867825d5e0" source="fireBasket.fbx">
+ <Files>
+  <File path="fireBasket.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">188</Detail>
+  <Detail name="vertexCount">328</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatFireBasket.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

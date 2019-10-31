@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="cd8c6b74-cf3b-3db5-f3e8-30a6b93154fb" source="pineCrooked.fbx">
+ <Files>
+  <File path="pineCrooked.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">166</Detail>
+  <Detail name="vertexCount">296</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatPineCrooked.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

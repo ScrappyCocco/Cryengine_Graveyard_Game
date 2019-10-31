@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="3a1d3fe2-92a9-d420-0214-10524c105219" timestamp="1572284957">
+ <Files>
+  <File path="matcrosswood.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="3">%ENGINE%/EngineAssets/Textures/white.dds</Path>
+  <Path usageCount="3">%ENGINE%/EngineAssets/Textures/white_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

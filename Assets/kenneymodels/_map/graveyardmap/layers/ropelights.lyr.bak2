@@ -1,0 +1,324 @@
+<ObjectLayer>
+ <Layer Name="RopeLights" FullName="RopeLights" GUID="b764ad85-1fd4-08e7-fc40-7e8eb386ee57" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1572303607">
+  <LayerObjects>
+   <Object Type="EntityWithStaticMeshComponent" Layer="RopeLights" LayerGUID="b764ad85-1fd4-08e7-fc40-7e8eb386ee57" Id="6f72ac17-ae03-2916-ad02-33cbeceabcb9" Name="LightPillar-2" Pos="501.68799,484.52582,35.305481" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="5c75c61c-7924-1a78-76d3-304930c3002e" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="0.5"/>
+        <element element="0.10000002"/>
+        <element element="0.10000002"/>
+       </scale>
+      </Transform>
+      <properties Type="RenderAndCollider" FilePath="kenneymodels/baseterrain/BaseRoad.cgf" Material="kenneymodels/baseterrain/MtlBaseTerrain">
+       <IEditorEntityComponent />
+       <Render ShadowSpec="Low" IgnoreVisArea="false" IgnoreTerrainLayerBlend="false" IgnoreDecalBlend="false" ViewDistRatio="100" LODDistance="100" GIMode="None"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="10dadfe7-28f0-a45f-f1ca-1a613383cf97" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="false" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="2344ecc2-2243-a6a6-d0c8-712a768f8fc1" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0.5"/>
+         <element element="0.2"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="" ReactToCollisions="true">
+       <Size x="1" y="0.19999993" z="0.19999993"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="Rope" Layer="RopeLights" LayerGUID="b764ad85-1fd4-08e7-fc40-7e8eb386ee57" Id="9295c414-2bab-64ea-a827-99fcc3d00f94" Name="Rope-4" Pos="503.1915,484.48892,34.551926" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65280" UseCustomLevelLayerColor="0" Material="kenneymodels/baseterrain/ropematerial" MinSpec="0" MatLayersMask="0" EntityClass="RopeEntity" HasEntity="1">
+    <Rope flags="5123" radius="0.02" anchor_radius="0.1" num_seg="8" num_sides="4" texu="1" texv="10" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="0" wind="0,0,0" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="0" max_iters="650" max_time_step="0.02" stiffness="10" hardness="8" damping="0.2" sleepSpeed="0.039999999" sizeChange="0" smoothIters="2" segObjLen="1" segObjRot="0" segObjRot0="0" segObjAxis="3" segmentObj=""/>
+    <Properties />
+    <Components>
+     <Component typeId="feb82854-291c-4aba-9652-ddd7f403f24a" guid="1626ce52-9449-6350-8de1-ecf7f55f1e0c"/>
+    </Components>
+    <Points>
+     <Point Pos="-0.067882478,0.065719366,0.75741601"/>
+     <Point Pos="0.067869172,-0.065700777,-0.75742102"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="RopeLights" LayerGUID="b764ad85-1fd4-08e7-fc40-7e8eb386ee57" Id="e76afcb5-bd32-17dd-4e76-06f3b5b79e68" Name="Rope-3" Pos="503.18195,484.86804,34.548897" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65280" UseCustomLevelLayerColor="0" Material="kenneymodels/baseterrain/ropematerial" MinSpec="0" MatLayersMask="0" EntityClass="RopeEntity" HasEntity="1">
+    <Rope flags="5123" radius="0.02" anchor_radius="0.1" num_seg="8" num_sides="4" texu="1" texv="10" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="0" wind="0,0,0" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="0" max_iters="650" max_time_step="0.02" stiffness="10" hardness="8" damping="0.2" sleepSpeed="0.039999999" sizeChange="0" smoothIters="2" segObjLen="1" segObjRot="0" segObjRot0="0" segObjAxis="3" segmentObj=""/>
+    <Properties />
+    <Components>
+     <Component typeId="feb82854-291c-4aba-9652-ddd7f403f24a" guid="33d64742-5839-9ab9-220f-379f0977418a"/>
+    </Components>
+    <Points>
+     <Point Pos="-0.058330476,-0.068313837,0.76044482"/>
+     <Point Pos="0.058346137,0.071998328,-0.76044464"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="RopeLights" LayerGUID="b764ad85-1fd4-08e7-fc40-7e8eb386ee57" Id="fe635f1d-ff2a-bb49-ffcf-903dab94cd05" Name="Rope-1" Pos="503.18109,481.25604,34.547829" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65280" UseCustomLevelLayerColor="0" Material="kenneymodels/baseterrain/ropematerial" MinSpec="0" MatLayersMask="0" EntityClass="RopeEntity" HasEntity="1">
+    <Rope flags="5123" radius="0.02" anchor_radius="0.1" num_seg="8" num_sides="4" texu="1" texv="10" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="0" wind="0,0,0" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="0" max_iters="650" max_time_step="0.02" stiffness="10" hardness="8" damping="0.2" sleepSpeed="0.039999999" sizeChange="0" smoothIters="2" segObjLen="1" segObjRot="0" segObjRot0="0" segObjAxis="3" segmentObj=""/>
+    <Properties />
+    <Components>
+     <Component typeId="feb82854-291c-4aba-9652-ddd7f403f24a" guid="d4969770-cf29-da89-d57f-4a690795a3b9"/>
+    </Components>
+    <Points>
+     <Point Pos="-0.057475984,-0.069259882,0.76151294"/>
+     <Point Pos="0.057504244,0.069301158,-0.76150846"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="RopeLights" LayerGUID="b764ad85-1fd4-08e7-fc40-7e8eb386ee57" Id="a7490d8c-5185-747b-9a84-84a49a9c0432" Name="Rope-2" Pos="503.19098,480.86996,34.549129" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65280" UseCustomLevelLayerColor="0" Material="kenneymodels/baseterrain/ropematerial" MinSpec="0" MatLayersMask="0" EntityClass="RopeEntity" HasEntity="1">
+    <Rope flags="5123" radius="0.02" anchor_radius="0.1" num_seg="8" num_sides="4" texu="1" texv="10" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="0" wind="0,0,0" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="0" max_iters="650" max_time_step="0.02" stiffness="10" hardness="8" damping="0.2" sleepSpeed="0.039999999" sizeChange="0" smoothIters="2" segObjLen="1" segObjRot="0" segObjRot0="0" segObjAxis="3" segmentObj=""/>
+    <Properties />
+    <Components>
+     <Component typeId="feb82854-291c-4aba-9652-ddd7f403f24a" guid="1626ce52-9449-6350-8de1-ecf7f55f1e0c"/>
+    </Components>
+    <Points>
+     <Point Pos="-0.067363679,0.071731329,0.76021218"/>
+     <Point Pos="0.067373678,-0.055939298,-0.76021332"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="EntityWithStaticMeshComponent" Layer="RopeLights" LayerGUID="b764ad85-1fd4-08e7-fc40-7e8eb386ee57" Id="b61d70b2-7348-10f7-1202-777daafb8fec" Name="fireBasket-1" Pos="503.25574,481.06873,33.564491" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="78f0b7c5-c1f2-0dfa-c9bb-9339ad00b4be" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="2"/>
+        <element element="2"/>
+        <element element="2"/>
+       </scale>
+      </Transform>
+      <properties Type="RenderAndCollider" FilePath="kenneymodels/fire_basket/fireBasket.cgf" Material="kenneymodels/fire_basket/MatFireBasket">
+       <IEditorEntityComponent />
+       <Render ShadowSpec="Low" IgnoreVisArea="false" IgnoreTerrainLayerBlend="false" IgnoreDecalBlend="false" ViewDistRatio="100" LODDistance="100" GIMode="None"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="100"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="05a73458-a5ce-35e6-bd08-541c33a4a210" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="false" Type="Rigid" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="0d867800-9014-7c3e-e55f-a99915fd32df" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="" ReactToCollisions="true">
+       <Size x="0.29999992" y="0.29999992" z="0.19999993"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="0a86908d-642f-4590-acef-484e8e39f31b" TypeName="Cry::DefaultComponents::CPointLightComponent" GUID="397d8d88-b915-6e38-00b8-025a412c1ef2" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0.10000002"/>
+         <element element="0"/>
+         <element element="0.30000001"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Active="true" Radius="10" ViewDistance="100">
+       <Optics Enable="true" LensFlare="" AttachtToSun="false" FlareFOV="360"/>
+       <Color DiffMult="1" SpecMult="1">
+        <Color r="0.55686277" g="0.27843139" b="0.0039215689" a="1"/>
+       </Color>
+       <Shadows ShadowSpec="None" ShadowBias="1" ShadowSlopeBias="1" ShadownResolution="1" ShadowUpdateMin="4" ShadowMinRes="0" ShadowUpdateRatio="1"/>
+       <Options AttenuationBulbSize="0.1" IgnoreVisAreas="false" AffectVolumetricFog="true" VolumetricFogOnly="false" OnlyAffectThisArea="true" LinkToSkyColor="false" Ambient="false" FogRadialLobe="0" GIMode="DynamicLight"/>
+       <Animations Style="0" Speed="1"/>
+       <Shape Shape="Point" TwoSided="false" TexturePath="" Width="1" Height="1"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EntityWithStaticMeshComponent" Layer="RopeLights" LayerGUID="b764ad85-1fd4-08e7-fc40-7e8eb386ee57" Id="6d2910e9-ab3b-8872-9cbe-54b56ff393b3" Name="LightPillar" Pos="501.68799,480.91287,35.305481" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="5c75c61c-7924-1a78-76d3-304930c3002e" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="0.5"/>
+        <element element="0.10000002"/>
+        <element element="0.10000002"/>
+       </scale>
+      </Transform>
+      <properties Type="RenderAndCollider" FilePath="kenneymodels/baseterrain/BaseRoad.cgf" Material="kenneymodels/baseterrain/MtlBaseTerrain">
+       <IEditorEntityComponent />
+       <Render ShadowSpec="Low" IgnoreVisArea="false" IgnoreTerrainLayerBlend="false" IgnoreDecalBlend="false" ViewDistRatio="100" LODDistance="100" GIMode="None"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="10dadfe7-28f0-a45f-f1ca-1a613383cf97" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="false" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="2344ecc2-2243-a6a6-d0c8-712a768f8fc1" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0.5"/>
+         <element element="0.2"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="" ReactToCollisions="true">
+       <Size x="1" y="0.19999993" z="0.19999993"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EntityWithStaticMeshComponent" Layer="RopeLights" LayerGUID="b764ad85-1fd4-08e7-fc40-7e8eb386ee57" Id="6b44b981-7a8a-b73f-fbab-a077962937c7" Name="fireBasket-2" Pos="503.25574,484.68167,33.564491" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="78f0b7c5-c1f2-0dfa-c9bb-9339ad00b4be" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="2"/>
+        <element element="2"/>
+        <element element="2"/>
+       </scale>
+      </Transform>
+      <properties Type="RenderAndCollider" FilePath="kenneymodels/fire_basket/fireBasket.cgf" Material="kenneymodels/fire_basket/MatFireBasket">
+       <IEditorEntityComponent />
+       <Render ShadowSpec="Low" IgnoreVisArea="false" IgnoreTerrainLayerBlend="false" IgnoreDecalBlend="false" ViewDistRatio="100" LODDistance="100" GIMode="None"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="100"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="05a73458-a5ce-35e6-bd08-541c33a4a210" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="false" Type="Rigid" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="0d867800-9014-7c3e-e55f-a99915fd32df" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="" ReactToCollisions="true">
+       <Size x="0.29999992" y="0.29999992" z="0.19999993"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="0a86908d-642f-4590-acef-484e8e39f31b" TypeName="Cry::DefaultComponents::CPointLightComponent" GUID="397d8d88-b915-6e38-00b8-025a412c1ef2" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0.10000002"/>
+         <element element="0"/>
+         <element element="0.30000001"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Active="true" Radius="10" ViewDistance="100">
+       <Optics Enable="true" LensFlare="" AttachtToSun="false" FlareFOV="360"/>
+       <Color DiffMult="1" SpecMult="1">
+        <Color r="0.55686277" g="0.27843139" b="0.0039215689" a="1"/>
+       </Color>
+       <Shadows ShadowSpec="None" ShadowBias="1" ShadowSlopeBias="1" ShadownResolution="1" ShadowUpdateMin="4" ShadowMinRes="0" ShadowUpdateRatio="1"/>
+       <Options AttenuationBulbSize="0.1" IgnoreVisAreas="false" AffectVolumetricFog="true" VolumetricFogOnly="false" OnlyAffectThisArea="true" LinkToSkyColor="false" Ambient="false" FogRadialLobe="0" GIMode="DynamicLight"/>
+       <Animations Style="0" Speed="1"/>
+       <Shape Shape="Point" TwoSided="false" TexturePath="" Width="1" Height="1"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

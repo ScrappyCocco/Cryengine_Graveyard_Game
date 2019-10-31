@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="90ba4873-0060-c104-2832-a208e9f2d7ef" source="ghost.fbx">
+ <Files>
+  <File path="ghost.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">128</Detail>
+  <Detail name="vertexCount">204</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatGhost.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

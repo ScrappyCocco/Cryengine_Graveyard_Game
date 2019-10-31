@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="bde457c2-95be-8ae3-b47d-b11089f7211d" source="altarWood.fbx">
+ <Files>
+  <File path="altarWood.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">164</Detail>
+  <Detail name="vertexCount">256</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatAltarWood.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

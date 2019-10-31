@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="65169532-1545-ad9d-e1fa-0fee90dbb199" source="gravestoneRound.fbx">
+ <Files>
+  <File path="gravestoneRound.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">180</Detail>
+  <Detail name="vertexCount">284</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatGravestoneRound.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

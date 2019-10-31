@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="823d24c2-4809-8479-4139-027731f4e973" timestamp="1572214453">
+ <Files>
+  <File path="matgrave.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">%ENGINE%/EngineAssets/Textures/white.dds</Path>
+  <Path usageCount="2">%ENGINE%/EngineAssets/Textures/white_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

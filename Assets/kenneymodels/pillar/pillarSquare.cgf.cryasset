@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="5775b2b1-6531-6772-ea72-bc97bd0adaa4" source="pillarSquare.fbx">
+ <Files>
+  <File path="pillarSquare.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">148</Detail>
+  <Detail name="vertexCount">232</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatPillarSquare.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

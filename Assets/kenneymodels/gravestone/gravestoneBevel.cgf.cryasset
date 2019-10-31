@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="c23d9fb5-139a-f517-627e-a64d17fb3690" source="gravestoneBevel.fbx">
+ <Files>
+  <File path="gravestoneBevel.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">216</Detail>
+  <Detail name="vertexCount">338</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatGravestoneBevel.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

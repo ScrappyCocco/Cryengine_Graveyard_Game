@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="e35c45df-c1bb-eb7a-4397-b4e9b3b7788c" source="rocks.fbx">
+ <Files>
+  <File path="rocks.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">146</Detail>
+  <Detail name="vertexCount">238</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatRocks.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

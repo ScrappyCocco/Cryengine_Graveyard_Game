@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="4b33325a-e230-8cc6-b632-61d4be030130" timestamp="1572214324">
+ <Files>
+  <File path="matgravestoneroof.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">%ENGINE%/EngineAssets/Textures/white.dds</Path>
+  <Path usageCount="2">%ENGINE%/EngineAssets/Textures/white_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

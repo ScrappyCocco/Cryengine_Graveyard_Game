@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="6ebe436c-4987-ab12-fff5-3153fff1380c" source="brickWallCurve.fbx">
+ <Files>
+  <File path="brickWallCurve.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">360</Detail>
+  <Detail name="vertexCount">576</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatBrickWallCurve.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

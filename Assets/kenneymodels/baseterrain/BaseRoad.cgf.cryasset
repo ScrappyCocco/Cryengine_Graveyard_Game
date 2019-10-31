@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="fd26ed3f-839f-1d99-1cf6-3bf37e9e207a" source="BaseRoad.fbx">
+ <Files>
+  <File path="BaseRoad.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">12</Detail>
+  <Detail name="vertexCount">24</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MtlBaseTerrain.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

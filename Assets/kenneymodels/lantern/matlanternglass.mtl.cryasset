@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="6a0936dc-3d64-fb76-e153-9e80de755d5e" timestamp="1572262892">
+ <Files>
+  <File path="matlanternglass.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="3">%ENGINE%/EngineAssets/Textures/white.dds</Path>
+  <Path usageCount="3">%ENGINE%/EngineAssets/Textures/white_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

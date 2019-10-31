@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="db0457b8-5f54-ec0d-422d-e53bfe9c53f1" source="altarStone.fbx">
+ <Files>
+  <File path="altarStone.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">140</Detail>
+  <Detail name="vertexCount">216</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatAltarStone.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

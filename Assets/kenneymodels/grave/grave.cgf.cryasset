@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="4f518e69-b172-77d3-f32d-a25541e8fa09" source="grave.fbx">
+ <Files>
+  <File path="grave.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">227</Detail>
+  <Detail name="vertexCount">391</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatGrave.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

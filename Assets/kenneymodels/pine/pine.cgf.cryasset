@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="ab3bb69b-c008-2000-bb32-fb9b81b4424e" source="pine.fbx">
+ <Files>
+  <File path="pine.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">166</Detail>
+  <Detail name="vertexCount">288</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatPine.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

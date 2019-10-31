@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="6d3395f8-be57-91b7-da75-454e6151aa0a" source="ironFenceDamaged.fbx">
+ <Files>
+  <File path="ironFenceDamaged.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">684</Detail>
+  <Detail name="vertexCount">1008</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatIronfenceDamaged.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="cec4330a-f8a5-c88e-26d9-3d36379635f3" source="stoneWallColumn.fbx">
+ <Files>
+  <File path="stoneWallColumn.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">156</Detail>
+  <Detail name="vertexCount">256</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatStoneSallColumn.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

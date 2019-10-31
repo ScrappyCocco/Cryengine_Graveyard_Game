@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="108a7989-cdfc-4a8e-9aaf-e72fdc1f2655" timestamp="1572263596">
+ <Files>
+  <File path="matpillarobelisk.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">%ENGINE%/EngineAssets/Textures/white.dds</Path>
+  <Path usageCount="2">%ENGINE%/EngineAssets/Textures/white_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

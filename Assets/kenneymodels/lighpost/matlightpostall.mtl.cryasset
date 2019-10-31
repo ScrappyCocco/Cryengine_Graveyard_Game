@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="7fd6bf42-d677-d786-f68e-ca22cf7e49b4">
+ <Files>
+  <File path="matlightpostall.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="4">%ENGINE%/EngineAssets/Textures/white.dds</Path>
+  <Path usageCount="4">%ENGINE%/EngineAssets/Textures/white_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

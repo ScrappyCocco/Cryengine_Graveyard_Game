@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="0e536828-540b-e2bf-b01c-38b44d2ba59d" source="vampire.fbx">
+ <Files>
+  <File path="vampire.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">8</Detail>
+  <Detail name="triangleCount">350</Detail>
+  <Detail name="vertexCount">603</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatVampire.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

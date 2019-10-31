@@ -1,0 +1,23 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="wax" MtlFlags="524416" Shader="Illum" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.90980393,0.89019608,0.80000001" Specular="0.046665091,0.046665091,0.046665091" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="%ENGINE%/EngineAssets/Textures/white.dds"/>
+    <Texture Map="Bumpmap" File="%ENGINE%/EngineAssets/Textures/white_ddn.dds"/>
+   </Textures>
+  </Material>
+  <Material Name="woodDark" MtlFlags="524416" Shader="Illum" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.63921571,0.36470589,0.227451" Specular="0.046665091,0.046665091,0.046665091" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="%ENGINE%/EngineAssets/Textures/white.dds"/>
+    <Texture Map="Bumpmap" File="%ENGINE%/EngineAssets/Textures/white_ddn.dds"/>
+   </Textures>
+  </Material>
+  <Material Name="&lt;unassigned&gt;" MtlFlags="524416" Shader="Illum" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="4.9042882e-39,4.5000724e-39,0" Specular="0.046665091,0.046665091,0.046665091" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="%ENGINE%/EngineAssets/Textures/white.dds"/>
+    <Texture Map="Bumpmap" File="%ENGINE%/EngineAssets/Textures/white_ddn.dds"/>
+   </Textures>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>

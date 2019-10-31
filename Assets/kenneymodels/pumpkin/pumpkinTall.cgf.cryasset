@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="698929ba-f0d6-dce8-0a23-57c9b961c782" source="pumpkinTall.fbx">
+ <Files>
+  <File path="pumpkinTall.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">68</Detail>
+  <Detail name="vertexCount">112</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatPumpkinTail.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

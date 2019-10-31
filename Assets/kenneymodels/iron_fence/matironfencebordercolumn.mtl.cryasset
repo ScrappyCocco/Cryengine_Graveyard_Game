@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="0e2b83b1-ffb9-1f9c-e444-a0d7b75ba81f" timestamp="1572263596">
+ <Files>
+  <File path="matironfencebordercolumn.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="3">%ENGINE%/EngineAssets/Textures/white.dds</Path>
+  <Path usageCount="3">%ENGINE%/EngineAssets/Textures/white_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="0f26550e-9d7e-5b29-4251-4f199b090d12" source="detailPlate.fbx">
+ <Files>
+  <File path="detailPlate.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">188</Detail>
+  <Detail name="vertexCount">288</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatPlate.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

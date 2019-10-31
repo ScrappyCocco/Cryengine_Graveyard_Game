@@ -1,0 +1,17 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="stone" MtlFlags="524416" Shader="Illum" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.627451,0.78039223,0.81960791" Specular="0.046665091,0.046665091,0.046665091" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="%ENGINE%/EngineAssets/Textures/white.dds"/>
+    <Texture Map="Bumpmap" File="%ENGINE%/EngineAssets/Textures/white_ddn.dds"/>
+   </Textures>
+  </Material>
+  <Material Name="&lt;unassigned&gt;" MtlFlags="524416" Shader="Illum" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="2.8659952e+32,6.2778171e-43,2.2420775e-44" Specular="0.046665091,0.046665091,0.046665091" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="%ENGINE%/EngineAssets/Textures/white.dds"/>
+    <Texture Map="Bumpmap" File="%ENGINE%/EngineAssets/Textures/white_ddn.dds"/>
+   </Textures>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>

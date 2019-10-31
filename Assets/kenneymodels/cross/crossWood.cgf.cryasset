@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="4ecd1d36-27c6-d294-8428-ae91075a418a" source="crossWood.fbx">
+ <Files>
+  <File path="crossWood.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">108</Detail>
+  <Detail name="vertexCount">176</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatCrossWood.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

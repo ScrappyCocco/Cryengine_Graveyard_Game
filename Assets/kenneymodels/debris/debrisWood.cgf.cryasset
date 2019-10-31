@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="dbb66dab-698d-b0f4-9fd4-ae5ceb6ff560" source="debrisWood.fbx">
+ <Files>
+  <File path="debrisWood.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">52</Detail>
+  <Detail name="vertexCount">89</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatDebrisWood.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

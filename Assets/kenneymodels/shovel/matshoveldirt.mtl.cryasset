@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="6abde672-b1f8-64db-193f-e6d720e5b28e">
+ <Files>
+  <File path="matshoveldirt.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="3">%ENGINE%/EngineAssets/Textures/white.dds</Path>
+  <Path usageCount="3">%ENGINE%/EngineAssets/Textures/white_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

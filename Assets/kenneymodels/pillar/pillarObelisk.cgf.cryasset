@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="bdeed553-9586-2dd5-9044-b68a6427d225" source="pillarObelisk.fbx">
+ <Files>
+  <File path="pillarObelisk.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">54</Detail>
+  <Detail name="vertexCount">96</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatPillarObelisk.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

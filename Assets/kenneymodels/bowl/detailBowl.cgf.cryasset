@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="d6f7067c-a844-3909-11ea-5b3c6d61b63a" source="detailBowl.fbx">
+ <Files>
+  <File path="detailBowl.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">428</Detail>
+  <Detail name="vertexCount">672</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatBowl.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

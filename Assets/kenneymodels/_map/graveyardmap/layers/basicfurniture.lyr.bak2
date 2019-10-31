@@ -1,0 +1,12 @@
+<ObjectLayer>
+ <Layer Name="BasicFurniture" FullName="BasicFurniture" GUID="fd206123-f613-7d5c-3af5-c5eb546dfd34" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1572303607">
+  <LayerObjects>
+   <Object Type="Brush" Layer="BasicFurniture" LayerGUID="fd206123-f613-7d5c-3af5-c5eb546dfd34" Id="bad22bf9-3957-b24f-a8b9-a2c63166f0dc" Name="detailChalice-1" Pos="523.57056,458.87088,32.721848" Rotate="0.81151795,0.40910447,0.37317577,-0.18657981" Scale="2,2,2" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="kenneymodels/bowl/detailChalice.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="BasicFurniture" LayerGUID="fd206123-f613-7d5c-3af5-c5eb546dfd34" Id="13e7c6f7-b6d5-a235-4ea4-ad31274fe5f9" Name="detailBowl-1" Pos="523.58179,458.44553,32.721844" Rotate="1,0,0,0" Scale="2,2,2" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="kenneymodels/bowl/detailBowl.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering />
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

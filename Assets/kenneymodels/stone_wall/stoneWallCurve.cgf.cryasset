@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="af89353e-cd0b-3640-2fe6-eed095b34746" source="stoneWallCurve.fbx">
+ <Files>
+  <File path="stoneWallCurve.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">360</Detail>
+  <Detail name="vertexCount">568</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatStoneWallCurve.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

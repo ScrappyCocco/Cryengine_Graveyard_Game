@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="d127f35f-86fb-845f-a895-f23e52472d52" source="debris.fbx">
+ <Files>
+  <File path="debris.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">112</Detail>
+  <Detail name="vertexCount">184</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatDebris.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

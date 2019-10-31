@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="ffef2339-d666-6e18-3602-963349c16908" source="lightpostDouble.fbx">
+ <Files>
+  <File path="lightpostDouble.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">750</Detail>
+  <Detail name="vertexCount">1188</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatLightpostDouble.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

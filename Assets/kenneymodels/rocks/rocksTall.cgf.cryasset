@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="bf187b91-2cb5-90bd-8ab0-d800ba33b6dc" source="rocksTall.fbx">
+ <Files>
+  <File path="rocksTall.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">132</Detail>
+  <Detail name="vertexCount">216</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatRocksTall.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

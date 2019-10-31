@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="f51a9237-a38e-9d5f-8391-b1b7db668e84" source="gravestoneFlat.fbx">
+ <Files>
+  <File path="gravestoneFlat.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">48</Detail>
+  <Detail name="vertexCount">94</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatGravestoneFlat.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="a06b471e-83ff-abb2-0766-8effc10e2807" source="crossColumn.fbx">
+ <Files>
+  <File path="crossColumn.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">148</Detail>
+  <Detail name="vertexCount">240</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatCrossColumn.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

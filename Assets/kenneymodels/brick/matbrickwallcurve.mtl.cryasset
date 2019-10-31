@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="71253fab-a4ff-8215-4691-fb0101502b6a">
+ <Files>
+  <File path="matbrickwallcurve.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="3">%ENGINE%/EngineAssets/Textures/white.dds</Path>
+  <Path usageCount="3">%ENGINE%/EngineAssets/Textures/white_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

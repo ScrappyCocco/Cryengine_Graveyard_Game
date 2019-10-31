@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="b0499ea6-050d-7a7b-c4e6-ed080274bedb" timestamp="1572212487">
+ <Files>
+  <File path="matdebris.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">%ENGINE%/EngineAssets/Textures/white.dds</Path>
+  <Path usageCount="2">%ENGINE%/EngineAssets/Textures/white_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

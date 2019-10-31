@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="3a2def14-3867-0365-1c89-244c09caa02e" source="graveBorder.fbx">
+ <Files>
+  <File path="graveBorder.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">955</Detail>
+  <Detail name="vertexCount">1430</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatGraveBorder.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

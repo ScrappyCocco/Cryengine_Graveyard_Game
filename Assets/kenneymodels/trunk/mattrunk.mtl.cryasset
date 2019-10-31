@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="92828a3a-48f3-82e6-0c98-de1584a4cec4" timestamp="1572286675">
+ <Files>
+  <File path="mattrunk.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="3">%ENGINE%/EngineAssets/Textures/white.dds</Path>
+  <Path usageCount="3">%ENGINE%/EngineAssets/Textures/white_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

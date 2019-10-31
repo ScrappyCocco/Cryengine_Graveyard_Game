@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="f4e6be4e-26f5-3dc4-a8b6-51bdbd86a000" source="stoneWallDamaged.fbx">
+ <Files>
+  <File path="stoneWallDamaged.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">80</Detail>
+  <Detail name="vertexCount">126</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatStoneWallDamaged.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

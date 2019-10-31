@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="65b3dc72-0249-ce79-0e28-92897e1197e8" source="brickWall.fbx">
+ <Files>
+  <File path="brickWall.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">52</Detail>
+  <Detail name="vertexCount">92</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatBrickWall.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

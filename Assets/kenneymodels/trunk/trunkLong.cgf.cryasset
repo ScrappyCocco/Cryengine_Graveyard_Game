@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="7fa219fa-9466-d249-23e7-a4e5936e4b26" source="trunkLong.fbx">
+ <Files>
+  <File path="trunkLong.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">188</Detail>
+  <Detail name="vertexCount">324</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatTrunkLong.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

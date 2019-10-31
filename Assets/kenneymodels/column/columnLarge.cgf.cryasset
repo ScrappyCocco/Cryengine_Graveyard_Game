@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="259cf2de-923c-0064-95bd-cc93dedcfafb" source="columnLarge.fbx">
+ <Files>
+  <File path="columnLarge.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">156</Detail>
+  <Detail name="vertexCount">240</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatColumnLarge.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

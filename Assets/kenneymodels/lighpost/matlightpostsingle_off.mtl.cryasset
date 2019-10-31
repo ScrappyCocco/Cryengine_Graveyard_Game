@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="eb425d70-156e-ce1b-fde7-596873791e11" timestamp="1572287252">
+ <Files>
+  <File path="matlightpostsingle_off.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="4">%ENGINE%/EngineAssets/Textures/white.dds</Path>
+  <Path usageCount="4">%ENGINE%/EngineAssets/Textures/white_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

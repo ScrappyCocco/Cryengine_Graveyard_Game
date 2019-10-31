@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="aba7869b-2c68-ffd2-891d-763c2030d314" source="detailChalice.fbx">
+ <Files>
+  <File path="detailChalice.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">428</Detail>
+  <Detail name="vertexCount">672</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MatChalice.mtl</Path>
+ </Dependencies>
+</AssetMetadata>
