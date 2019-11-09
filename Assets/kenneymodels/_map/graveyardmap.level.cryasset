@@ -1,8 +1,12 @@
-<AssetMetadata version="0" type="Level" guid="01d42173-a9a0-f24b-1d41-7aff55f6badf" source="" timestamp="1572303662">
+<AssetMetadata version="0" type="Level" guid="01d42173-a9a0-f24b-1d41-7aff55f6badf" source="" timestamp="1573337261">
  <Files>
   <File path="graveyardmap/graveyardmap.level"/>
  </Files>
  <Dependencies>
+  <Path>%editor%/materials/shaderlist.xml</Path>
+  <Path>%editor%/objects/mtlobjects.mtl</Path>
+  <Path>%editor%/objects/mtlplane.cgf</Path>
+  <Path>%editor%/objects/mtlsphere.cgf</Path>
   <Path>%engine%/engineassets/icons/averagememoryusage.dds</Path>
   <Path>%engine%/engineassets/icons/highmemoryusage.dds</Path>
   <Path>%engine%/engineassets/icons/livepreview.dds</Path>
@@ -20,7 +24,6 @@
   <Path>%engine%/engineassets/objects/primitive_sphere.cgf</Path>
   <Path>%engine%/engineassets/texturemsg/defaultnouvs.dds</Path>
   <Path>%engine%/engineassets/textures/grey.dds</Path>
-  <Path>%engine%/engineassets/textures/lights/softedge.dds</Path>
   <Path>%engine%/engineassets/textures/skys/night/half_moon.dds</Path>
   <Path>%engine%/engineassets/textures/white.dds</Path>
   <Path usageCount="1">Libs/environmentpresets/graveyardenviroment.env</Path>
@@ -88,6 +91,7 @@
   <Path>kenneymodels/altar/altarstone.cgf</Path>
   <Path>kenneymodels/altar/mataltarstone.mtl</Path>
   <Path>kenneymodels/baseterrain/baseroad.cgf</Path>
+  <Path>kenneymodels/baseterrain/mtlbaseterrain.mtl</Path>
   <Path>kenneymodels/baseterrain/mtlbaseterrain.mtl</Path>
   <Path>kenneymodels/baseterrain/ropematerial.mtl</Path>
   <Path>kenneymodels/bench/bench.cgf</Path>

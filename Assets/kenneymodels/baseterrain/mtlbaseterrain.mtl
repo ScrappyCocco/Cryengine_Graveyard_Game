@@ -11,7 +11,7 @@
    </Textures>
    <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
   </Material>
-  <Material Name="&lt;unassigned&gt;" MtlFlags="524416" Shader="Illum" GenMask="4000000000020" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0,8.7245417e-39,-1.0623535e-07" Specular="0.046665091,0.046665091,0.046665091" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+  <Material Name="&lt;unassigned&gt;" MtlFlags="524416" Shader="Illum" GenMask="4000000000020" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0,0,0" Specular="0.046665095,0.046665095,0.046665095" Opacity="1" CloakAmount="0" vertModifType="0" LayerAct="1">
    <Textures>
     <Texture Map="Diffuse" File="%ENGINE%/EngineAssets/Textures/white.dds">
      <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>

@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="BorderFences" FullName="BorderFences" GUID="95bc8dd3-0982-6583-4a9e-0d6b5f4bbd07" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1572303615">
+ <Layer Name="BorderFences" FullName="BorderFences" GUID="95bc8dd3-0982-6583-4a9e-0d6b5f4bbd07" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1573337245">
   <LayerObjects>
    <Object Type="Brush" Layer="BorderFences" LayerGUID="95bc8dd3-0982-6583-4a9e-0d6b5f4bbd07" Id="5eb19188-cca9-4c8d-29f6-43b1e2cc9c3c" Name="ironFenceBorder-131" Pos="528.68176,517.71893,32.631199" Rotate="-0.00046712911,0,0,0.99999988" Scale="2,2,2" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="kenneymodels/iron_fence/ironFenceBorder.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
     <CollisionFiltering />

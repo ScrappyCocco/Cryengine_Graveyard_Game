@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="TerrainEntities" FullName="TerrainEntities" GUID="7adebc66-5fc2-4d96-007e-f299f9b63f8d" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1572303607">
+ <Layer Name="TerrainEntities" FullName="TerrainEntities" GUID="7adebc66-5fc2-4d96-007e-f299f9b63f8d" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1573335196">
   <LayerObjects>
    <Object Type="EntityWithStaticMeshComponent" Layer="TerrainEntities" LayerGUID="7adebc66-5fc2-4d96-007e-f299f9b63f8d" Id="2b2170aa-6bec-dd87-a62a-d3909189a7a6" Name="BasicTerrain-16" Pos="494.10123,474.34158,31.999756" Rotate="1,0,0,0" Scale="5,5,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
@@ -496,39 +496,6 @@
      </Component>
     </Components>
    </Object>
-   <Object Type="EntityWithStaticMeshComponent" Layer="TerrainEntities" LayerGUID="7adebc66-5fc2-4d96-007e-f299f9b63f8d" Id="7ea78630-b6c2-e798-b367-a8e2b2da9df3" Name="BasicTerrain-9" Pos="479.40625,487.83356,31.999756" Rotate="1,0,0,0" Scale="5,5,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="a49b0212-2415-ca8a-a2e2-1a45a19ea1db" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Type="Render" FilePath="kenneymodels/baseterrain/BaseRoad.cgf" Material="kenneymodels/baseterrain/MtlBaseTerrain">
-       <IEditorEntityComponent />
-       <Render ShadowSpec="Low" IgnoreVisArea="false" IgnoreTerrainLayerBlend="false" IgnoreDecalBlend="false" ViewDistRatio="100" LODDistance="100" GIMode="None"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="83f54445-4d01-c129-9683-9ff2be972a82" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="false" Type="Rigid" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
    <Object Type="EntityWithStaticMeshComponent" Layer="TerrainEntities" LayerGUID="7adebc66-5fc2-4d96-007e-f299f9b63f8d" Id="dc4b97d8-d4e8-491d-e2f0-49470140caf9" Name="BasicTerrain-19" Pos="508.94009,474.34158,31.999756" Rotate="1,0,0,0" Scale="5,5,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
@@ -555,6 +522,39 @@
       </properties>
      </Component>
      <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="7f62f41e-6f1f-ee2c-0aae-d8d616933930" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="false" Type="Rigid" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EntityWithStaticMeshComponent" Layer="TerrainEntities" LayerGUID="7adebc66-5fc2-4d96-007e-f299f9b63f8d" Id="7ea78630-b6c2-e798-b367-a8e2b2da9df3" Name="BasicTerrain-9" Pos="479.40625,487.83356,31.999756" Rotate="1,0,0,0" Scale="5,5,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="a49b0212-2415-ca8a-a2e2-1a45a19ea1db" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Type="Render" FilePath="kenneymodels/baseterrain/BaseRoad.cgf" Material="kenneymodels/baseterrain/MtlBaseTerrain">
+       <IEditorEntityComponent />
+       <Render ShadowSpec="Low" IgnoreVisArea="false" IgnoreTerrainLayerBlend="false" IgnoreDecalBlend="false" ViewDistRatio="100" LODDistance="100" GIMode="None"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="83f54445-4d01-c129-9683-9ff2be972a82" Name="" UserAdded="true">
       <properties Networked="false" EnabledByDefault="true" Resting="false" Type="Rigid" SendCollisionSignal="false">
        <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
        <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>

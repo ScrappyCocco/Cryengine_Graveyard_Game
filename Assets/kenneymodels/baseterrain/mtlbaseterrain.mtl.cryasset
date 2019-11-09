@@ -1,6 +1,6 @@
-<AssetMetadata version="0" type="Material" guid="461ee018-7922-8d99-48bd-08c01c036b66" timestamp="1572296804">
+<AssetMetadata version="0" type="Material" guid="461ee018-7922-8d99-48bd-08c01c036b66" source="" timestamp="1573336909">
  <Files>
-  <File path="mtlbaseterrain.mtl"/>
+  <File path="MtlBaseTerrain.mtl"/>
  </Files>
  <Details>
   <Detail name="subMaterialCount">2</Detail>
