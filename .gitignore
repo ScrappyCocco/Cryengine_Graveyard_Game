@@ -18,3 +18,7 @@ editor.log
 error.log
 
 Editor/ResourceCache/
+
+*.bak2
+
+*.bak
