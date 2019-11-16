@@ -16,3 +16,5 @@ user(1)/
 editor.log
 
 error.log
+
+Editor/ResourceCache/

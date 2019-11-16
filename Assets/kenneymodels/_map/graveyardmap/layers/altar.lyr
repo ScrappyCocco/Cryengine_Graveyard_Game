@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="Altar" FullName="Altar" GUID="a4bd0900-74ca-2019-7a8e-659fe026b214" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1573337261">
+ <Layer Name="Altar" FullName="Altar" GUID="a4bd0900-74ca-2019-7a8e-659fe026b214" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1573917703">
   <LayerObjects>
    <Object Type="Brush" Layer="Altar" LayerGUID="a4bd0900-74ca-2019-7a8e-659fe026b214" Id="daa9c6c1-bc53-3f6f-74b6-f3b64c9acf5e" Name="detailChalice-2" Pos="513.68756,489.40942,32.536362" Rotate="0.84364748,-0.33594799,-0.15399541,-0.3894653" Scale="2,2,2" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="kenneymodels/bowl/detailChalice.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
     <CollisionFiltering />

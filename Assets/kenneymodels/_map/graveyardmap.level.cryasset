@@ -1,129 +1,36 @@
-<AssetMetadata version="0" type="Level" guid="01d42173-a9a0-f24b-1d41-7aff55f6badf" source="" timestamp="1573337261">
+<AssetMetadata version="0" type="Level" guid="01d42173-a9a0-f24b-1d41-7aff55f6badf" source="" timestamp="1573917704">
  <Files>
   <File path="graveyardmap/graveyardmap.level"/>
  </Files>
  <Dependencies>
-  <Path>%editor%/materials/shaderlist.xml</Path>
-  <Path>%editor%/objects/mtlobjects.mtl</Path>
-  <Path>%editor%/objects/mtlplane.cgf</Path>
-  <Path>%editor%/objects/mtlsphere.cgf</Path>
+  <Path>%engine%/config/defaultscripts/compressionpolicy.xml</Path>
   <Path>%engine%/engineassets/icons/averagememoryusage.dds</Path>
   <Path>%engine%/engineassets/icons/highmemoryusage.dds</Path>
   <Path>%engine%/engineassets/icons/livepreview.dds</Path>
   <Path>%engine%/engineassets/icons/lowmemoryusage.dds</Path>
-  <Path>%engine%/engineassets/materials/fog/fogvolumebox.mtl</Path>
-  <Path>%engine%/engineassets/materials/fog/fogvolumeellipsoid.mtl</Path>
-  <Path>%engine%/engineassets/materials/fog/oceaninto.mtl</Path>
-  <Path>%engine%/engineassets/materials/fog/oceanintolowspec.mtl</Path>
-  <Path>%engine%/engineassets/materials/fog/oceanoutof.mtl</Path>
-  <Path>%engine%/engineassets/materials/fog/oceanoutoflowspec.mtl</Path>
-  <Path>%engine%/engineassets/materials/lens_optics.mtl</Path>
-  <Path>%engine%/engineassets/materials/material_terrain_default.mtl</Path>
-  <Path>%engine%/engineassets/materials/water/ocean_default.mtl</Path>
-  <Path>%engine%/engineassets/materials/water/wateroceanbottom.mtl</Path>
-  <Path>%engine%/engineassets/objects/primitive_sphere.cgf</Path>
-  <Path>%engine%/engineassets/texturemsg/defaultnouvs.dds</Path>
   <Path>%engine%/engineassets/textures/grey.dds</Path>
-  <Path>%engine%/engineassets/textures/skys/night/half_moon.dds</Path>
-  <Path>%engine%/engineassets/textures/white.dds</Path>
   <Path usageCount="1">Libs/environmentpresets/graveyardenviroment.env</Path>
-  <Path>animations/mannequin/adb/firstpersoncontrollerdefinition.xml</Path>
-  <Path>animations/mannequin/adb/playerfragmentids.xml</Path>
-  <Path>animations/mannequin/adb/playertags.xml</Path>
-  <Path>animations/motusanims/ide2move/idle_to_jog_3p.caf</Path>
-  <Path>animations/motusanims/ide2move/idle_to_run_3p.caf</Path>
-  <Path>animations/motusanims/ide2move/idle_to_walk_3p.caf</Path>
-  <Path>animations/motusanims/ide2move/jog_to_idle_3p.caf</Path>
-  <Path>animations/motusanims/ide2move/run_to_idle_3p.caf</Path>
-  <Path>animations/motusanims/ide2move/walk_to_idle_3p.caf</Path>
-  <Path>animations/motusanims/idle_3p.caf</Path>
-  <Path>animations/motusanims/jog_bck_3p.caf</Path>
-  <Path>animations/motusanims/jog_fwd_3p.caf</Path>
-  <Path>animations/motusanims/rifleanims/rifleaim_idle_3p.caf</Path>
-  <Path>animations/motusanims/rifleanims/riflewalkaim_bwd_3p.caf</Path>
-  <Path>animations/motusanims/rifleanims/riflewalkaim_fwd_3p.caf</Path>
-  <Path>animations/motusanims/rifleanims/steprifleaimrotate_lft_90_3p.caf</Path>
-  <Path>animations/motusanims/rifleanims/steprifleaimrotate_rgt_90_3p.caf</Path>
-  <Path>animations/motusanims/rifleanims/walkcrossrifleaim_bck_lft_3p.caf</Path>
-  <Path>animations/motusanims/rifleanims/walkcrossrifleaim_bck_rgt_3p.caf</Path>
-  <Path>animations/motusanims/rifleanims/walkcrossrifleaim_fwd_lft_3p.caf</Path>
-  <Path>animations/motusanims/rifleanims/walkcrossrifleaim_fwd_rgt_3p.caf</Path>
-  <Path>animations/motusanims/rifleanims/walkstraferifleaim_lft_3p.caf</Path>
-  <Path>animations/motusanims/rifleanims/walkstraferifleaim_rgt_3p.caf</Path>
-  <Path>animations/motusanims/run_fwd_3p.caf</Path>
-  <Path>animations/motusanims/steprotate/steprotate_lft_135_3p.caf</Path>
-  <Path>animations/motusanims/steprotate/steprotate_lft_180_3p.caf</Path>
-  <Path>animations/motusanims/steprotate/steprotate_lft_45_3p.caf</Path>
-  <Path>animations/motusanims/steprotate/steprotate_lft_90_3p.caf</Path>
-  <Path>animations/motusanims/steprotate/steprotate_rgt_135_3p.caf</Path>
-  <Path>animations/motusanims/steprotate/steprotate_rgt_180_3p.caf</Path>
-  <Path>animations/motusanims/steprotate/steprotate_rgt_45_3p.caf</Path>
-  <Path>animations/motusanims/steprotate/steprotate_rgt_90_3p.caf</Path>
-  <Path>animations/motusanims/strafe/jogcross_bck_lft_3p.caf</Path>
-  <Path>animations/motusanims/strafe/jogcross_bck_rgt_3p.caf</Path>
-  <Path>animations/motusanims/strafe/jogcross_fwd_lft_3p.caf</Path>
-  <Path>animations/motusanims/strafe/jogcross_fwd_rgt_3p.caf</Path>
-  <Path>animations/motusanims/strafe/jogstrafe_lft_3p.caf</Path>
-  <Path>animations/motusanims/strafe/jogstrafe_rgt_3p.caf</Path>
-  <Path>animations/motusanims/strafe/runcross_fwd_lft_3p.caf</Path>
-  <Path>animations/motusanims/strafe/runcross_fwd_rgt_3p.caf</Path>
-  <Path>animations/motusanims/strafe/runstrafe_lft_3p.caf</Path>
-  <Path>animations/motusanims/strafe/runstrafe_rgt_3p.caf</Path>
-  <Path>animations/motusanims/strafe/walkcross_bck_lft_3p.caf</Path>
-  <Path>animations/motusanims/strafe/walkcross_bck_rgt_3p.caf</Path>
-  <Path>animations/motusanims/strafe/walkcross_fwd_lft_3p.caf</Path>
-  <Path>animations/motusanims/strafe/walkcross_fwd_rgt_3p.caf</Path>
-  <Path>animations/motusanims/strafe/walkstrafe_lft_3p.caf</Path>
-  <Path>animations/motusanims/strafe/walkstrafe_rgt_3p.caf</Path>
-  <Path>animations/motusanims/turns/jogturn_lft_3p.caf</Path>
-  <Path>animations/motusanims/turns/jogturn_rgt_3p.caf</Path>
-  <Path>animations/motusanims/turns/runturn_lft_3p.caf</Path>
-  <Path>animations/motusanims/turns/runturn_rgt_3p.caf</Path>
-  <Path>animations/motusanims/turns/walkturn_lft_3p.caf</Path>
-  <Path>animations/motusanims/turns/walkturn_rgt_3p.caf</Path>
-  <Path>animations/motusanims/walk_bck_3p.caf</Path>
-  <Path>animations/motusanims/walk_fwd_3p.caf</Path>
-  <Path>editor/resourcecache/objects/characters/samplecharacter/mcg_ddna.dds</Path>
-  <Path>editor/resourcecache/objects/characters/samplecharacter/mcg_diff.dds</Path>
-  <Path>editor/resourcecache/objects/characters/samplecharacter/mcg_spec.dds</Path>
   <Path>editor/resourcecache/textures/cubemaps/graveyardmap/environmentprobe-1_cm.dds</Path>
   <Path>editor/resourcecache/textures/cubemaps/graveyardmap/environmentprobe-1_cm_diff.dds</Path>
   <Path>kenneymodels/altar/altarstone.cgf</Path>
-  <Path>kenneymodels/altar/mataltarstone.mtl</Path>
   <Path>kenneymodels/baseterrain/baseroad.cgf</Path>
-  <Path>kenneymodels/baseterrain/mtlbaseterrain.mtl</Path>
   <Path>kenneymodels/baseterrain/mtlbaseterrain.mtl</Path>
   <Path>kenneymodels/baseterrain/ropematerial.mtl</Path>
   <Path>kenneymodels/bench/bench.cgf</Path>
   <Path>kenneymodels/bench/benchdamaged.cgf</Path>
-  <Path>kenneymodels/bench/matbench.mtl</Path>
-  <Path>kenneymodels/bench/matbenchdamaged.mtl</Path>
   <Path>kenneymodels/bowl/detailbowl.cgf</Path>
   <Path>kenneymodels/bowl/detailchalice.cgf</Path>
-  <Path>kenneymodels/bowl/matbowl.mtl</Path>
-  <Path>kenneymodels/bowl/matchalice.mtl</Path>
   <Path>kenneymodels/coffin/coffin.cgf</Path>
   <Path>kenneymodels/coffin/coffinold.cgf</Path>
-  <Path>kenneymodels/coffin/matcoffin.mtl</Path>
-  <Path>kenneymodels/coffin/matcoffinold.mtl</Path>
   <Path>kenneymodels/cross/cross.cgf</Path>
   <Path>kenneymodels/cross/crosscolumn.cgf</Path>
   <Path>kenneymodels/cross/crosswood.cgf</Path>
-  <Path>kenneymodels/cross/matcross.mtl</Path>
-  <Path>kenneymodels/cross/matcrosscolumn.mtl</Path>
-  <Path>kenneymodels/cross/matcrosswood.mtl</Path>
   <Path>kenneymodels/crypt/crypt.cgf</Path>
-  <Path>kenneymodels/crypt/matcrypt.mtl</Path>
   <Path>kenneymodels/debris/debris.cgf</Path>
-  <Path>kenneymodels/debris/matdebris.mtl</Path>
   <Path>kenneymodels/fence/fence.cgf</Path>
   <Path>kenneymodels/fence/fencedamaged.cgf</Path>
-  <Path>kenneymodels/fence/matfence.mtl</Path>
-  <Path>kenneymodels/fence/matfencedamaged.mtl</Path>
   <Path>kenneymodels/fire_basket/firebasket.cgf</Path>
-  <Path>kenneymodels/fire_basket/matfirebasket.mtl</Path>
   <Path>kenneymodels/grave/grave.cgf</Path>
-  <Path>kenneymodels/grave/matgrave.mtl</Path>
   <Path>kenneymodels/gravestone/gravestonebevel.cgf</Path>
   <Path>kenneymodels/gravestone/gravestonebroken.cgf</Path>
   <Path>kenneymodels/gravestone/gravestonecross.cgf</Path>
@@ -134,58 +41,27 @@
   <Path>kenneymodels/gravestone/gravestoneroof.cgf</Path>
   <Path>kenneymodels/gravestone/gravestoneround.cgf</Path>
   <Path>kenneymodels/gravestone/gravestonewide.cgf</Path>
-  <Path>kenneymodels/gravestone/matgravestonebevel.mtl</Path>
-  <Path>kenneymodels/gravestone/matgravestonebroken.mtl</Path>
-  <Path>kenneymodels/gravestone/matgravestonecross.mtl</Path>
-  <Path>kenneymodels/gravestone/matgravestonecrosslarge.mtl</Path>
-  <Path>kenneymodels/gravestone/matgravestonedebris.mtl</Path>
-  <Path>kenneymodels/gravestone/matgravestoneflat.mtl</Path>
-  <Path>kenneymodels/gravestone/matgravestoneflatopen.mtl</Path>
-  <Path>kenneymodels/gravestone/matgravestoneroof.mtl</Path>
-  <Path>kenneymodels/gravestone/matgravestoneround.mtl</Path>
-  <Path>kenneymodels/gravestone/matgravestonewide.mtl</Path>
   <Path>kenneymodels/iron_fence/ironfenceborder.cgf</Path>
   <Path>kenneymodels/iron_fence/ironfencebordercolumn.cgf</Path>
-  <Path>kenneymodels/iron_fence/matironfenceborder.mtl</Path>
-  <Path>kenneymodels/iron_fence/matironfencebordercolumn.mtl</Path>
   <Path>kenneymodels/lighpost/lightpostsingle.cgf</Path>
-  <Path>kenneymodels/lighpost/matlightpostsingle.mtl</Path>
   <Path>kenneymodels/lighpost/matlightpostsingle_off.mtl</Path>
-  <Path>kenneymodels/pillar/matpillarlarge.mtl</Path>
-  <Path>kenneymodels/pillar/matpillarobelisk.mtl</Path>
-  <Path>kenneymodels/pillar/matpillarsmall.mtl</Path>
-  <Path>kenneymodels/pillar/matpillarsquare.mtl</Path>
   <Path>kenneymodels/pillar/pillarlarge.cgf</Path>
   <Path>kenneymodels/pillar/pillarobelisk.cgf</Path>
   <Path>kenneymodels/pillar/pillarsmall.cgf</Path>
   <Path>kenneymodels/pillar/pillarsquare.cgf</Path>
-  <Path>kenneymodels/pine/matpine.mtl</Path>
-  <Path>kenneymodels/pine/matpinecrooked.mtl</Path>
   <Path>kenneymodels/pine/pine.cgf</Path>
   <Path>kenneymodels/pine/pinecrooked.cgf</Path>
-  <Path>kenneymodels/road/matroad.mtl</Path>
   <Path>kenneymodels/road/road.cgf</Path>
-  <Path>kenneymodels/rocks/matrocks.mtl</Path>
-  <Path>kenneymodels/rocks/matrockstall.mtl</Path>
   <Path>kenneymodels/rocks/rocks.cgf</Path>
   <Path>kenneymodels/rocks/rockstall.cgf</Path>
-  <Path>kenneymodels/shovel/matshovel.mtl</Path>
   <Path>kenneymodels/shovel/shovel.cgf</Path>
-  <Path>kenneymodels/trunk/mattrunk.mtl</Path>
-  <Path>kenneymodels/trunk/mattrunklong.mtl</Path>
   <Path>kenneymodels/trunk/trunk.cgf</Path>
   <Path>kenneymodels/trunk/trunklong.cgf</Path>
-  <Path>materials/cursor.mtl</Path>
-  <Path>objects/characters/samplecharacter/mcg_ddna.dds</Path>
-  <Path>objects/characters/samplecharacter/mcg_diff.dds</Path>
-  <Path>objects/characters/samplecharacter/mcg_spec.dds</Path>
   <Path>objects/characters/samplecharacter/motusbody.skin</Path>
-  <Path>objects/characters/samplecharacter/motusbodymat.mtl</Path>
   <Path>objects/characters/samplecharacter/skelproxy.chr</Path>
   <Path>objects/characters/samplecharacter/thirdperson.cdf</Path>
   <Path>objects/weapons/sampleweapon/defaultweapon.cgf</Path>
-  <Path>objects/weapons/sampleweapon/defaultweapon.mtl</Path>
-  <Path>scripts/ai/factions.xml</Path>
+  <Path>scripts/network/compressionpolicy.xml</Path>
   <Path>textures/cubemaps/graveyardmap/environmentprobe-1_cm.dds</Path>
   <Path>textures/cubemaps/graveyardmap/environmentprobe-1_cm_diff.dds</Path>
  </Dependencies>

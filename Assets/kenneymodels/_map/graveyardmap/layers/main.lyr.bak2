@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="Main" FullName="Main" GUID="4d9d644b-2238-f76a-3318-47b8f2f7bb05" Hidden="0" Frozen="0" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1573335196">
+ <Layer Name="Main" FullName="Main" GUID="4d9d644b-2238-f76a-3318-47b8f2f7bb05" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1573917579">
   <LayerObjects>
    <Object Type="EntityWithComponent" Layer="Main" LayerGUID="4d9d644b-2238-f76a-3318-47b8f2f7bb05" Id="c12bc728-ea15-9a13-82f7-cdfcb33bf4aa" Name="Spawnpoint" Pos="535.58704,483.32312,33.602047" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
@@ -26,6 +26,16 @@
    </Object>
    <Object Type="EmptyEntity" Layer="Main" LayerGUID="4d9d644b-2238-f76a-3318-47b8f2f7bb05" Id="fef4cfbc-c199-4759-f5ee-82b220bdad42" Name="CenterObject" Pos="498.99637,483.02606,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" Flags="4" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
+   </Object>
+   <Object Type="NavigationArea" Layer="Main" LayerGUID="4d9d644b-2238-f76a-3318-47b8f2f7bb05" Id="91124d83-1345-59a4-8306-21a58c0dd193" Name="NavigationArea-1" Pos="455.82245,440.51923,31.949757" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="9846784" UseCustomLevelLayerColor="0" MinSpec="0" Height="16" Exclusion="0" RemoveInaccessibleTriangles="1" DisplayFilled="0" HasEntity="0">
+    <Properties />
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="91.741516,-0.44061279,0"/>
+     <Point Pos="84.911743,80.121155,0"/>
+     <Point Pos="3.778717,82.981995,0"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Roof="0" Floor="0"/>
    </Object>
   </LayerObjects>
  </Layer>

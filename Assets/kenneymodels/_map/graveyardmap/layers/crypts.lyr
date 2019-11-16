@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="Crypts" FullName="Crypts" GUID="45fc8d38-0327-16e9-8ed4-ef9e34645b86" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1573337260">
+ <Layer Name="Crypts" FullName="Crypts" GUID="45fc8d38-0327-16e9-8ed4-ef9e34645b86" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1573917703">
   <LayerObjects>
    <Object Type="Brush" Layer="Crypts" LayerGUID="45fc8d38-0327-16e9-8ed4-ef9e34645b86" Id="56c8455f-3084-913e-6e90-43491396e31b" Name="crypt-3" Pos="521.03107,460.0126,32.625" Rotate="0.70710683,0,0,0.70710683" Scale="5,5,5" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="kenneymodels/crypt/crypt.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
     <CollisionFiltering />

@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="Fence" FullName="Fence" GUID="8d68fd78-f3ad-c2c1-9532-effaf3430409" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1573337261">
+ <Layer Name="Fence" FullName="Fence" GUID="8d68fd78-f3ad-c2c1-9532-effaf3430409" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1573917703">
   <LayerObjects>
    <Object Type="Brush" Layer="Fence" LayerGUID="8d68fd78-f3ad-c2c1-9532-effaf3430409" Id="b348717d-4b79-ab5a-5418-486740491f64" Name="fenceDamaged-2" Pos="507.59109,507.38318,32.614357" Rotate="1,0,0,0" Scale="2,2,2" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="kenneymodels/fence/fenceDamaged.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
     <CollisionFiltering />
