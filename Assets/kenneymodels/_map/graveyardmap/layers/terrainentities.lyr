@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="TerrainEntities" FullName="TerrainEntities" GUID="7adebc66-5fc2-4d96-007e-f299f9b63f8d" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1573919011">
+ <Layer Name="TerrainEntities" FullName="TerrainEntities" GUID="7adebc66-5fc2-4d96-007e-f299f9b63f8d" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1573984309">
   <LayerObjects>
    <Object Type="EntityWithStaticMeshComponent" Layer="TerrainEntities" LayerGUID="7adebc66-5fc2-4d96-007e-f299f9b63f8d" Id="2b2170aa-6bec-dd87-a62a-d3909189a7a6" Name="BasicTerrain-16" Pos="494.10123,474.34158,31.999756" Rotate="1,0,0,0" Scale="5,5,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />

@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="Grave" FullName="Grave" GUID="65b2c705-1272-473b-2561-5c88b39890d1" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1573919011">
+ <Layer Name="Grave" FullName="Grave" GUID="65b2c705-1272-473b-2561-5c88b39890d1" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1573984309">
   <LayerObjects>
    <Object Type="Brush" Layer="Grave" LayerGUID="65b2c705-1272-473b-2561-5c88b39890d1" Id="6329b9d7-3188-6394-5982-9820bfbe21ac" Name="gravestoneBevel-12" Pos="516.98413,501.86893,32.366203" Rotate="0.70105726,-0.092296012,-0.092295997,-0.70105749" Scale="2,2,2" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="kenneymodels/gravestone/gravestoneBevel.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
     <CollisionFiltering />

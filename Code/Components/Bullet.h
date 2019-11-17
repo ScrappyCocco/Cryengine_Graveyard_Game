@@ -17,7 +17,7 @@ public:
 
 		// Load the custom bullet material.
 		// This material has the 'mat_bullet' surface type applied, which is set up to play sounds on collision with 'mat_default' objects in Libs/MaterialEffects
-		auto *pBulletMaterial = gEnv->p3DEngine->GetMaterialManager()->LoadMaterial("Materials/bullet");
+		auto *pBulletMaterial = gEnv->p3DEngine->GetMaterialManager()->LoadMaterial("Materials/bullet_emissive");
 		m_pEntity->SetMaterial(pBulletMaterial);
 
 		// Now create the physical representation of the entity

@@ -1,8 +1,12 @@
-<AssetMetadata version="0" type="Level" guid="01d42173-a9a0-f24b-1d41-7aff55f6badf" source="" timestamp="1573919011">
+<AssetMetadata version="0" type="Level" guid="01d42173-a9a0-f24b-1d41-7aff55f6badf" source="" timestamp="1573984309">
  <Files>
   <File path="graveyardmap/graveyardmap.level"/>
  </Files>
  <Dependencies>
+  <Path>%editor%/materials/shaderlist.xml</Path>
+  <Path>%editor%/objects/mtlobjects.mtl</Path>
+  <Path>%editor%/objects/mtlplane.cgf</Path>
+  <Path>%editor%/objects/mtlsphere.cgf</Path>
   <Path>%engine%/engineassets/icons/averagememoryusage.dds</Path>
   <Path>%engine%/engineassets/icons/highmemoryusage.dds</Path>
   <Path>%engine%/engineassets/icons/livepreview.dds</Path>
@@ -170,6 +174,8 @@
   <Path>kenneymodels/trunk/mattrunklong.mtl</Path>
   <Path>kenneymodels/trunk/trunk.cgf</Path>
   <Path>kenneymodels/trunk/trunklong.cgf</Path>
+  <Path>materials/bullet_emissive.mtl</Path>
+  <Path>materials/bullet_emissive.mtl</Path>
   <Path>materials/cursor.mtl</Path>
   <Path>objects/characters/samplecharacter/mcg_ddna.dds</Path>
   <Path>objects/characters/samplecharacter/mcg_diff.dds</Path>
@@ -180,6 +186,7 @@
   <Path>objects/characters/samplecharacter/thirdperson.cdf</Path>
   <Path>objects/weapons/sampleweapon/defaultweapon.cgf</Path>
   <Path>objects/weapons/sampleweapon/defaultweapon.mtl</Path>
+  <Path>scripts/ai/factions.xml</Path>
   <Path>textures/cubemaps/graveyardmap/environmentprobe-1_cm.dds</Path>
   <Path>textures/cubemaps/graveyardmap/environmentprobe-1_cm_diff.dds</Path>
  </Dependencies>

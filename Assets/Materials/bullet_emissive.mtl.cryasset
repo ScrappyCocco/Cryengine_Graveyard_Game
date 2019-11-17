@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="f7ab76e9-91a6-e49d-be04-05e562c3fbb4" source="" timestamp="1573984147">
+ <Files>
+  <File path="bullet_emissive.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">%engine%/EngineAssets/Textures/white.dds</Path>
+ </Dependencies>
+</AssetMetadata>

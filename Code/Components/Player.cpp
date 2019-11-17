@@ -135,7 +135,7 @@ void CPlayerComponent::InitializeLocalPlayer()
 
 				if (pBarrelOutAttachment != nullptr)
 				{
-					QuatTS bulletOrigin = pBarrelOutAttachment->GetAttWorldAbsolute();
+					const QuatTS bulletOrigin = pBarrelOutAttachment->GetAttWorldAbsolute();
 
 					SEntitySpawnParams spawnParams;
 					spawnParams.pClass = gEnv->pEntitySystem->GetClassRegistry()->GetDefaultClass();

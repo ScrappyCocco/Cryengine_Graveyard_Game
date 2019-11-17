@@ -1,0 +1,8 @@
+<Material MtlFlags="524290" Shader="Illum" GenMask="4000000000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_bullet" MatTemplate="" Diffuse="1,1,1" Specular="0.097587347,0.10461648,0.012983033" Emittance="1,1,0.00030352699,200" Opacity="1" Shininess="9.9450016" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="%engine%/EngineAssets/Textures/white.dds">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+  </Texture>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>
