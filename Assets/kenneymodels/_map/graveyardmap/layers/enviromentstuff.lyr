@@ -1,10 +1,10 @@
 <ObjectLayer>
- <Layer Name="EnviromentStuff" FullName="EnviromentStuff" GUID="92860c16-7384-af07-a601-bd1dcc22c0d3" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1573917703">
+ <Layer Name="EnviromentStuff" FullName="EnviromentStuff" GUID="92860c16-7384-af07-a601-bd1dcc22c0d3" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1573919011">
   <LayerObjects>
    <Object Type="EnvironmentProbe" Layer="EnviromentStuff" LayerGUID="92860c16-7384-af07-a601-bd1dcc22c0d3" Id="6e0e5e16-3bac-46c6-63d3-79a3b7f01e16" Name="EnvironmentProbe-1" Pos="504.61749,481.02338,34.726841" Rotate="1,0,0,0" Scale="100,100,50" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" cubemap_resolution="1024" preview_cubemap="0" OutdoorOnly="0" GIMode="0" ViewDistRatio="100" HiddenInGame="0" EntityClass="EnvironmentLight" HasEntity="1">
     <Properties />
     <Components>
-     <Component typeId="0d3d1840-d239-411e-8738-14c56cccee2c" guid="8a85067e-e225-306a-6533-4e0454a4985a" CryXmlVersion="2" Active="true" IgnoreVisAreas="false" SortPriority="0" AttentuationFalloffMax="1" VolumetricFogOnly="false" AffectsVolumetricFog="true" AffectsOnlyThisArea="true" LinkToSkyColor="true" DiffuseMultiplier="1" SpecularMultiplier="1" ProjectionActive="false" ProjectionHeight="1" ProjectionLength="1" ProjectionWidth="1" Cubemap="Textures/cubemaps/graveyardmap/environmentprobe-1_cm.dds">
+     <Component typeId="0d3d1840-d239-411e-8738-14c56cccee2c" guid="3f9bb8a9-40e4-fcb2-fc5f-8b9290517241" CryXmlVersion="2" Active="true" IgnoreVisAreas="false" SortPriority="0" AttentuationFalloffMax="1" VolumetricFogOnly="false" AffectsVolumetricFog="true" AffectsOnlyThisArea="true" LinkToSkyColor="true" DiffuseMultiplier="1" SpecularMultiplier="1" ProjectionActive="false" ProjectionHeight="1" ProjectionLength="1" ProjectionWidth="1" Cubemap="Textures/cubemaps/graveyardmap/environmentprobe-1_cm.dds">
       <BoxSize x="100" y="100" z="50"/>
       <Color r="1" g="1" b="1" a="1"/>
      </Component>

@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="LampPosts" FullName="LampPosts" GUID="42c17048-3dbf-9fe6-a27f-ed718a682320" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1573917703">
+ <Layer Name="LampPosts" FullName="LampPosts" GUID="42c17048-3dbf-9fe6-a27f-ed718a682320" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1573919011">
   <LayerObjects>
    <Object Type="Brush" Layer="LampPosts" LayerGUID="42c17048-3dbf-9fe6-a27f-ed718a682320" Id="6d706378-ed80-5f85-6bc3-ed293c39b5c7" Name="LightpostBroken-6" Pos="482.6506,461.09613,32.246628" Rotate="0.75232482,0.25379092,-0.57605106,0.19432633" Scale="2.3,2.3,2.3" ColorRGB="16777215" UseCustomLevelLayerColor="0" Material="kenneymodels/lighpost/matlightpostsingle_off" MinSpec="0" MatLayersMask="0" Prefab="kenneymodels/lighpost/lightpostSingle.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
     <CollisionFiltering />
@@ -559,66 +559,6 @@
      </Component>
     </Components>
    </Object>
-   <Object Type="EntityWithStaticMeshComponent" Layer="LampPosts" LayerGUID="42c17048-3dbf-9fe6-a27f-ed718a682320" Id="d1a156e5-da88-f062-6d24-3bb33b8d258c" Name="lightpostSingle-6" Pos="524.10529,464.53665,32.57235" Rotate="0.70710683,0,0,0.70710683" Scale="2.2999997,2.2999997,2.3" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="08817613-e5ef-7770-a652-07f39282183d" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Type="RenderAndCollider" FilePath="kenneymodels/lighpost/lightpostSingle.cgf" Material="">
-       <IEditorEntityComponent />
-       <Render ShadowSpec="Low" IgnoreVisArea="false" IgnoreTerrainLayerBlend="false" IgnoreDecalBlend="false" ViewDistRatio="100" LODDistance="100" GIMode="None"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="0a86908d-642f-4590-acef-484e8e39f31b" TypeName="Cry::DefaultComponents::CPointLightComponent" GUID="4a30b134-64d4-70bc-2b25-4bd3f9f6faf8" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="1.4901161e-08"/>
-         <element element="-0.25"/>
-         <element element="1.1000001"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Active="true" Radius="10" ViewDistance="100">
-       <Optics Enable="true" LensFlare="" AttachtToSun="false" FlareFOV="360"/>
-       <Color DiffMult="1" SpecMult="1">
-        <Color r="0.55686277" g="0.4627451" b="0.17647059" a="1"/>
-       </Color>
-       <Shadows ShadowSpec="None" ShadowBias="1" ShadowSlopeBias="1" ShadownResolution="1" ShadowUpdateMin="4" ShadowMinRes="0" ShadowUpdateRatio="1"/>
-       <Options AttenuationBulbSize="0.5" IgnoreVisAreas="false" AffectVolumetricFog="true" VolumetricFogOnly="false" OnlyAffectThisArea="true" LinkToSkyColor="false" Ambient="false" FogRadialLobe="0" GIMode="DynamicLight"/>
-       <Animations Style="0" Speed="1"/>
-       <Shape Shape="Point" TwoSided="false" TexturePath="" Width="1" Height="1"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="1a1eae65-5d45-8c45-fc62-2c29ed0e14d1" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="false" Type="Rigid" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
    <Object Type="EntityWithStaticMeshComponent" Layer="LampPosts" LayerGUID="42c17048-3dbf-9fe6-a27f-ed718a682320" Id="784f68e4-e74e-906d-392e-d86e5ead2274" Name="lightpostSingle-13" Pos="476.22928,458.56851,32.57235" Rotate="0.70710683,0,0,0.70710683" Scale="2.2999997,2.2999997,2.3" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
@@ -672,6 +612,66 @@
       </properties>
      </Component>
      <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="961508fa-c631-0bde-2693-aab29af52d50" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="false" Type="Rigid" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EntityWithStaticMeshComponent" Layer="LampPosts" LayerGUID="42c17048-3dbf-9fe6-a27f-ed718a682320" Id="d1a156e5-da88-f062-6d24-3bb33b8d258c" Name="lightpostSingle-6" Pos="524.10529,464.53665,32.57235" Rotate="0.70710683,0,0,0.70710683" Scale="2.2999997,2.2999997,2.3" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="08817613-e5ef-7770-a652-07f39282183d" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Type="RenderAndCollider" FilePath="kenneymodels/lighpost/lightpostSingle.cgf" Material="">
+       <IEditorEntityComponent />
+       <Render ShadowSpec="Low" IgnoreVisArea="false" IgnoreTerrainLayerBlend="false" IgnoreDecalBlend="false" ViewDistRatio="100" LODDistance="100" GIMode="None"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="0a86908d-642f-4590-acef-484e8e39f31b" TypeName="Cry::DefaultComponents::CPointLightComponent" GUID="4a30b134-64d4-70bc-2b25-4bd3f9f6faf8" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="1.4901161e-08"/>
+         <element element="-0.25"/>
+         <element element="1.1000001"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Active="true" Radius="10" ViewDistance="100">
+       <Optics Enable="true" LensFlare="" AttachtToSun="false" FlareFOV="360"/>
+       <Color DiffMult="1" SpecMult="1">
+        <Color r="0.55686277" g="0.4627451" b="0.17647059" a="1"/>
+       </Color>
+       <Shadows ShadowSpec="None" ShadowBias="1" ShadowSlopeBias="1" ShadownResolution="1" ShadowUpdateMin="4" ShadowMinRes="0" ShadowUpdateRatio="1"/>
+       <Options AttenuationBulbSize="0.5" IgnoreVisAreas="false" AffectVolumetricFog="true" VolumetricFogOnly="false" OnlyAffectThisArea="true" LinkToSkyColor="false" Ambient="false" FogRadialLobe="0" GIMode="DynamicLight"/>
+       <Animations Style="0" Speed="1"/>
+       <Shape Shape="Point" TwoSided="false" TexturePath="" Width="1" Height="1"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="1a1eae65-5d45-8c45-fc62-2c29ed0e14d1" Name="" UserAdded="true">
       <properties Networked="false" EnabledByDefault="true" Resting="false" Type="Rigid" SendCollisionSignal="false">
        <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
        <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>

@@ -1,2 +1,11 @@
 <Factions>
+
+    <Faction name="Players">
+		<Reaction faction="Ghost" reaction="hostile" />
+	</Faction>
+	
+	<Faction name="Ghost">
+		<Reaction faction="Players" reaction="hostile" />
+	</Faction>
+
 </Factions>
