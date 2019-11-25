@@ -279,7 +279,7 @@ void CPlayerComponent::SpawnCursorEntity()
 	m_pCursorEntity->SetViewDistRatio(255);
 
 	// Load the custom cursor material
-	IMaterial* pCursorMaterial = gEnv->p3DEngine->GetMaterialManager()->LoadMaterial("Materials/cursor");
+	IMaterial* pCursorMaterial = gEnv->p3DEngine->GetMaterialManager()->LoadMaterial("Materials/cursor_emissive");
 	m_pCursorEntity->SetMaterial(pCursorMaterial);
 }
 
