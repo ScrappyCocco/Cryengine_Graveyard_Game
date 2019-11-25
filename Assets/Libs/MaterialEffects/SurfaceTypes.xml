@@ -24,4 +24,20 @@
   <Physics sound_obstruction="0.5" />
  </SurfaceType>
  
+ <SurfaceType name="mat_terrain">
+  <Physics friction="0.1" />
+ </SurfaceType>
+ 
+ <SurfaceType name="mat_borderWall">
+  <Physics friction="0.1" />
+ </SurfaceType>
+ 
+ <SurfaceType name="mat_StoneGrave">
+  <Physics friction="0.1" />
+ </SurfaceType>
+ 
+ <SurfaceType name="mat_Wood">
+  <Physics friction="0.1" />
+ </SurfaceType>
+ 
 </SurfaceTypes>

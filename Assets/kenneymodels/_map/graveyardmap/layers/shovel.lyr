@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="Shovel" FullName="Shovel" GUID="2af90431-7489-4d3f-1f32-42c8a8bbf2a9" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1573984309">
+ <Layer Name="Shovel" FullName="Shovel" GUID="2af90431-7489-4d3f-1f32-42c8a8bbf2a9" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1574696422">
   <LayerObjects>
    <Object Type="Brush" Layer="Shovel" LayerGUID="2af90431-7489-4d3f-1f32-42c8a8bbf2a9" Id="a195b96b-622f-890e-8866-7f39073be166" Name="shovel-1" Pos="513.27826,508.45654,33.580528" Rotate="0.37824199,0.26484787,0.72659689,0.50876868" Scale="2,2,2" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="kenneymodels/shovel/shovel.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
     <CollisionFiltering />

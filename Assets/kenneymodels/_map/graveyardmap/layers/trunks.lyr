@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="Trunks" FullName="Trunks" GUID="77b4e220-94b7-2cfb-11f0-837137fbe18d" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1573984309">
+ <Layer Name="Trunks" FullName="Trunks" GUID="77b4e220-94b7-2cfb-11f0-837137fbe18d" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1574696422">
   <LayerObjects>
    <Object Type="Brush" Layer="Trunks" LayerGUID="77b4e220-94b7-2cfb-11f0-837137fbe18d" Id="7cc1a613-e406-3645-dfe1-612dd5019c69" Name="trunk-5" Pos="487.65472,472.57196,32.539085" Rotate="1,0,0,0" Scale="2,2,2" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="kenneymodels/trunk/trunk.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
     <CollisionFiltering />
