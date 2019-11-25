@@ -1,7 +1,7 @@
 #include "StdAfx.h"
 #include "Player.h"
 #include "Bullet.h"
-#include "SpawnPoint.h"
+#include "Components/SpawnPoint/SpawnPoint.h"
 #include "GamePlugin.h"
 
 #include <CryRenderer/IRenderAuxGeom.h>

@@ -25,11 +25,32 @@ add_sources("Code_uber.cpp"
 add_sources("Components_uber.cpp"
     PROJECTS GraveyardGame
     SOURCE_GROUP "Components"
-		"Components/Player.cpp"
-		"Components/SpawnPoint.cpp"
-		"Components/Bullet.h"
-		"Components/Player.h"
-		"Components/SpawnPoint.h"
+)
+add_sources("ExpandedPointLight_uber.cpp"
+    PROJECTS GraveyardGame
+    SOURCE_GROUP "Components\\\\ExpandedPointLight"
+		"Components/ExpandedPointLight/ExpandedPointLightComponent.cpp"
+		"Components/ExpandedPointLight/ExpandedPointLightComponent.h"
+)
+add_sources("DefaultPointLightComponent_uber.cpp"
+    PROJECTS GraveyardGame
+    SOURCE_GROUP "Components\\\\ExpandedPointLight\\\\DefaultPointLightComponent"
+		"Components/ExpandedPointLight/DefaultPointLightComponent/DefaultPointLightComponent.cpp"
+		"Components/ExpandedPointLight/DefaultPointLightComponent/DefaultPointLightComponent.h"
+)
+add_sources("SpawnPoint_uber.cpp"
+    PROJECTS GraveyardGame
+    SOURCE_GROUP "Components\\\\SpawnPoint"
+		"Components/SpawnPoint/SpawnPoint.cpp"
+		"Components/SpawnPoint/SpawnPoint.h"
+)
+add_sources("Player_uber.cpp"
+    PROJECTS GraveyardGame
+    SOURCE_GROUP "Player"
+		"Player/Bullet.cpp"
+		"Player/Player.cpp"
+		"Player/Bullet.h"
+		"Player/Player.h"
 )
 
 if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/CVarOverrides.h")

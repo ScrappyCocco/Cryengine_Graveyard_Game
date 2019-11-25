@@ -44,7 +44,7 @@
          {
             "guid":"",
             "type":"EType::Native",
-            "path":"bin/win_x64/Game.dll"
+            "path":"bin/win_x64/GraveyardGame.dll"
          },
          {
             "guid":"",
