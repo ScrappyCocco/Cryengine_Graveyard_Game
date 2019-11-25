@@ -21,16 +21,17 @@ void CBulletComponent::Initialize()
 
 	// Add light to bullet and set its proprieties
 	CExpandedPointLightComponent* pBulletLight = m_pEntity->GetOrCreateComponent<CExpandedPointLightComponent>();
+	pBulletLight->Enable(false); //Disable the light to set its new values
 	
 	pBulletLight->GetOptions().m_giMode = Cry::DefaultComponents::ELightGIMode::DynamicLight;
 	//Get material emission color
-	const ColorF colorValue = Color_tpl<float>(255,255,1, 1);
-	//const ColorF colorValue = pBulletMaterial->GetShaderItem().m_pShaderResources->GetColorValue(EFTT_EMITTANCE);
+	const ColorF colorValue = pBulletMaterial->GetShaderItem().m_pShaderResources->GetColorValue(EFTT_EMITTANCE);
 	pBulletLight->SetLightColor(colorValue);
 	//Set intensity and details
-	pBulletLight->SetDiffuseAndSpecularIntensity(0.01f);
+	pBulletLight->SetDiffuseAndSpecularIntensity(1.f);
 	pBulletLight->SetLightViewDistance(100);
-	pBulletLight->SetLightRadius(0.01f);
+	pBulletLight->SetLightRadius(0.3f);
+	pBulletLight->Enable(true); //Re-enable the light to render it with new values
 
 	// Now create the physical representation of the entity
 	SEntityPhysicalizeParams physParams;

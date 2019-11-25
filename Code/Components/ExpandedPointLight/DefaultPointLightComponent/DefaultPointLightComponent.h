@@ -21,7 +21,7 @@ namespace Cry
 			// IEntityComponent
 			virtual void Initialize() final;
 
-			virtual void   ProcessEvent(const SEntityEvent& event) final;
+			virtual void ProcessEvent(const SEntityEvent& event) final;
 			virtual Cry::Entity::EventFlags GetEventMask() const final;
 
 #ifndef RELEASE
