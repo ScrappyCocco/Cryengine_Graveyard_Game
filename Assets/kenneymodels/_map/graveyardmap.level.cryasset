@@ -1,4 +1,4 @@
-<AssetMetadata version="0" type="Level" guid="01d42173-a9a0-f24b-1d41-7aff55f6badf" source="" timestamp="1574783672">
+<AssetMetadata version="0" type="Level" guid="01d42173-a9a0-f24b-1d41-7aff55f6badf" source="" timestamp="1574789693">
  <Files>
   <File path="graveyardmap/graveyardmap.level"/>
  </Files>
@@ -84,6 +84,8 @@
   <Path>editor/resourcecache/objects/characters/samplecharacter/mcg_spec.dds</Path>
   <Path>editor/resourcecache/textures/cubemaps/graveyardmap/environmentprobe-1_cm.dds</Path>
   <Path>editor/resourcecache/textures/cubemaps/graveyardmap/environmentprobe-1_cm_diff.dds</Path>
+  <Path>editor/resourcecache/textures/sprites/fireglow.dds</Path>
+  <Path>editor/resourcecache/textures/sprites/firespritesheet.dds</Path>
   <Path>kenneymodels/altar/altarstone.cgf</Path>
   <Path>kenneymodels/altar/mataltarstone.mtl</Path>
   <Path>kenneymodels/baseterrain/baseroad.cgf</Path>
@@ -170,6 +172,7 @@
   <Path>kenneymodels/trunk/mattrunklong.mtl</Path>
   <Path>kenneymodels/trunk/trunk.cgf</Path>
   <Path>kenneymodels/trunk/trunklong.cgf</Path>
+  <Path>materials/bullet_emissive.mtl</Path>
   <Path>materials/cursor_emissive.mtl</Path>
   <Path>objects/characters/samplecharacter/mcg_ddna.dds</Path>
   <Path>objects/characters/samplecharacter/mcg_diff.dds</Path>
@@ -180,7 +183,12 @@
   <Path>objects/characters/samplecharacter/thirdperson.cdf</Path>
   <Path>objects/weapons/sampleweapon/defaultweapon.cgf</Path>
   <Path>objects/weapons/sampleweapon/defaultweapon.mtl</Path>
+  <Path>particles/fire.pfx</Path>
+  <Path>particles/fire.pfx</Path>
+  <Path>scripts/ai/factions.xml</Path>
   <Path>textures/cubemaps/graveyardmap/environmentprobe-1_cm.dds</Path>
   <Path>textures/cubemaps/graveyardmap/environmentprobe-1_cm_diff.dds</Path>
+  <Path>textures/sprites/fireglow.dds</Path>
+  <Path>textures/sprites/firespritesheet.dds</Path>
  </Dependencies>
 </AssetMetadata>

@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="RopeLights" FullName="RopeLights" GUID="b764ad85-1fd4-08e7-fc40-7e8eb386ee57" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1574783683">
+ <Layer Name="RopeLights" FullName="RopeLights" GUID="b764ad85-1fd4-08e7-fc40-7e8eb386ee57" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1574789693">
   <LayerObjects>
    <Object Type="EntityWithStaticMeshComponent" Layer="RopeLights" LayerGUID="b764ad85-1fd4-08e7-fc40-7e8eb386ee57" Id="6f72ac17-ae03-2916-ad02-33cbeceabcb9" Name="LightPillar-2" Pos="501.68799,484.52582,35.305481" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
@@ -150,7 +150,7 @@
         <element element="1"/>
        </scale>
       </Transform>
-      <properties Surface="" ReactToCollisions="true">
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
        <Size x="0.29999992" y="0.29999992" z="0.19999993"/>
        <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
       </properties>
@@ -159,7 +159,7 @@
       <Transform>
        <translation>
         <position>
-         <element element="0.10000002"/>
+         <element element="0"/>
          <element element="0"/>
          <element element="0.30000001"/>
         </position>
@@ -171,10 +171,61 @@
         <element element="1"/>
        </scale>
       </Transform>
-      <properties Active="true" Radius="10" ViewDistance="100">
+      <properties Active="true" Radius="11.5" ViewDistance="100">
+       <Optics Enable="true" LensFlare="" AttachtToSun="false" FlareFOV="360"/>
+       <Color DiffMult="1.2" SpecMult="1">
+        <Color r="0.76862746" g="0.37254903" b="0" a="1"/>
+       </Color>
+       <Shadows ShadowSpec="None" ShadowBias="1" ShadowSlopeBias="1" ShadownResolution="1" ShadowUpdateMin="4" ShadowMinRes="0" ShadowUpdateRatio="1"/>
+       <Options AttenuationBulbSize="0.5" IgnoreVisAreas="false" AffectVolumetricFog="true" VolumetricFogOnly="false" OnlyAffectThisArea="true" LinkToSkyColor="false" Ambient="false" FogRadialLobe="0" GIMode="DynamicLight"/>
+       <Animations Style="9" Speed="0.2"/>
+       <Shape Shape="Point" TwoSided="false" TexturePath="" Width="1" Height="1"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="7925bc64-521f-4a2a-9068-c9c9a1d3499e" TypeName="Cry::DefaultComponents::CParticleComponent" GUID="983d0587-f496-b15a-0593-b509b83d28e1" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0.30000001"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="0.39999992"/>
+        <element element="0.39999992"/>
+        <element element="0.29999992"/>
+       </scale>
+      </Transform>
+      <properties Enabled="true" FilePath="Particles/fire.pfx">
+       <Attributes>
+        <Attributes />
+       </Attributes>
+       <Features />
+       <SpawnParams prime="false" scale="1" countScale="1" speedScale="1" timeScale="1" spec="Default" ignoreVvisAreas="false" ignoreTerrainBlend="true" ignoreDecalBlend="true" seed="-1"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="0a86908d-642f-4590-acef-484e8e39f31b" TypeName="Cry::DefaultComponents::CPointLightComponent" GUID="7411cbed-123c-97c7-a658-4ee2a19fb28b" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0.30000001"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Active="true" Radius="6.4000001" ViewDistance="100">
        <Optics Enable="true" LensFlare="" AttachtToSun="false" FlareFOV="360"/>
        <Color DiffMult="1" SpecMult="1">
-        <Color r="0.55686277" g="0.27843139" b="0.0039215689" a="1"/>
+        <Color r="1" g="0.47450981" b="0.011764706" a="1"/>
        </Color>
        <Shadows ShadowSpec="None" ShadowBias="1" ShadowSlopeBias="1" ShadownResolution="1" ShadowUpdateMin="4" ShadowMinRes="0" ShadowUpdateRatio="1"/>
        <Options AttenuationBulbSize="0.1" IgnoreVisAreas="false" AffectVolumetricFog="true" VolumetricFogOnly="false" OnlyAffectThisArea="true" LinkToSkyColor="false" Ambient="false" FogRadialLobe="0" GIMode="DynamicLight"/>
@@ -238,7 +289,7 @@
      </Component>
     </Components>
    </Object>
-   <Object Type="EntityWithStaticMeshComponent" Layer="RopeLights" LayerGUID="b764ad85-1fd4-08e7-fc40-7e8eb386ee57" Id="6b44b981-7a8a-b73f-fbab-a077962937c7" Name="fireBasket-2" Pos="503.25574,484.68167,33.564491" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+   <Object Type="EntityWithStaticMeshComponent" Layer="RopeLights" LayerGUID="b764ad85-1fd4-08e7-fc40-7e8eb386ee57" Id="e4d6d18e-cab0-db42-8ffa-4c752141cd3d" Name="fireBasket-4" Pos="503.25574,484.68167,33.564491" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
      <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="78f0b7c5-c1f2-0dfa-c9bb-9339ad00b4be" Name="" UserAdded="true">
@@ -285,7 +336,7 @@
         <element element="1"/>
        </scale>
       </Transform>
-      <properties Surface="" ReactToCollisions="true">
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
        <Size x="0.29999992" y="0.29999992" z="0.19999993"/>
        <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
       </properties>
@@ -294,7 +345,7 @@
       <Transform>
        <translation>
         <position>
-         <element element="0.10000002"/>
+         <element element="0"/>
          <element element="0"/>
          <element element="0.30000001"/>
         </position>
@@ -306,10 +357,61 @@
         <element element="1"/>
        </scale>
       </Transform>
-      <properties Active="true" Radius="10" ViewDistance="100">
+      <properties Active="true" Radius="11.5" ViewDistance="100">
+       <Optics Enable="true" LensFlare="" AttachtToSun="false" FlareFOV="360"/>
+       <Color DiffMult="1.2" SpecMult="1">
+        <Color r="0.76862746" g="0.37254903" b="0" a="1"/>
+       </Color>
+       <Shadows ShadowSpec="None" ShadowBias="1" ShadowSlopeBias="1" ShadownResolution="1" ShadowUpdateMin="4" ShadowMinRes="0" ShadowUpdateRatio="1"/>
+       <Options AttenuationBulbSize="0.5" IgnoreVisAreas="false" AffectVolumetricFog="true" VolumetricFogOnly="false" OnlyAffectThisArea="true" LinkToSkyColor="false" Ambient="false" FogRadialLobe="0" GIMode="DynamicLight"/>
+       <Animations Style="9" Speed="0.2"/>
+       <Shape Shape="Point" TwoSided="false" TexturePath="" Width="1" Height="1"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="7925bc64-521f-4a2a-9068-c9c9a1d3499e" TypeName="Cry::DefaultComponents::CParticleComponent" GUID="983d0587-f496-b15a-0593-b509b83d28e1" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0.30000001"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="0.39999992"/>
+        <element element="0.39999992"/>
+        <element element="0.29999992"/>
+       </scale>
+      </Transform>
+      <properties Enabled="true" FilePath="Particles/fire.pfx">
+       <Attributes>
+        <Attributes />
+       </Attributes>
+       <Features />
+       <SpawnParams prime="false" scale="1" countScale="1" speedScale="1" timeScale="1" spec="Default" ignoreVvisAreas="false" ignoreTerrainBlend="true" ignoreDecalBlend="true" seed="-1"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="0a86908d-642f-4590-acef-484e8e39f31b" TypeName="Cry::DefaultComponents::CPointLightComponent" GUID="7411cbed-123c-97c7-a658-4ee2a19fb28b" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0.30000001"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Active="true" Radius="6.4000001" ViewDistance="100">
        <Optics Enable="true" LensFlare="" AttachtToSun="false" FlareFOV="360"/>
        <Color DiffMult="1" SpecMult="1">
-        <Color r="0.55686277" g="0.27843139" b="0.0039215689" a="1"/>
+        <Color r="1" g="0.47450981" b="0.011764706" a="1"/>
        </Color>
        <Shadows ShadowSpec="None" ShadowBias="1" ShadowSlopeBias="1" ShadownResolution="1" ShadowUpdateMin="4" ShadowMinRes="0" ShadowUpdateRatio="1"/>
        <Options AttenuationBulbSize="0.1" IgnoreVisAreas="false" AffectVolumetricFog="true" VolumetricFogOnly="false" OnlyAffectThisArea="true" LinkToSkyColor="false" Ambient="false" FogRadialLobe="0" GIMode="DynamicLight"/>

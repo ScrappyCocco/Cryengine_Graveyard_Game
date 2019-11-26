@@ -40,6 +40,10 @@
         <Physics pierceability="15" />
     </SurfaceType>
 
+    <SurfaceType name="mat_GraveyardObject">
+        <Physics pierceability="15" />
+    </SurfaceType>
+
     <SurfaceType name="mat_GraveyardWood">
         <Physics pierceability="15" />
     </SurfaceType>

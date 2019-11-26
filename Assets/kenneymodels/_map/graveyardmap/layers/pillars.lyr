@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="Pillars" FullName="Pillars" GUID="800a8cf2-c3a3-fab1-e06e-0c33c53baeef" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1574783683">
+ <Layer Name="Pillars" FullName="Pillars" GUID="800a8cf2-c3a3-fab1-e06e-0c33c53baeef" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1574789693">
   <LayerObjects>
    <Object Type="Brush" Layer="Pillars" LayerGUID="800a8cf2-c3a3-fab1-e06e-0c33c53baeef" Id="f57afa6f-f0d9-7de8-b5f9-54349147d98c" Name="pillarObelisk-3" Pos="517.67792,469.64951,32.810322" Rotate="1,0,0,0" Scale="2,2,2" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="kenneymodels/pillar/pillarObelisk.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
     <CollisionFiltering />
