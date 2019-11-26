@@ -5,7 +5,7 @@
 #include <CryEntitySystem/IEntitySystem.h>
 #include <CryNetwork/Rmi.h>
 #include <CryPhysics/physinterface.h>
-#include <Components/ExpandedPointLight/ExpandedPointLightComponent.h>
+#include <Components/Lights/ExpandedPointLight/ExpandedPointLightComponent.h>
 #include <DefaultComponents/Lights/ILightComponent.h>
 
 void CBulletComponent::Initialize()

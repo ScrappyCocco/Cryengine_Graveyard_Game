@@ -22,4 +22,15 @@ public:
 		desc.SetLabel("Expanded Projector Light");
 		desc.SetDescription("Expand the basic Projector Light adding more functions to edit protected fields");
 	}
+	
+	float GetLightAngle() const;
+	void SetLightAngle(float angle = 45.0);
+
+	void SetDiffuseIntensity(float intensity = 1.f);
+	void SetSpecularIntensity(float intensity = 1.f);
+	void SetDiffuseAndSpecularIntensity(float intensity = 1.f);
+	float GetSpecularIntensity() const;
+	float GetDiffuseIntensity() const;
+
+	void SetLightColor(const ColorF& color = ColorF(1.f));
 };
