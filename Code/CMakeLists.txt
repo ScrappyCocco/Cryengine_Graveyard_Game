@@ -26,17 +26,33 @@ add_sources("Components_uber.cpp"
     PROJECTS GraveyardGame
     SOURCE_GROUP "Components"
 )
+add_sources("Lights_uber.cpp"
+    PROJECTS GraveyardGame
+    SOURCE_GROUP "Components\\\\Lights"
+)
 add_sources("ExpandedPointLight_uber.cpp"
     PROJECTS GraveyardGame
-    SOURCE_GROUP "Components\\\\ExpandedPointLight"
-		"Components/ExpandedPointLight/ExpandedPointLightComponent.cpp"
-		"Components/ExpandedPointLight/ExpandedPointLightComponent.h"
+    SOURCE_GROUP "Components\\\\Lights\\\\ExpandedPointLight"
+		"Components/Lights/ExpandedPointLight/ExpandedPointLightComponent.cpp"
+		"Components/Lights/ExpandedPointLight/ExpandedPointLightComponent.h"
 )
 add_sources("DefaultPointLightComponent_uber.cpp"
     PROJECTS GraveyardGame
-    SOURCE_GROUP "Components\\\\ExpandedPointLight\\\\DefaultPointLightComponent"
-		"Components/ExpandedPointLight/DefaultPointLightComponent/DefaultPointLightComponent.cpp"
-		"Components/ExpandedPointLight/DefaultPointLightComponent/DefaultPointLightComponent.h"
+    SOURCE_GROUP "Components\\\\Lights\\\\ExpandedPointLight\\\\DefaultPointLightComponent"
+		"Components/Lights/ExpandedPointLight/DefaultPointLightComponent/DefaultPointLightComponent.cpp"
+		"Components/Lights/ExpandedPointLight/DefaultPointLightComponent/DefaultPointLightComponent.h"
+)
+add_sources("ExpandedProjectorLight_uber.cpp"
+    PROJECTS GraveyardGame
+    SOURCE_GROUP "Components\\\\Lights\\\\ExpandedProjectorLight"
+		"Components/Lights/ExpandedProjectorLight/ExpandedProjectorLightComponent.cpp"
+		"Components/Lights/ExpandedProjectorLight/ExpandedProjectorLightComponent.h"
+)
+add_sources("DefaultProjectorLightComponent_uber.cpp"
+    PROJECTS GraveyardGame
+    SOURCE_GROUP "Components\\\\Lights\\\\ExpandedProjectorLight\\\\DefaultProjectorLightComponent"
+		"Components/Lights/ExpandedProjectorLight/DefaultProjectorLightComponent/DefaultProjectorLightComponent.cpp"
+		"Components/Lights/ExpandedProjectorLight/DefaultProjectorLightComponent/DefaultProjectorLightComponent.h"
 )
 add_sources("SpawnPoint_uber.cpp"
     PROJECTS GraveyardGame

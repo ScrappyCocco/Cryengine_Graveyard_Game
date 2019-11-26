@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include <Components/ExpandedPointLight/DefaultPointLightComponent/DefaultPointLightComponent.h>
+#include <Components/Lights/ExpandedPointLight/DefaultPointLightComponent/DefaultPointLightComponent.h>
 
 ////////////////////////////////////////////////////////
 // Expanded Point Light
