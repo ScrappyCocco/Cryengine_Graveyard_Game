@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="InvisibleWalls" FullName="InvisibleWalls" GUID="39e8a4f5-d034-6888-448d-7ebf28a18b4e" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1574696422">
+ <Layer Name="InvisibleWalls" FullName="InvisibleWalls" GUID="39e8a4f5-d034-6888-448d-7ebf28a18b4e" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1574783683">
   <LayerObjects>
    <Object Type="EntityWithComponent" Layer="InvisibleWalls" LayerGUID="39e8a4f5-d034-6888-448d-7ebf28a18b4e" Id="fb096c40-b191-4598-c1f7-3008261027d7" Name="BorderCollider" Pos="498.99637,517.31555,28.280218" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
@@ -20,7 +20,7 @@
         <element element="1"/>
        </scale>
       </Transform>
-      <properties Surface="borderWall" ReactToCollisions="true">
+      <properties Surface="GraveyardBorderWall" ReactToCollisions="true">
        <Size x="50" y="1" z="20"/>
        <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
       </properties>
@@ -52,7 +52,7 @@
         <element element="1"/>
        </scale>
       </Transform>
-      <properties Surface="borderWall" ReactToCollisions="true">
+      <properties Surface="GraveyardBorderWall" ReactToCollisions="true">
        <Size x="50" y="1" z="20"/>
        <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
       </properties>
@@ -84,7 +84,7 @@
         <element element="1"/>
        </scale>
       </Transform>
-      <properties Surface="borderWall" ReactToCollisions="true">
+      <properties Surface="GraveyardBorderWall" ReactToCollisions="true">
        <Size x="50" y="1" z="20"/>
        <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
       </properties>
@@ -116,7 +116,7 @@
         <element element="1"/>
        </scale>
       </Transform>
-      <properties Surface="borderWall" ReactToCollisions="true">
+      <properties Surface="GraveyardBorderWall" ReactToCollisions="true">
        <Size x="50" y="1" z="20"/>
        <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
       </properties>
@@ -148,8 +148,8 @@
         <element element="1"/>
        </scale>
       </Transform>
-      <properties Surface="terrain" ReactToCollisions="true">
-       <Size x="50" y="50" z="1"/>
+      <properties Surface="GraveyardTerrain" ReactToCollisions="true">
+       <Size x="70" y="70" z="1"/>
        <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
       </properties>
      </Component>

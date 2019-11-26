@@ -110,6 +110,8 @@ protected:
 
 	IEntity* m_pCursorEntity = nullptr;
 
+	Vec3 m_distanceCursorPlayer = ZERO;
+
 private:
 	float m_moveSpeed = 20.5f;
 	float m_moveSpeed_runSpeedIncrease = 15.f;

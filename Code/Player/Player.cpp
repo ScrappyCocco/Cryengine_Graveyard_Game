@@ -321,6 +321,11 @@ void CPlayerComponent::UpdateAnimation(float frameTime)
 		return;
 	}
 
+	if(m_distanceCursorPlayer.z != 0)
+	{
+		return;
+	}
+	
 	Vec3 dir = m_pCursorEntity->GetWorldPos() - m_pEntity->GetWorldPos();
 	dir = dir.Normalize();
 
@@ -379,16 +384,23 @@ void CPlayerComponent::UpdateCursor(float frameTime)
 	Vec3 vDir = vPos1 - vPos0;
 	vDir.Normalize();
 
-	const unsigned int rayFlags = rwi_stop_at_pierceable | rwi_colltype_any;
-	ray_hit hit;
+	const unsigned int pierceability = 5;
+	const unsigned int rayFlags = pierceability & rwi_pierceability_mask;
 
-	if (gEnv->pPhysicalWorld->RayWorldIntersection(vPos0, vDir * gEnv->p3DEngine->GetMaxViewDistance(), ent_all, rayFlags, &hit, 1))
+	IPhysicalEntity* pSkipEntities[3];
+	pSkipEntities[0] = m_pEntity->GetPhysics(); //Ignore player entity and character
+	pSkipEntities[1] = m_pAnimationComponent->GetCharacter()->GetPhysEntity();
+	pSkipEntities[2] = m_pCursorEntity->GetPhysics(); //Ignore cursor
+	
+	ray_hit hit;
+	if (gEnv->pPhysicalWorld->RayWorldIntersection(vPos0, vDir * gEnv->p3DEngine->GetMaxViewDistance(), ent_all, rayFlags, &hit, 1, pSkipEntities))
 	{
 		m_cursorPositionInWorld = hit.pt;
 
 		if (m_pCursorEntity != nullptr)
 		{
-			m_pCursorEntity->SetPosRotScale(hit.pt, IDENTITY, m_pCursorEntity->GetScale());
+			m_pCursorEntity->SetPos(hit.pt);
+			m_distanceCursorPlayer = m_pEntity->GetPos() - m_pCursorEntity->GetPos();
 		}
 	}
 	else
