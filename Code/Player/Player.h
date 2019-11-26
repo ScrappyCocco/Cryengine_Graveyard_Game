@@ -9,7 +9,7 @@
 #include <DefaultComponents/Cameras/CameraComponent.h>
 #include <DefaultComponents/Physics/CharacterControllerComponent.h>
 #include <DefaultComponents/Geometry/AdvancedAnimationComponent.h>
-#include <DefaultComponents/Lights/ProjectorLightComponent.h>
+#include <Components/Lights/ExpandedProjectorLight/ExpandedProjectorLightComponent.h>
 #include <DefaultComponents/Input/InputComponent.h>
 
 ////////////////////////////////////////////////////////
@@ -99,7 +99,7 @@ protected:
 	Cry::DefaultComponents::CCharacterControllerComponent* m_pCharacterController = nullptr;
 	Cry::DefaultComponents::CAdvancedAnimationComponent* m_pAnimationComponent = nullptr;
 	Cry::DefaultComponents::CInputComponent* m_pInputComponent = nullptr;
-	Cry::DefaultComponents::CProjectorLightComponent* m_pProjectorLightComponent = nullptr;
+	CExpandedProjectorLightComponent* m_pProjectorLightComponent = nullptr;
 
 	TagID m_walkTagId;
 

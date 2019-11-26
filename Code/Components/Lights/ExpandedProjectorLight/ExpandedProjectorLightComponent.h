@@ -33,4 +33,6 @@ public:
 	float GetDiffuseIntensity() const;
 
 	void SetLightColor(const ColorF& color = ColorF(1.f));
+
+	void ToggleTorch();
 };

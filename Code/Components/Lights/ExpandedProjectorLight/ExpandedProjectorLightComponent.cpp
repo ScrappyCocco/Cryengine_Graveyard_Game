@@ -68,6 +68,11 @@ void CExpandedProjectorLightComponent::SetLightColor(const ColorF& color)
 	m_color.m_color = color;
 }
 
+void CExpandedProjectorLightComponent::ToggleTorch()
+{
+	Enable(!m_bActive);
+}
+
 static void RegisterExpandedPointLightComponent(Schematyc::IEnvRegistrar& registrar)
 {
 	Schematyc::CEnvRegistrationScope scope = registrar.Scope(IEntity::GetEntityScopeGUID());

@@ -54,20 +54,20 @@ void CPlayerComponent::Initialize()
 	// Mark the entity to be replicated over the network
 	m_pEntity->GetNetEntity()->BindToNetwork();
 
-	//Light component set
-	/*m_pProjectorLightComponent = m_pEntity->GetOrCreateComponent<Cry::DefaultComponents::CProjectorLightComponent>();
-	//Angle and range
+	m_pProjectorLightComponent = m_pEntity->GetOrCreateComponent<CExpandedProjectorLightComponent>();
+	m_pProjectorLightComponent->Enable(false);
+
+	m_pProjectorLightComponent->GetOptions().m_giMode = Cry::DefaultComponents::ELightGIMode::DynamicLight;
 	m_pProjectorLightComponent->SetRadius(25);
-	m_pProjectorLightComponent->SetFlareAngle(CryTransform::CAngle::FromDegrees(60));
-	//color settings
-	m_pProjectorLightComponent->GetColorParameters().m_color = ColorF(255, 255, 255);
-	m_pProjectorLightComponent->GetColorParameters().m_diffuseMultiplier = 200;
-	//Light Location
+	m_pProjectorLightComponent->SetLightAngle(60);
+	m_pProjectorLightComponent->SetDiffuseAndSpecularIntensity(5);
 	m_pProjectorLightComponent->SetTransformMatrix(Matrix34::Create(
-		Vec3(1.f), 
-		Quat(1, Vec3(0, 0, 90)), 
-		Vec3(0, 0.5, 1.f))
-	);*/
+		Vec3(1.f),
+		IDENTITY,
+		Vec3(0, 0.9, 1.5f))
+	);
+	
+	m_pProjectorLightComponent->Enable(true);
 	
 	// Register the RemoteReviveOnClient function as a Remote Method Invocation (RMI) that can be executed by the server on clients
 	SRmi<RMI_WRAP(&CPlayerComponent::RemoteReviveOnClient)>::Register(this, eRAT_NoAttach, false, eNRT_ReliableOrdered);
@@ -122,6 +122,15 @@ void CPlayerComponent::InitializeLocalPlayer()
 		}
 		});
 	m_pInputComponent->BindAction("player", "quit", eAID_KeyboardMouse, EKeyId::eKI_Escape);
+
+	//Torch enable/disable code
+	m_pInputComponent->RegisterAction("player", "torchToggle", [this](int activationMode, float value) {
+		if (activationMode == eIS_Released)
+		{
+			m_pProjectorLightComponent->ToggleTorch();
+		}
+		});
+	m_pInputComponent->BindAction("player", "torchToggle", eAID_KeyboardMouse, EKeyId::eKI_T);
 	
 	// Register the shoot action
 	m_pInputComponent->RegisterAction("player", "shoot", [this](int activationMode, float value)
