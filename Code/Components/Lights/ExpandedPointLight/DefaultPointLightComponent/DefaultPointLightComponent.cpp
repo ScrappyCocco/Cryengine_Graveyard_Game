@@ -11,11 +11,11 @@ namespace Cry
 {
 	namespace DefaultComponents
 	{
-		void DefaultPointLightComponent::Register(Schematyc::CEnvRegistrationScope& componentScope)
+		void CDefaultPointLightComponent::Register(Schematyc::CEnvRegistrationScope& componentScope)
 		{
 			// Functions
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&DefaultPointLightComponent::Enable, "{415ECD3F-880C-4647-92CB-2A8F2321709D}"_cry_guid, "Enable");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CDefaultPointLightComponent::Enable, "{415ECD3F-880C-4647-92CB-2A8F2321709D}"_cry_guid, "Enable");
 				pFunction->SetDescription("Enables or disables the light component");
 				pFunction->SetFlags({ Schematyc::EEnvFunctionFlags::Member, Schematyc::EEnvFunctionFlags::Construction });
 				pFunction->BindInput(1, 'ena', "Enable");
@@ -23,7 +23,7 @@ namespace Cry
 			}
 		}
 
-		void DefaultPointLightComponent::Initialize()
+		void CDefaultPointLightComponent::Initialize()
 		{
 			if (!m_bActive)
 			{
@@ -169,7 +169,7 @@ namespace Cry
 				m_pEntity->SetSlotMaterial(slot, pMaterial);
 		}
 
-		void DefaultPointLightComponent::ProcessEvent(const SEntityEvent& event)
+		void CDefaultPointLightComponent::ProcessEvent(const SEntityEvent& event)
 		{
 			if (event.event == ENTITY_EVENT_COMPONENT_PROPERTY_CHANGED || event.event == ENTITY_EVENT_LINK || event.event == ENTITY_EVENT_DELINK)
 			{
@@ -177,13 +177,13 @@ namespace Cry
 			}
 		}
 
-		Cry::Entity::EventFlags DefaultPointLightComponent::GetEventMask() const
+		Cry::Entity::EventFlags CDefaultPointLightComponent::GetEventMask() const
 		{
 			return ENTITY_EVENT_COMPONENT_PROPERTY_CHANGED | ENTITY_EVENT_LINK | ENTITY_EVENT_DELINK;
 		}
 
 #ifndef RELEASE
-		void DefaultPointLightComponent::Render(const IEntity& entity, const IEntityComponent& component, SEntityPreviewContext &context) const
+		void CDefaultPointLightComponent::Render(const IEntity& entity, const IEntityComponent& component, SEntityPreviewContext &context) const
 		{
 			if (context.bSelected)
 			{
@@ -245,7 +245,7 @@ namespace Cry
 		}
 #endif
 
-		void DefaultPointLightComponent::Enable(bool bEnable)
+		void CDefaultPointLightComponent::Enable(bool bEnable)
 		{
 			m_bActive = bEnable;
 

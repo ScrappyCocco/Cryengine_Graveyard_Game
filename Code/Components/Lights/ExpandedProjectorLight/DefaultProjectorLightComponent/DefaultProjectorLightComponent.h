@@ -8,7 +8,7 @@ namespace Cry
 {
 	namespace DefaultComponents
 	{
-		class DefaultProjectorLightComponent
+		class CDefaultProjectorLightComponent
 			: public ILightComponent
 #ifndef RELEASE
 			, public IEntityComponentPreviewer
@@ -38,8 +38,8 @@ namespace Cry
 #endif
 
 		public:
-			DefaultProjectorLightComponent() {}
-			virtual ~DefaultProjectorLightComponent() {}
+			CDefaultProjectorLightComponent() {}
+			virtual ~CDefaultProjectorLightComponent() {}
 
 			virtual void SetOptics(const char* szOpticsFullName) override
 			{
@@ -48,7 +48,7 @@ namespace Cry
 				Initialize(); 
 			}
 
-			static void ReflectType(Schematyc::CTypeDesc<DefaultProjectorLightComponent>& desc)
+			static void ReflectType(Schematyc::CTypeDesc<CDefaultProjectorLightComponent>& desc)
 			{
 				desc.SetGUID("{45649625-EA96-4D22-B79E-420F691AF097}"_cry_guid);
 				desc.SetEditorCategory("Lights");
@@ -57,17 +57,17 @@ namespace Cry
 				desc.SetIcon("icons:ObjectTypes/light.ico");
 				desc.SetComponentFlags({ IEntityComponent::EFlags::Transform, IEntityComponent::EFlags::Socket, IEntityComponent::EFlags::Attach, IEntityComponent::EFlags::ClientOnly, IEntityComponent::EFlags::NoCreationOffset });
 
-				desc.AddMember(&DefaultProjectorLightComponent::m_bActive, 'actv', "Active", "Active", "Determines whether the light is enabled", true);
-				desc.AddMember(&DefaultProjectorLightComponent::m_radius, 'radi', "Radius", "Range", "Determines whether the range of the light", 10.f);
-				desc.AddMember(&DefaultProjectorLightComponent::m_angle, 'angl', "Angle", "Angle", "Maximum angle to emit light to, from the light's forward axis.", 45.0_degrees);
+				desc.AddMember(&CDefaultProjectorLightComponent::m_bActive, 'actv', "Active", "Active", "Determines whether the light is enabled", true);
+				desc.AddMember(&CDefaultProjectorLightComponent::m_radius, 'radi', "Radius", "Range", "Determines whether the range of the light", 10.f);
+				desc.AddMember(&CDefaultProjectorLightComponent::m_angle, 'angl', "Angle", "Angle", "Maximum angle to emit light to, from the light's forward axis.", 45.0_degrees);
 
-				desc.AddMember(&DefaultProjectorLightComponent::m_projectorOptions, 'popt', "ProjectorOptions", "Projector Options", nullptr, DefaultProjectorLightComponent::SProjectorOptions());
+				desc.AddMember(&CDefaultProjectorLightComponent::m_projectorOptions, 'popt', "ProjectorOptions", "Projector Options", nullptr, CDefaultProjectorLightComponent::SProjectorOptions());
 
-				desc.AddMember(&DefaultProjectorLightComponent::m_optics, 'opti', "Optics", "Optics", "Specific Optic Options", SOptics());
-				desc.AddMember(&DefaultProjectorLightComponent::m_color, 'colo', "Color", "Color", "Color emission information", SColor());
-				desc.AddMember(&DefaultProjectorLightComponent::m_shadows, 'shad', "Shadows", "Shadows", "Shadow casting settings", SShadows());
-				desc.AddMember(&DefaultProjectorLightComponent::m_options, 'opt', "Options", "Options", "Specific Light Options", SOptions());
-				desc.AddMember(&DefaultProjectorLightComponent::m_animations, 'anim', "Animations", "Animations", "Light style / animation properties", SAnimations());
+				desc.AddMember(&CDefaultProjectorLightComponent::m_optics, 'opti', "Optics", "Optics", "Specific Optic Options", SOptics());
+				desc.AddMember(&CDefaultProjectorLightComponent::m_color, 'colo', "Color", "Color", "Color emission information", SColor());
+				desc.AddMember(&CDefaultProjectorLightComponent::m_shadows, 'shad', "Shadows", "Shadows", "Shadow casting settings", SShadows());
+				desc.AddMember(&CDefaultProjectorLightComponent::m_options, 'opt', "Options", "Options", "Specific Light Options", SOptions());
+				desc.AddMember(&CDefaultProjectorLightComponent::m_animations, 'anim', "Animations", "Animations", "Light style / animation properties", SAnimations());
 			}
 
 			struct SProjectorOptions
@@ -83,9 +83,9 @@ namespace Cry
 				static void ReflectType(Schematyc::CTypeDesc<SProjectorOptions>& desc)
 				{
 					desc.SetGUID("{C5009BCF-BEF3-4B8E-9DAD-069C0723613A}"_cry_guid);
-					desc.AddMember(&DefaultProjectorLightComponent::SProjectorOptions::m_nearPlane, 'near', "NearPlane", "Near Plane", nullptr, 0.f);
-					desc.AddMember(&DefaultProjectorLightComponent::SProjectorOptions::m_texturePath, 'tex', "Texture", "Projected Texture", "Path to a texture we want to emit", "");
-					desc.AddMember(&DefaultProjectorLightComponent::SProjectorOptions::m_materialPath, 'mat', "Material", "Material", "Path to a material we want to apply to the projector", "");
+					desc.AddMember(&CDefaultProjectorLightComponent::SProjectorOptions::m_nearPlane, 'near', "NearPlane", "Near Plane", nullptr, 0.f);
+					desc.AddMember(&CDefaultProjectorLightComponent::SProjectorOptions::m_texturePath, 'tex', "Texture", "Projected Texture", "Path to a texture we want to emit", "");
+					desc.AddMember(&CDefaultProjectorLightComponent::SProjectorOptions::m_materialPath, 'mat', "Material", "Material", "Path to a material we want to apply to the projector", "");
 				}
 
 				Schematyc::Range<0, 10000> m_nearPlane = 0.f;
@@ -105,8 +105,8 @@ namespace Cry
 				static void ReflectType(Schematyc::CTypeDesc<SFlare>& desc)
 				{
 					desc.SetGUID("{E3347C12-9FA4-4847-94FC-0F604F38EEC0}"_cry_guid);
-					desc.AddMember(&DefaultProjectorLightComponent::SFlare::m_angle, 'angl', "Angle", "Angle", nullptr, 360.0_degrees);
-					desc.AddMember(&DefaultProjectorLightComponent::SFlare::m_texturePath, 'tex', "Texture", "Flare Texture", "Path to the flare texture we want to use", "");
+					desc.AddMember(&CDefaultProjectorLightComponent::SFlare::m_angle, 'angl', "Angle", "Angle", nullptr, 360.0_degrees);
+					desc.AddMember(&CDefaultProjectorLightComponent::SFlare::m_texturePath, 'tex', "Texture", "Flare Texture", "Path to the flare texture we want to use", "");
 				}
 
 				CryTransform::CClampedAngle<5, 360> m_angle = 360.0_degrees;

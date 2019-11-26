@@ -7,7 +7,7 @@
 ////////////////////////////////////////////////////////
 // Expanded Point Light
 ////////////////////////////////////////////////////////
-class CExpandedPointLightComponent final : public Cry::DefaultComponents::DefaultPointLightComponent
+class CExpandedPointLightComponent final : public Cry::DefaultComponents::CDefaultPointLightComponent
 {
 public:
 	CExpandedPointLightComponent() = default;

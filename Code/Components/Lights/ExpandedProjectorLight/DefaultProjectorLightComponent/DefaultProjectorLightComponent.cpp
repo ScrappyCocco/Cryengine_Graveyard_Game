@@ -10,11 +10,11 @@ namespace Cry
 {
 namespace DefaultComponents
 {
-void DefaultProjectorLightComponent::Register(Schematyc::CEnvRegistrationScope& componentScope)
+void CDefaultProjectorLightComponent::Register(Schematyc::CEnvRegistrationScope& componentScope)
 {
 	// Functions
 	{
-		auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&DefaultProjectorLightComponent::Enable, "{54F96D7F-3B98-47F2-B256-4AD856CFE5BD}"_cry_guid, "Enable");
+		auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CDefaultProjectorLightComponent::Enable, "{54F96D7F-3B98-47F2-B256-4AD856CFE5BD}"_cry_guid, "Enable");
 		pFunction->SetDescription("Enables or disables the light component");
 		pFunction->SetFlags({ Schematyc::EEnvFunctionFlags::Member, Schematyc::EEnvFunctionFlags::Construction });
 		pFunction->BindInput(1, 'ena', "Enable");
@@ -22,7 +22,7 @@ void DefaultProjectorLightComponent::Register(Schematyc::CEnvRegistrationScope& 
 	}
 }
 
-void DefaultProjectorLightComponent::Initialize()
+void CDefaultProjectorLightComponent::Initialize()
 {
 	if (!m_bActive)
 	{
@@ -222,7 +222,7 @@ void DefaultProjectorLightComponent::Initialize()
 	m_pEntity->SetSlotFlags(GetEntitySlotId(), slotFlags);
 }
 
-void DefaultProjectorLightComponent::ProcessEvent(const SEntityEvent& event)
+void CDefaultProjectorLightComponent::ProcessEvent(const SEntityEvent& event)
 {
 	if (event.event == ENTITY_EVENT_COMPONENT_PROPERTY_CHANGED || event.event == ENTITY_EVENT_LINK || event.event == ENTITY_EVENT_DELINK)
 	{
@@ -230,13 +230,13 @@ void DefaultProjectorLightComponent::ProcessEvent(const SEntityEvent& event)
 	}
 }
 
-Cry::Entity::EventFlags DefaultProjectorLightComponent::GetEventMask() const
+Cry::Entity::EventFlags CDefaultProjectorLightComponent::GetEventMask() const
 {
 	return ENTITY_EVENT_COMPONENT_PROPERTY_CHANGED | ENTITY_EVENT_LINK | ENTITY_EVENT_DELINK;
 }
 
 #ifndef RELEASE
-void DefaultProjectorLightComponent::Render(const IEntity& entity, const IEntityComponent& component, SEntityPreviewContext &context) const
+void CDefaultProjectorLightComponent::Render(const IEntity& entity, const IEntityComponent& component, SEntityPreviewContext &context) const
 {
 	if (context.bSelected)
 	{
@@ -275,22 +275,22 @@ void DefaultProjectorLightComponent::Render(const IEntity& entity, const IEntity
 }
 #endif
 
-void DefaultProjectorLightComponent::SProjectorOptions::SetTexturePath(const char* szPath)
+void CDefaultProjectorLightComponent::SProjectorOptions::SetTexturePath(const char* szPath)
 {
 	m_texturePath = szPath;
 }
 
-void DefaultProjectorLightComponent::SProjectorOptions::SetMaterialPath(const char* szPath)
+void CDefaultProjectorLightComponent::SProjectorOptions::SetMaterialPath(const char* szPath)
 {
 	m_materialPath = szPath;
 }
 
-void DefaultProjectorLightComponent::SFlare::SetTexturePath(const char* szPath)
+void CDefaultProjectorLightComponent::SFlare::SetTexturePath(const char* szPath)
 {
 	m_texturePath = szPath;
 }
 
-void DefaultProjectorLightComponent::Enable(bool bEnable)
+void CDefaultProjectorLightComponent::Enable(bool bEnable)
 {
 	m_bActive = bEnable; 
 

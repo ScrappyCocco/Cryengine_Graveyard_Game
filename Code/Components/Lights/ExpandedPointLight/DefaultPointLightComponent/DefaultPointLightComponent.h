@@ -8,7 +8,7 @@ namespace Cry
 {
 	namespace DefaultComponents
 	{
-		class DefaultPointLightComponent
+		class CDefaultPointLightComponent
 			: public ILightComponent
 #ifndef RELEASE
 			, public IEntityComponentPreviewer
@@ -38,8 +38,8 @@ namespace Cry
 #endif
 
 		public:
-			DefaultPointLightComponent() = default;
-			virtual ~DefaultPointLightComponent() = default;
+			CDefaultPointLightComponent() = default;
+			virtual ~CDefaultPointLightComponent() = default;
 
 			virtual void SetOptics(const char* szOpticsFullName) override
 			{
@@ -50,7 +50,7 @@ namespace Cry
 
 			virtual void Enable(bool enable) override;
 
-			static void ReflectType(Schematyc::CTypeDesc<DefaultPointLightComponent>& desc)
+			static void ReflectType(Schematyc::CTypeDesc<CDefaultPointLightComponent>& desc)
 			{
 				desc.SetGUID("{19BAAD5C-3B76-45B6-8EAA-C92F2EE0D996}"_cry_guid);
 				desc.SetEditorCategory("Lights");
@@ -59,16 +59,16 @@ namespace Cry
 				desc.SetIcon("icons:ObjectTypes/light.ico");
 				desc.SetComponentFlags({ IEntityComponent::EFlags::NoCreationOffset, IEntityComponent::EFlags::Transform, IEntityComponent::EFlags::Socket, IEntityComponent::EFlags::Attach, IEntityComponent::EFlags::ClientOnly });
 
-				desc.AddMember(&DefaultPointLightComponent::m_bActive, 'actv', "Active", "Active", "Determines whether the light is enabled", true);
-				desc.AddMember(&DefaultPointLightComponent::m_radius, 'radi', "Radius", "Radius", "Determines the range of the point light", 10.f);
-				desc.AddMember(&DefaultPointLightComponent::m_viewDistance, 'view', "ViewDistance", "View Distance", "Determines the distance in which this light will be active", 50);
+				desc.AddMember(&CDefaultPointLightComponent::m_bActive, 'actv', "Active", "Active", "Determines whether the light is enabled", true);
+				desc.AddMember(&CDefaultPointLightComponent::m_radius, 'radi', "Radius", "Radius", "Determines the range of the point light", 10.f);
+				desc.AddMember(&CDefaultPointLightComponent::m_viewDistance, 'view', "ViewDistance", "View Distance", "Determines the distance in which this light will be active", 50);
 
-				desc.AddMember(&DefaultPointLightComponent::m_optics, 'opti', "Optics", "Optics", "Specific Optic Options", DefaultPointLightComponent::SOptics());
-				desc.AddMember(&DefaultPointLightComponent::m_color, 'colo', "Color", "Color", "Color emission information", DefaultPointLightComponent::SColor());
-				desc.AddMember(&DefaultPointLightComponent::m_shadows, 'shad', "Shadows", "Shadows", "Shadow casting settings", DefaultPointLightComponent::SShadows());
-				desc.AddMember(&DefaultPointLightComponent::m_options, 'opt', "Options", "Options", "Specific Light Options", DefaultPointLightComponent::SOptions());
-				desc.AddMember(&DefaultPointLightComponent::m_animations, 'anim', "Animations", "Animations", "Light style / animation properties", DefaultPointLightComponent::SAnimations());
-				desc.AddMember(&DefaultPointLightComponent::m_shape, 'shap', "Shape", "Shape", "Area light shape properties", DefaultPointLightComponent::SShape());
+				desc.AddMember(&CDefaultPointLightComponent::m_optics, 'opti', "Optics", "Optics", "Specific Optic Options", CDefaultPointLightComponent::SOptics());
+				desc.AddMember(&CDefaultPointLightComponent::m_color, 'colo', "Color", "Color", "Color emission information", CDefaultPointLightComponent::SColor());
+				desc.AddMember(&CDefaultPointLightComponent::m_shadows, 'shad', "Shadows", "Shadows", "Shadow casting settings", CDefaultPointLightComponent::SShadows());
+				desc.AddMember(&CDefaultPointLightComponent::m_options, 'opt', "Options", "Options", "Specific Light Options", CDefaultPointLightComponent::SOptions());
+				desc.AddMember(&CDefaultPointLightComponent::m_animations, 'anim', "Animations", "Animations", "Light style / animation properties", CDefaultPointLightComponent::SAnimations());
+				desc.AddMember(&CDefaultPointLightComponent::m_shape, 'shap', "Shape", "Shape", "Area light shape properties", CDefaultPointLightComponent::SShape());
 			}
 
 		protected:
