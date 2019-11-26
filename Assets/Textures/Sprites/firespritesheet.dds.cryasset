@@ -1,0 +1,12 @@
+<cryasset>
+ <AssetMetadata version="0" type="Texture" guid="29df29db-54c1-a6b3-794e-b84c158d844f" source="firespritesheet.tif">
+  <Files>
+   <File path="firespritesheet.dds"/>
+  </Files>
+  <Details>
+   <Detail name="width">2048</Detail>
+   <Detail name="height">2048</Detail>
+   <Detail name="mipCount">10</Detail>
+  </Details>
+ </AssetMetadata>
+</cryasset>

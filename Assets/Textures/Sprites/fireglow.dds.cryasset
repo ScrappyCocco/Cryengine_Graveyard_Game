@@ -1,0 +1,12 @@
+<cryasset>
+ <AssetMetadata version="0" type="Texture" guid="d4914b80-b16e-4dfc-c4c9-95cab06e6cfe" source="fireglow.tif">
+  <Files>
+   <File path="fireglow.dds"/>
+  </Files>
+  <Details>
+   <Detail name="width">256</Detail>
+   <Detail name="height">256</Detail>
+   <Detail name="mipCount">7</Detail>
+  </Details>
+ </AssetMetadata>
+</cryasset>
