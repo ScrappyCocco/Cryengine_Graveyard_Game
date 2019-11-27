@@ -36,4 +36,8 @@ public:
 	float GetDiffuseIntensity() const;
 
 	void SetLightColor(const ColorF& color = ColorF(1.f));
+	
+	//This call will enable shadows for the light
+	//Changing the min graphics from None to Low, enabling them
+	void EnableShadows();
 };

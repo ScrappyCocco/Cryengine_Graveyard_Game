@@ -100,6 +100,11 @@ void CExpandedPointLightComponent::SetLightColor(const ColorF& color)
 	m_color.m_color = color;
 }
 
+void CExpandedPointLightComponent::EnableShadows()
+{
+	m_shadows.m_castShadowSpec = Cry::DefaultComponents::EMiniumSystemSpec::Always;
+}
+
 static void RegisterExpandedPointLightComponent(Schematyc::IEnvRegistrar& registrar)
 {
 	Schematyc::CEnvRegistrationScope scope = registrar.Scope(IEntity::GetEntityScopeGUID());

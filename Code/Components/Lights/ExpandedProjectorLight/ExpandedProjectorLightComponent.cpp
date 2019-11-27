@@ -73,6 +73,11 @@ void CExpandedProjectorLightComponent::ToggleTorch()
 	Enable(!m_bActive);
 }
 
+void CExpandedProjectorLightComponent::EnableShadows()
+{
+	m_shadows.m_castShadowSpec = Cry::DefaultComponents::EMiniumSystemSpec::Always;
+}
+
 static void RegisterExpandedPointLightComponent(Schematyc::IEnvRegistrar& registrar)
 {
 	Schematyc::CEnvRegistrationScope scope = registrar.Scope(IEntity::GetEntityScopeGUID());

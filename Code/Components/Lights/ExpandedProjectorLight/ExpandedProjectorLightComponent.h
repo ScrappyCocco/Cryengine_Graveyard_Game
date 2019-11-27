@@ -35,4 +35,8 @@ public:
 	void SetLightColor(const ColorF& color = ColorF(1.f));
 
 	void ToggleTorch();
+
+	//This call will enable shadows for the light
+	//Changing the min graphics from None to Low, enabling them
+	void EnableShadows();
 };
