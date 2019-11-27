@@ -58,6 +58,7 @@ void CPlayerComponent::Initialize()
 	m_pProjectorLightComponent->Enable(false);
 
 	m_pProjectorLightComponent->GetOptions().m_giMode = Cry::DefaultComponents::ELightGIMode::DynamicLight;
+	m_pProjectorLightComponent->EnableShadows();
 	m_pProjectorLightComponent->SetRadius(25);
 	m_pProjectorLightComponent->SetLightAngle(60);
 	m_pProjectorLightComponent->SetDiffuseAndSpecularIntensity(5);

@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="Bench" FullName="Bench" GUID="7c37b60a-cbc6-a464-776d-816f6a0d5b5d" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1574789693">
+ <Layer Name="Bench" FullName="Bench" GUID="7c37b60a-cbc6-a464-776d-816f6a0d5b5d" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1574873909">
   <LayerObjects>
    <Object Type="Brush" Layer="Bench" LayerGUID="7c37b60a-cbc6-a464-776d-816f6a0d5b5d" Id="3d659778-31b4-3fe6-fbde-fe4e5473abcf" Name="benchDamaged-5" Pos="497.09628,463.25421,32.534683" Rotate="0.70710647,0,0,0.70710713" Scale="2.5,2.5,2.5" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="kenneymodels/bench/benchDamaged.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
     <CollisionFiltering />

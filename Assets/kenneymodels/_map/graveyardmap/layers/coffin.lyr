@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="Coffin" FullName="Coffin" GUID="40a14221-c1cb-6569-ea4c-f79447207be7" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1574789693">
+ <Layer Name="Coffin" FullName="Coffin" GUID="40a14221-c1cb-6569-ea4c-f79447207be7" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1574873909">
   <LayerObjects>
    <Object Type="Brush" Layer="Coffin" LayerGUID="40a14221-c1cb-6569-ea4c-f79447207be7" Id="bbf1ef8a-0fff-44a6-0eec-c859e196e623" Name="coffinOld-4" Pos="515.21716,508.39911,33.682854" Rotate="0.81915176,0.57357675,2.1551284e-07,-1.5090387e-07" Scale="2,2,2" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="kenneymodels/coffin/coffinOld.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
     <CollisionFiltering />

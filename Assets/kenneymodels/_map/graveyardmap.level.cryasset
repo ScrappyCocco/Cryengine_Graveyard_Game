@@ -1,4 +1,4 @@
-<AssetMetadata version="0" type="Level" guid="01d42173-a9a0-f24b-1d41-7aff55f6badf" source="" timestamp="1574789693">
+<AssetMetadata version="0" type="Level" guid="01d42173-a9a0-f24b-1d41-7aff55f6badf" source="" timestamp="1574873910">
  <Files>
   <File path="graveyardmap/graveyardmap.level"/>
  </Files>
@@ -20,6 +20,7 @@
   <Path>%engine%/engineassets/objects/primitive_sphere.cgf</Path>
   <Path>%engine%/engineassets/texturemsg/defaultnouvs.dds</Path>
   <Path>%engine%/engineassets/textures/grey.dds</Path>
+  <Path>%engine%/engineassets/textures/lights/softedge.dds</Path>
   <Path>%engine%/engineassets/textures/skys/night/half_moon.dds</Path>
   <Path>%engine%/engineassets/textures/white.dds</Path>
   <Path usageCount="1">Libs/environmentpresets/graveyardenviroment.env</Path>
@@ -183,7 +184,6 @@
   <Path>objects/characters/samplecharacter/thirdperson.cdf</Path>
   <Path>objects/weapons/sampleweapon/defaultweapon.cgf</Path>
   <Path>objects/weapons/sampleweapon/defaultweapon.mtl</Path>
-  <Path>particles/fire.pfx</Path>
   <Path>particles/fire.pfx</Path>
   <Path>scripts/ai/factions.xml</Path>
   <Path>textures/cubemaps/graveyardmap/environmentprobe-1_cm.dds</Path>
