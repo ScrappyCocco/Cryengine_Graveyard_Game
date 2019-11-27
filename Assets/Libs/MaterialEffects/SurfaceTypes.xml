@@ -17,7 +17,7 @@
     </SurfaceType>
 
     <SurfaceType name="mat_bullet">
-        <Physics friction="0.1" />
+        <Physics friction="0.1" pierceability="15" />
     </SurfaceType>
 
     <SurfaceType name="mat_metal">
@@ -29,6 +29,14 @@
     </SurfaceType>
 
     <SurfaceType name="mat_GraveyardPlayer">
+        <Physics pierceability="15" />
+    </SurfaceType>
+
+    <SurfaceType name="mat_GraveyardPlayerCursor">
+        <Physics pierceability="15" />
+    </SurfaceType>
+
+    <SurfaceType name="mat_GraveyardPlayerWeapon">
         <Physics pierceability="15" />
     </SurfaceType>
 
