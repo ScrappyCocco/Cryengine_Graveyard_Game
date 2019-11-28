@@ -54,21 +54,14 @@ void CPlayerComponent::Initialize()
 	// Mark the entity to be replicated over the network
 	m_pEntity->GetNetEntity()->BindToNetwork();
 
+	// Create the flashlight component, that will be re-enabled later, once set the position
 	m_pProjectorLightComponent = m_pEntity->GetOrCreateComponent<CExpandedProjectorLightComponent>();
 	m_pProjectorLightComponent->Enable(false);
-
 	m_pProjectorLightComponent->GetOptions().m_giMode = Cry::DefaultComponents::ELightGIMode::DynamicLight;
 	m_pProjectorLightComponent->EnableShadows();
 	m_pProjectorLightComponent->SetRadius(25);
 	m_pProjectorLightComponent->SetLightAngle(60);
 	m_pProjectorLightComponent->SetDiffuseAndSpecularIntensity(5);
-	m_pProjectorLightComponent->SetTransformMatrix(Matrix34::Create(
-		Vec3(1.f),
-		IDENTITY,
-		Vec3(0, 0.9, 1.5f))
-	);
-	
-	m_pProjectorLightComponent->Enable(true);
 	
 	// Register the RemoteReviveOnClient function as a Remote Method Invocation (RMI) that can be executed by the server on clients
 	SRmi<RMI_WRAP(&CPlayerComponent::RemoteReviveOnClient)>::Register(this, eRAT_NoAttach, false, eNRT_ReliableOrdered);
@@ -141,27 +134,22 @@ void CPlayerComponent::InitializeLocalPlayer()
 		{
 			if (ICharacterInstance *pCharacter = m_pAnimationComponent->GetCharacter())
 			{
-				IAttachment* pBarrelOutAttachment = pCharacter->GetIAttachmentManager()->GetInterfaceByName("barrel_out");
+				const QuatTS bulletOrigin = GetBarrelOutTransformAbsolute();
 
-				if (pBarrelOutAttachment != nullptr)
+				SEntitySpawnParams spawnParams;
+				spawnParams.pClass = gEnv->pEntitySystem->GetClassRegistry()->GetDefaultClass();
+
+				spawnParams.vPosition = bulletOrigin.t;
+				spawnParams.qRotation = bulletOrigin.q;
+
+				const float bulletScale = 0.05f;
+				spawnParams.vScale = Vec3(bulletScale);
+
+				// Spawn the entity
+				if (IEntity* pEntity = gEnv->pEntitySystem->SpawnEntity(spawnParams))
 				{
-					const QuatTS bulletOrigin = pBarrelOutAttachment->GetAttWorldAbsolute();
-
-					SEntitySpawnParams spawnParams;
-					spawnParams.pClass = gEnv->pEntitySystem->GetClassRegistry()->GetDefaultClass();
-
-					spawnParams.vPosition = bulletOrigin.t;
-					spawnParams.qRotation = bulletOrigin.q;
-
-					const float bulletScale = 0.05f;
-					spawnParams.vScale = Vec3(bulletScale);
-
-					// Spawn the entity
-					if (IEntity* pEntity = gEnv->pEntitySystem->SpawnEntity(spawnParams))
-					{
-						// See Bullet.cpp, bullet is propelled in  the rotation and position the entity was spawned with
-						pEntity->CreateComponentClass<CBulletComponent>();
-					}
+					// See Bullet.cpp, bullet is propelled in  the rotation and position the entity was spawned with
+					pEntity->CreateComponentClass<CBulletComponent>();
 				}
 			}
 		}
@@ -228,6 +216,9 @@ void CPlayerComponent::ProcessEvent(const SEntityEvent& event)
 			// Update the camera component offset
 			UpdateCamera(frameTime);
 		}
+
+		// Check if the flashlight need to be re-placed in position
+		UpdateFlashlightPosition(GetBarrelOutTransformRelative().t);
 	}
 	break;
 	}
@@ -291,6 +282,28 @@ void CPlayerComponent::SpawnCursorEntity()
 	// Load the custom cursor material
 	IMaterial* pCursorMaterial = gEnv->p3DEngine->GetMaterialManager()->LoadMaterial("Materials/cursor_emissive");
 	m_pCursorEntity->SetMaterial(pCursorMaterial);
+}
+
+void CPlayerComponent::UpdateFlashlightPosition(const Vec3 & pos)
+{
+	if (pos != CachedFlashlightPosition) {
+		const float difference = abs((pos - CachedFlashlightPosition).len());
+		if (difference < 0.1f) {
+			return; // Skip position update if the difference is really small
+		}
+
+		CachedFlashlightPosition = pos;
+
+		m_pProjectorLightComponent->Enable(false);
+
+		m_pProjectorLightComponent->SetTransformMatrix(Matrix34::Create(
+			Vec3(1.f),
+			IDENTITY,
+			CachedFlashlightPosition)
+		);
+
+		m_pProjectorLightComponent->Enable(true);
+	}
 }
 
 void CPlayerComponent::UpdateMovementRequest(float frameTime)
@@ -454,6 +467,43 @@ bool CPlayerComponent::RemoteReviveOnClient(RemoteReviveParams&& params, INetCha
 	Revive(Matrix34::Create(Vec3(1.f), params.rotation, params.position));
 
 	return true;
+}
+
+IAttachment * CPlayerComponent::GetBarrelOutAttachment() const
+{
+	if (ICharacterInstance *pCharacter = m_pAnimationComponent->GetCharacter())
+	{
+		return pCharacter->GetIAttachmentManager()->GetInterfaceByName("barrel_out");
+	}
+	return nullptr;
+}
+
+QuatTS CPlayerComponent::GetBarrelOutTransformAbsolute() const
+{
+	IAttachment* pBarrelOutAttachment = GetBarrelOutAttachment();
+
+	if (pBarrelOutAttachment != nullptr)
+	{
+		return pBarrelOutAttachment->GetAttWorldAbsolute();
+	}
+	// Return a default value, and log the error
+	CryWarning(EValidatorModule::VALIDATOR_MODULE_GAME, EValidatorSeverity::VALIDATOR_WARNING, "Unable to get interface in GetBarrelOutTransform()");
+
+	return QuatTS();
+}
+
+QuatTS CPlayerComponent::GetBarrelOutTransformRelative() const
+{
+	IAttachment* pBarrelOutAttachment = GetBarrelOutAttachment();
+
+	if (pBarrelOutAttachment != nullptr)
+	{
+		return pBarrelOutAttachment->GetAttModelRelative();
+	}
+	// Return a default value, and log the error
+	CryWarning(EValidatorModule::VALIDATOR_MODULE_GAME, EValidatorSeverity::VALIDATOR_WARNING, "Unable to get interface in GetBarrelOutTransform()");
+
+	return QuatTS();
 }
 
 void CPlayerComponent::Revive(const Matrix34& transform)

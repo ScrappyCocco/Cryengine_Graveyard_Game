@@ -65,6 +65,7 @@ protected:
 	void UpdateCursor(float frameTime);
 
 	void SpawnCursorEntity();
+	void UpdateFlashlightPosition(const Vec3& pos);
 
 	void HandleInputFlagChange(CEnumFlags<EInputFlag> flags, CEnumFlags<EActionActivationMode> activationMode, EInputFlagType type = EInputFlagType::Hold);
 
@@ -115,4 +116,9 @@ protected:
 private:
 	float m_moveSpeed = 20.5f;
 	float m_moveSpeed_runSpeedIncrease = 15.f;
+
+	IAttachment* GetBarrelOutAttachment() const;
+	QuatTS GetBarrelOutTransformAbsolute() const;
+	QuatTS GetBarrelOutTransformRelative() const;
+	Vec3 CachedFlashlightPosition = ZERO;
 };
