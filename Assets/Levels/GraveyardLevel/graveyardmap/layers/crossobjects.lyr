@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="CrossObjects" FullName="CrossObjects" GUID="98f5fa03-7865-65f4-985f-22f0904bfd37" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1574956877">
+ <Layer Name="CrossObjects" FullName="CrossObjects" GUID="98f5fa03-7865-65f4-985f-22f0904bfd37" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1574965779">
   <LayerObjects>
    <Object Type="Brush" Layer="CrossObjects" LayerGUID="98f5fa03-7865-65f4-985f-22f0904bfd37" Id="a3015ede-c0e2-59a2-31ee-4f37343c50e1" Name="cross-2" Pos="501.76859,482.86902,36.315468" Rotate="0.70710683,0,0,0.70710683" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="kenneymodels/cross/cross.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
     <CollisionFiltering />

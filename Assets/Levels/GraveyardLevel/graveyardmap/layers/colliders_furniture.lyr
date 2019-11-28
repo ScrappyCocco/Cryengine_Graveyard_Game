@@ -1,0 +1,2118 @@
+<ObjectLayer>
+ <Layer Name="Colliders_Furniture" FullName="Colliders_Furniture" GUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1574965779">
+  <LayerObjects>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="0643a7c0-9ec8-a073-05c4-11e29becd57d" Name="TrunkCollider-10" Pos="466.61002,468.36993,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.49999991" y="0.49999991" z="0.79999995"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="9cfa85da-7119-b15f-985e-8b88ca43cf4f" Name="RockCollider-7" Pos="489.63077,464.81534,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.69999993" y="0.69999993" z="0.69999993"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="d30160e1-240d-8f65-57b7-8e203d1339ed" Name="BenchCollider-15" Pos="500.89456,451.60474,31.999756" Rotate="0.70710659,0,0,0.70710695" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="1" y="0.69999993" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="3f638650-f03c-76a7-c845-9904fbc459b3" Name="TrunkCollider-17" Pos="505.46744,515.34589,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.49999991" y="0.49999991" z="0.79999995"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="d9de35b1-5b09-39b4-10ae-4063512ca77b" Name="TrunkCollider-14" Pos="468.1239,495.32285,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.49999991" y="0.49999991" z="0.79999995"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="4546eb29-a093-0c7a-d3f9-9083cc958d48" Name="TrunkCollider-9" Pos="466.61002,456.14172,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.49999991" y="0.49999991" z="0.79999995"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="44ace151-9ef4-c0e4-4574-1657ee63c932" Name="TrunkCollider" Pos="535.27209,480.00342,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.49999991" y="0.49999991" z="0.79999995"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="828cd29f-9338-f7eb-2a5c-4629c10dd279" Name="AltarCollider-2" Pos="515.39728,488.36737,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="1.6000001" y="0.69999993" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="0ab2be71-0cfa-1376-0caa-80b344f984fa" Name="TrunkCollider-8" Pos="481.48706,451.70929,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.49999991" y="0.49999991" z="0.79999995"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="9a289ffb-2ac8-f939-230c-d0da8353f311" Name="RockCollider-20" Pos="489.81747,451.39435,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.69999993" y="0.69999993" z="0.69999993"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="f072ae19-1380-d99c-52c1-6cd2e2e344f7" Name="RockCollider-12" Pos="476.75259,494.39774,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.69999993" y="0.69999993" z="0.69999993"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="032e1c4d-9b4f-bc6c-9a70-5ee359192f4a" Name="RockCollider-10" Pos="485.09723,471.52573,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.69999993" y="0.69999993" z="0.69999993"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="3029492d-bb0e-0e4d-63b8-6bc339028980" Name="RockCollider-9" Pos="483.62128,473.43222,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.69999993" y="0.69999993" z="0.69999993"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="c1926041-1b7b-0a06-78d4-755ce1c5599a" Name="TrunkCollider-24" Pos="528.15259,499.57968,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.49999991" y="0.49999991" z="0.79999995"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="5f87ff0e-f6aa-71ed-3029-58ffe760b3c8" Name="FenceCollider-2" Pos="503.81436,508.18256,31.999758" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="3.2999992" y="0.29999992" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="13ffa27d-0a51-6cc6-9b61-1ac41f193312" Name="CrossCollider" Pos="502.74738,487.50174,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.49999991" y="0.49999991" z="1.5000001"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="10b3cfa6-f0ba-5a67-ee48-12612a46ede4" Name="RockCollider-6" Pos="508.5152,464.69272,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.69999993" y="0.69999993" z="0.69999993"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="97964f25-1111-fa0e-584b-47e13aed27cb" Name="RockCollider-11" Pos="484.87006,492.98767,31.999754" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.69999993" y="0.69999993" z="0.69999993"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="01ca4461-e11a-7578-36c5-7488cac8fa34" Name="BenchCollider-12" Pos="495.39581,499.88751,31.999756" Rotate="0.70710659,0,0,0.70710695" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="1" y="0.69999993" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="dd603694-372b-315e-af91-8d8a602da601" Name="TrunkCollider-13" Pos="471.33096,493.63034,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.49999991" y="0.49999991" z="0.79999995"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="03bd534b-3ad8-28f7-5a7c-c3a7c43c9e8c" Name="RockCollider-4" Pos="517.2207,480.11838,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.69999993" y="0.69999993" z="0.69999993"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="e25f2645-1907-fbf7-1aa5-5d2353885596" Name="RockCollider-13" Pos="469.20425,492.91428,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.69999993" y="0.69999993" z="0.69999993"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="b454149c-11ca-677c-41dc-5df114457003" Name="BenchCollider-14" Pos="496.45432,462.19589,31.999756" Rotate="0.70710659,0,0,0.70710695" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="1" y="0.69999993" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="83817b0a-788d-fb4d-47ac-b189e6b44445" Name="BrokenBenchCollider" Pos="531.60773,480.76981,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="1" y="0.69999993" z="0.79999995"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="29271979-f76e-f660-9bcd-4f5cc4be3bfd" Name="TrunkCollider-12" Pos="484.20944,478.04953,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.49999991" y="0.49999991" z="0.79999995"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="f912d26a-1943-087b-a67c-3b3451db8fda" Name="RockCollider-8" Pos="480.3252,464.04916,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.69999993" y="0.69999993" z="0.69999993"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="ca890669-8dd3-32f9-8f7a-8740f6b7b7ce" Name="FenceCollider-3" Pos="509.09076,508.18256,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="1" y="0.29999992" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="970541a1-20c6-2446-f510-bafb2258e462" Name="BenchCollider" Pos="518.0755,485.14471,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="1" y="0.69999993" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="db056036-352c-108d-27dd-3095f8fb2867" Name="RockCollider" Pos="508.53873,485.50549,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.69999993" y="0.69999993" z="0.69999993"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="8d26abb5-5231-e4a1-faad-a989569b759f" Name="CrossCollider-2" Pos="494.96072,487.50174,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.49999991" y="0.49999991" z="1.5000001"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="8ee8de50-3a10-6462-ad14-75049f0b749e" Name="CrossCollider-3" Pos="494.96072,478.43332,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.49999991" y="0.49999991" z="1.5000001"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="f61b677b-8378-ed45-63ae-19cb39acfa15" Name="CrossCollider-4" Pos="502.71677,478.43332,31.999754" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.49999991" y="0.49999991" z="1.5000001"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="ad60f7bc-410a-f7b7-a639-abe04bb2cea4" Name="BenchCollider-3" Pos="509.63391,480.62863,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="1" y="0.69999993" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="63505fc3-6e08-a0f0-7f99-fc7cedffafc2" Name="BenchCollider-4" Pos="511.61597,481.20474,31.724497" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="1" y="0.69999993" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="dc575f33-c361-9cc0-d63b-4b9a649f6fd6" Name="TrunkCollider-4" Pos="510.88864,477.9469,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.49999991" y="0.49999991" z="0.79999995"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="9226a472-d1e8-b335-be4b-21709090d2fa" Name="TrunkCollider-5" Pos="503.93832,473.20984,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.49999991" y="0.49999991" z="0.79999995"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="cadfaf64-c9f4-48e4-1476-d754b703bd66" Name="RockCollider-3" Pos="506.38724,472.26743,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.69999993" y="0.69999993" z="0.69999993"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="776755bf-437b-f325-3bc1-dc6e6f8fe956" Name="BenchCollider-5" Pos="501.02151,473.01675,31.999756" Rotate="0.70710659,0,0,0.70710695" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="1" y="0.69999993" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="b1e00c66-6485-41b3-4181-36f086c6acbd" Name="BenchCollider-6" Pos="502.02103,473.01675,31.999756" Rotate="0.70710659,0,0,0.70710695" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="1" y="0.69999993" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="ff51788a-a6f0-3e01-0bfc-b0abf7aca674" Name="BenchCollider-7" Pos="500.94153,492.97977,31.999754" Rotate="0.70710659,0,0,0.70710695" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="1" y="0.69999993" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="343b97df-f593-1e6b-3a7f-7503220d575f" Name="BenchCollider-8" Pos="489.72818,480.80798,31.999756" Rotate="1,0,0,3.2410023e-07" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="1" y="0.69999993" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="6bc929e9-cf15-199c-9f6f-5f84c7cd7417" Name="BenchCollider-9" Pos="479.1911,485.42041,31.999756" Rotate="1,0,0,3.2410023e-07" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="1" y="0.69999993" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="8341c697-b405-cd23-0e63-44f79181a9e1" Name="BenchCollider-10" Pos="470.53348,480.75339,31.999756" Rotate="1,0,0,3.2410023e-07" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="1" y="0.69999993" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="6e956a95-c604-6339-5500-035d341dd120" Name="TrunkCollider-6" Pos="492.98712,451.76205,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.49999991" y="0.49999991" z="0.79999995"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="e1916964-f813-baab-6c9c-d0d6194a103d" Name="TrunkCollider-7" Pos="487.9202,448.6355,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.49999991" y="0.49999991" z="0.79999995"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="5d589e2c-d443-af3c-827b-a52821e1faf8" Name="TrunkCollider-11" Pos="487.68826,472.5206,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.49999991" y="0.49999991" z="0.79999995"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="acc39367-a7ab-ad9f-3b34-091c6d0bfc2d" Name="TrunkCollider-15" Pos="470.44186,511.24448,31.999758" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.49999991" y="0.49999991" z="0.79999995"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="b8713b13-4094-d181-ab68-f5f057b34deb" Name="TrunkCollider-16" Pos="487.03906,514.81488,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.49999991" y="0.49999991" z="0.79999995"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="0a9b8ffc-175b-af95-0214-4034f2ce14e0" Name="FenceCollider" Pos="504.46649,511.8873,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="4.3999982" y="0.49999991" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="463f9a2f-9069-8093-b33f-5bc0cd032432" Name="AltarCollider" Pos="513.0946,489.76642,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="1.6000001" y="0.69999993" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="57db63b6-f00f-dfd5-8154-8d242d8e0c46" Name="TrunkCollider-19" Pos="522.38531,473.03992,31.999754" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.49999991" y="0.49999991" z="0.79999995"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="ddb81739-39b4-498e-7382-58cfd6d4da58" Name="TrunkCollider-20" Pos="523.45001,472.32404,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.49999991" y="0.49999991" z="0.79999995"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="a428bda9-5dfb-c680-d472-13f399c65191" Name="TrunkCollider-21" Pos="522.42657,464.30511,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.49999991" y="0.49999991" z="0.79999995"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="a4e5efa4-e747-e870-2299-1490340a0456" Name="TrunkCollider-22" Pos="512.51978,464.30511,31.999754" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.49999991" y="0.49999991" z="0.79999995"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="5fc62b7b-0775-f904-4710-27c2146e4537" Name="TrunkCollider-23" Pos="526.27295,494.12753,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.49999991" y="0.49999991" z="0.79999995"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="2635663d-00de-a95e-7808-1c0c4a1ca5ad" Name="RockCollider-5" Pos="516.79846,459.39774,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.69999993" y="0.69999993" z="0.69999993"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="f5984197-e40a-7560-e856-7ef967d96846" Name="RockCollider-14" Pos="495.58893,496.70349,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.69999993" y="0.69999993" z="0.69999993"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="7f0b4640-fede-d82e-04c9-351b060bd88e" Name="TrunkCollider-25" Pos="494.81467,494.18185,31.999758" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.49999991" y="0.49999991" z="0.79999995"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="7fc9ed52-f760-2213-e320-0cb4b8247181" Name="RockCollider-15" Pos="490.4725,478.58282,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.69999993" y="0.69999993" z="0.69999993"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="541fe99b-4b7d-8384-2be3-53a0dd7445cc" Name="TrunkCollider-26" Pos="470.96585,503.36023,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.49999991" y="0.49999991" z="0.79999995"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="79190415-7f9f-f319-4211-c2aa879d9f1a" Name="BenchCollider-13" Pos="496.45432,499.38068,31.999756" Rotate="0.70710659,0,0,0.70710695" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="1" y="0.69999993" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="d7ff6af4-15ee-fead-283b-853d3e094a43" Name="RockCollider-16" Pos="506.13556,505.54825,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.69999993" y="0.69999993" z="0.69999993"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="b5bfb5a6-dc66-c335-1a58-be75a8ec6a4d" Name="RockCollider-17" Pos="515.91595,496.25851,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.69999993" y="0.69999993" z="0.69999993"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="8e7dbc97-e616-9264-79c5-911b85a2bd5c" Name="RockCollider-18" Pos="494.68213,448.05847,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.69999993" y="0.69999993" z="0.69999993"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="d3ade6f5-947c-3faf-00f9-8d810ec2123b" Name="RockCollider-19" Pos="501.37943,448.71695,31.999758" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.69999993" y="0.69999993" z="0.69999993"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Furniture" LayerGUID="bff6727f-9b9d-289f-019a-ed69a35d49b5" Id="00953b88-7b3e-8771-51c3-20188327e935" Name="RockCollider-21" Pos="480.86133,459.50705,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="943871db-b9ab-e8e2-38eb-9f80a12044d3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.69999993" y="0.69999993" z="0.69999993"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b16f6742-83bc-b5dd-d9ad-b9b964a0ee5f" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="AI" FullName="AI" GUID="7a17d243-c389-bc33-cff9-c8cece9da522" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1574956877">
+ <Layer Name="AI" FullName="AI" GUID="7a17d243-c389-bc33-cff9-c8cece9da522" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1574965780">
   <LayerObjects>
    <Object Type="NavigationArea" Layer="AI" LayerGUID="7a17d243-c389-bc33-cff9-c8cece9da522" Id="91124d83-1345-59a4-8306-21a58c0dd193" Name="NavigationArea-1" Pos="455.82245,440.51923,31.949757" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="9846784" UseCustomLevelLayerColor="0" MinSpec="0" Height="16" Exclusion="0" RemoveInaccessibleTriangles="1" DisplayFilled="0" HasEntity="0">
     <AffectedAgentTypes MediumSizedCharacters="1"/>

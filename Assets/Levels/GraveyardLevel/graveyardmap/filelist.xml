@@ -1,6 +1,6 @@
 <download name="graveyardmap" type="Map">
  <index src="filelist.xml" dest="filelist.xml"/>
  <files>
-  <file src="level.pak" dest="level.pak" size="11210390" md5="52c46aba6f0a9496cf06b42a81bb81cc"/>
+  <file src="level.pak" dest="level.pak" size="11228933" md5="c36dd3e254338d7a7483eedf133b58d2"/>
  </files>
 </download>

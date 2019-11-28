@@ -1,0 +1,326 @@
+<ObjectLayer>
+ <Layer Name="Colliders_LampPosts" FullName="Colliders_LampPosts" GUID="14e14e88-6c9f-74ec-4716-efd2ee14ef42" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1574965779">
+  <LayerObjects>
+   <Object Type="EmptyEntity" Layer="Colliders_LampPosts" LayerGUID="14e14e88-6c9f-74ec-4716-efd2ee14ef42" Id="1c0b2f09-2248-88c4-a63c-0b31165d413f" Name="LamPostCollider-9" Pos="509.31561,508.19583,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="6ccb783d-7d4e-9f36-6ffc-239b1bb424c2" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.29999992" y="0.19999993" z="1.8000002"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="8138d900-dd50-949c-8863-43ce08253707" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_LampPosts" LayerGUID="14e14e88-6c9f-74ec-4716-efd2ee14ef42" Id="71787573-71e3-80dc-26d4-4b3a1ec0487e" Name="LamPostCollider-2" Pos="501.14108,494.60059,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="6ccb783d-7d4e-9f36-6ffc-239b1bb424c2" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.29999992" y="0.19999993" z="1.8000002"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="8138d900-dd50-949c-8863-43ce08253707" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_LampPosts" LayerGUID="14e14e88-6c9f-74ec-4716-efd2ee14ef42" Id="d44d6853-7a2e-fe2f-5fda-c2c5e16a1e7c" Name="LamPostCollider-4" Pos="472.12238,481.15524,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="6ccb783d-7d4e-9f36-6ffc-239b1bb424c2" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.29999992" y="0.19999993" z="1.8000002"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="8138d900-dd50-949c-8863-43ce08253707" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_LampPosts" LayerGUID="14e14e88-6c9f-74ec-4716-efd2ee14ef42" Id="d44e562e-1b93-0a42-f9a1-5acd65be3b60" Name="LamPostCollider-6" Pos="496.58936,457.08746,31.999758" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="6ccb783d-7d4e-9f36-6ffc-239b1bb424c2" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.29999992" y="0.19999993" z="1.8000002"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="8138d900-dd50-949c-8863-43ce08253707" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_LampPosts" LayerGUID="14e14e88-6c9f-74ec-4716-efd2ee14ef42" Id="4b100aab-c139-4ae5-fe8b-f14cc5ff3ba4" Name="LamPostCollider" Pos="517.30493,481.14856,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="6ccb783d-7d4e-9f36-6ffc-239b1bb424c2" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.29999992" y="0.19999993" z="1.8000002"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="8138d900-dd50-949c-8863-43ce08253707" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_LampPosts" LayerGUID="14e14e88-6c9f-74ec-4716-efd2ee14ef42" Id="bc575c56-980e-2fc3-db17-b86296590c3b" Name="LamPostCollider-3" Pos="484.52432,501.87,31.999754" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="6ccb783d-7d4e-9f36-6ffc-239b1bb424c2" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.29999992" y="0.19999993" z="1.8000002"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="8138d900-dd50-949c-8863-43ce08253707" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_LampPosts" LayerGUID="14e14e88-6c9f-74ec-4716-efd2ee14ef42" Id="fc22dc3e-156d-e82a-2aa8-8b504b6cd85d" Name="LamPostCollider-5" Pos="491.35144,474.40308,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="6ccb783d-7d4e-9f36-6ffc-239b1bb424c2" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.29999992" y="0.19999993" z="1.8000002"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="8138d900-dd50-949c-8863-43ce08253707" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_LampPosts" LayerGUID="14e14e88-6c9f-74ec-4716-efd2ee14ef42" Id="9d3a893e-29ab-095e-cdd1-0d2474aa96e5" Name="LamPostCollider-7" Pos="472.95618,449.13599,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="6ccb783d-7d4e-9f36-6ffc-239b1bb424c2" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.29999992" y="0.19999993" z="1.8000002"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="8138d900-dd50-949c-8863-43ce08253707" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_LampPosts" LayerGUID="14e14e88-6c9f-74ec-4716-efd2ee14ef42" Id="e654f27c-8fba-8ca0-6b59-15069303664f" Name="LamPostCollider-8" Pos="527.88879,453.7229,31.945616" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="6ccb783d-7d4e-9f36-6ffc-239b1bb424c2" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.29999992" y="0.19999993" z="1.8000002"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="8138d900-dd50-949c-8863-43ce08253707" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_LampPosts" LayerGUID="14e14e88-6c9f-74ec-4716-efd2ee14ef42" Id="3bc9bb91-fb90-6bc1-f601-dd3d6b9e126d" Name="LamPostCollider-10" Pos="532.73071,515.09515,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="6ccb783d-7d4e-9f36-6ffc-239b1bb424c2" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardObject" ReactToCollisions="true">
+       <Size x="0.29999992" y="0.19999993" z="1.8000002"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="8138d900-dd50-949c-8863-43ce08253707" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

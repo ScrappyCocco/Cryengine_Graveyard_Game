@@ -1,10 +1,11 @@
-<AssetMetadata version="0" type="Level" guid="01d42173-a9a0-f24b-1d41-7aff55f6badf" source="" timestamp="1574956878">
+<AssetMetadata version="0" type="Level" guid="01d42173-a9a0-f24b-1d41-7aff55f6badf" source="" timestamp="1574965780">
  <Files>
   <File path="graveyardmap/graveyardmap.level"/>
  </Files>
  <Dependencies>
   <Path>%engine%/engineassets/icons/averagememoryusage.dds</Path>
   <Path>%engine%/engineassets/icons/highmemoryusage.dds</Path>
+  <Path>%engine%/engineassets/icons/levelshadercachemiss.dds</Path>
   <Path>%engine%/engineassets/icons/livepreview.dds</Path>
   <Path>%engine%/engineassets/icons/lowmemoryusage.dds</Path>
   <Path>%engine%/engineassets/materials/fog/fogvolumebox.mtl</Path>
@@ -18,11 +19,107 @@
   <Path>%engine%/engineassets/materials/water/ocean_default.mtl</Path>
   <Path>%engine%/engineassets/materials/water/wateroceanbottom.mtl</Path>
   <Path>%engine%/engineassets/objects/primitive_sphere.cgf</Path>
+  <Path>%engine%/engineassets/screenspace/areatex.dds</Path>
+  <Path>%engine%/engineassets/screenspace/bokeh_pentagon.dds</Path>
+  <Path>%engine%/engineassets/screenspace/grain_bayer_mul.dds</Path>
+  <Path>%engine%/engineassets/screenspace/normalsfitting.dds</Path>
+  <Path>%engine%/engineassets/screenspace/pointsonsphere4x4.dds</Path>
+  <Path>%engine%/engineassets/screenspace/searchtex.dds</Path>
+  <Path>%engine%/engineassets/shading/cloud_mie_phase_function.dds</Path>
+  <Path>%engine%/engineassets/shading/defaultprobe_cm.dds</Path>
+  <Path>%engine%/engineassets/shading/defaultprobe_cm_diff.dds</Path>
+  <Path>%engine%/engineassets/shading/environmentbrdf.dds</Path>
+  <Path>%engine%/engineassets/shading/generic_reflections.dds</Path>
+  <Path>%engine%/engineassets/shading/layer_effect_anim_function.dds</Path>
+  <Path>%engine%/engineassets/shading/sonarvisiongradient.dds</Path>
+  <Path>%engine%/engineassets/shading/thermalvisiongradient.dds</Path>
+  <Path>%engine%/engineassets/shading/waterfoam.dds</Path>
   <Path>%engine%/engineassets/texturemsg/defaultnouvs.dds</Path>
+  <Path>%engine%/engineassets/texturemsg/shadercompiling.dds</Path>
+  <Path>%engine%/engineassets/texturemsg/shadererror.dds</Path>
+  <Path>%engine%/engineassets/textures/alienhud_distortionimage.dds</Path>
+  <Path>%engine%/engineassets/textures/alienhud_noise1.dds</Path>
+  <Path>%engine%/engineassets/textures/caustics_sampler.dds</Path>
+  <Path>%engine%/engineassets/textures/default_cch.dds</Path>
+  <Path>%engine%/engineassets/textures/detaildecalvariation.dds</Path>
+  <Path>%engine%/engineassets/textures/dither_2.dds</Path>
+  <Path>%engine%/engineassets/textures/dither_pattern_2d.dds</Path>
+  <Path>%engine%/engineassets/textures/fogvolshadowjitter.dds</Path>
+  <Path>%engine%/engineassets/textures/fresnel_sampler.dds</Path>
+  <Path>%engine%/engineassets/textures/fringe_map.dds</Path>
+  <Path>%engine%/engineassets/textures/frost_refl2.dds</Path>
+  <Path>%engine%/engineassets/textures/frozen/frost_noise3.dds</Path>
+  <Path>%engine%/engineassets/textures/frozen/frost_noise4.dds</Path>
+  <Path>%engine%/engineassets/textures/frozen/snow_spatter.dds</Path>
+  <Path>%engine%/engineassets/textures/fuzzy_pow_sampler_merged.dds</Path>
+  <Path>%engine%/engineassets/textures/glass_decalatlas_ddn.dds</Path>
+  <Path>%engine%/engineassets/textures/glass_decalatlas_diff.dds</Path>
   <Path>%engine%/engineassets/textures/grey.dds</Path>
+  <Path>%engine%/engineassets/textures/hex.dds</Path>
+  <Path>%engine%/engineassets/textures/hex_ddn.dds</Path>
+  <Path>%engine%/engineassets/textures/hex_grad.dds</Path>
+  <Path>%engine%/engineassets/textures/hex_rand.dds</Path>
+  <Path>%engine%/engineassets/textures/interference.dds</Path>
+  <Path>%engine%/engineassets/textures/jumpnoisehighfrequency_x27y19.dds</Path>
   <Path>%engine%/engineassets/textures/lights/softedge.dds</Path>
+  <Path>%engine%/engineassets/textures/nightvis_grad.dds</Path>
+  <Path>%engine%/engineassets/textures/noise.dds</Path>
+  <Path>%engine%/engineassets/textures/noise3d.dds</Path>
+  <Path>%engine%/engineassets/textures/oceanwaves_ddn.dds</Path>
+  <Path>%engine%/engineassets/textures/palette/cloak_interlation.dds</Path>
+  <Path>%engine%/engineassets/textures/palette/cloak_palette.dds</Path>
+  <Path>%engine%/engineassets/textures/palette/cloak_sparks.dds</Path>
+  <Path>%engine%/engineassets/textures/palette/cloak_transition.dds</Path>
+  <Path>%engine%/engineassets/textures/perlinnoise2d.dds</Path>
+  <Path>%engine%/engineassets/textures/perlinnoise_sum.dds</Path>
+  <Path>%engine%/engineassets/textures/perlinnoise_sum_small.dds</Path>
+  <Path>%engine%/engineassets/textures/perlinnoisederivatives.dds</Path>
+  <Path>%engine%/engineassets/textures/perlinnoisenormal_ddn.dds</Path>
+  <Path>%engine%/engineassets/textures/pixeltex.dds</Path>
+  <Path>%engine%/engineassets/textures/rain/puddle_mask.dds</Path>
+  <Path>%engine%/engineassets/textures/rain/rain_spatter.dds</Path>
+  <Path>%engine%/engineassets/textures/rain/rainfall.dds</Path>
+  <Path>%engine%/engineassets/textures/rain/rainfall_ddn.dds</Path>
+  <Path>%engine%/engineassets/textures/rain/ripple/ripple10_ddn.dds</Path>
+  <Path>%engine%/engineassets/textures/rain/ripple/ripple11_ddn.dds</Path>
+  <Path>%engine%/engineassets/textures/rain/ripple/ripple12_ddn.dds</Path>
+  <Path>%engine%/engineassets/textures/rain/ripple/ripple13_ddn.dds</Path>
+  <Path>%engine%/engineassets/textures/rain/ripple/ripple14_ddn.dds</Path>
+  <Path>%engine%/engineassets/textures/rain/ripple/ripple15_ddn.dds</Path>
+  <Path>%engine%/engineassets/textures/rain/ripple/ripple16_ddn.dds</Path>
+  <Path>%engine%/engineassets/textures/rain/ripple/ripple17_ddn.dds</Path>
+  <Path>%engine%/engineassets/textures/rain/ripple/ripple18_ddn.dds</Path>
+  <Path>%engine%/engineassets/textures/rain/ripple/ripple19_ddn.dds</Path>
+  <Path>%engine%/engineassets/textures/rain/ripple/ripple1_ddn.dds</Path>
+  <Path>%engine%/engineassets/textures/rain/ripple/ripple20_ddn.dds</Path>
+  <Path>%engine%/engineassets/textures/rain/ripple/ripple21_ddn.dds</Path>
+  <Path>%engine%/engineassets/textures/rain/ripple/ripple22_ddn.dds</Path>
+  <Path>%engine%/engineassets/textures/rain/ripple/ripple23_ddn.dds</Path>
+  <Path>%engine%/engineassets/textures/rain/ripple/ripple24_ddn.dds</Path>
+  <Path>%engine%/engineassets/textures/rain/ripple/ripple2_ddn.dds</Path>
+  <Path>%engine%/engineassets/textures/rain/ripple/ripple3_ddn.dds</Path>
+  <Path>%engine%/engineassets/textures/rain/ripple/ripple4_ddn.dds</Path>
+  <Path>%engine%/engineassets/textures/rain/ripple/ripple5_ddn.dds</Path>
+  <Path>%engine%/engineassets/textures/rain/ripple/ripple6_ddn.dds</Path>
+  <Path>%engine%/engineassets/textures/rain/ripple/ripple7_ddn.dds</Path>
+  <Path>%engine%/engineassets/textures/rain/ripple/ripple8_ddn.dds</Path>
+  <Path>%engine%/engineassets/textures/rain/ripple/ripple9_ddn.dds</Path>
+  <Path>%engine%/engineassets/textures/rain/surface_flow_ddn.dds</Path>
+  <Path>%engine%/engineassets/textures/rotrandom.dds</Path>
+  <Path>%engine%/engineassets/textures/rotrandomcm.dds</Path>
+  <Path>%engine%/engineassets/textures/scratch.dds</Path>
+  <Path>%engine%/engineassets/textures/screen_noisy_bump.dds</Path>
+  <Path>%engine%/engineassets/textures/screenfrost_alpha.dds</Path>
+  <Path>%engine%/engineassets/textures/screenfrost_ddn.dds</Path>
   <Path>%engine%/engineassets/textures/skys/night/half_moon.dds</Path>
+  <Path>%engine%/engineassets/textures/snowflakes.dds</Path>
+  <Path>%engine%/engineassets/textures/texelspermetergrad.dds</Path>
+  <Path>%engine%/engineassets/textures/vector_noise.dds</Path>
+  <Path>%engine%/engineassets/textures/water_droplets.dds</Path>
+  <Path>%engine%/engineassets/textures/water_gloss.dds</Path>
   <Path>%engine%/engineassets/textures/white.dds</Path>
+  <Path>%engine%/engineassets/textures/white_cm.dds</Path>
+  <Path usageCount="1">Libs/environmentpresets/example.env</Path>
   <Path usageCount="1">Libs/environmentpresets/graveyardenviroment.env</Path>
   <Path>animations/mannequin/adb/firstpersoncontrollerdefinition.xml</Path>
   <Path>animations/mannequin/adb/playerfragmentids.xml</Path>
