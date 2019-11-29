@@ -1,8 +1,14 @@
-<AssetMetadata version="0" type="Level" guid="01d42173-a9a0-f24b-1d41-7aff55f6badf" source="" timestamp="1574965780">
+<AssetMetadata version="0" type="Level" guid="01d42173-a9a0-f24b-1d41-7aff55f6badf" source="" timestamp="1575029111">
  <Files>
   <File path="graveyardmap/graveyardmap.level"/>
  </Files>
  <Dependencies>
+  <Path>%editor%/materials/areasolid.dds</Path>
+  <Path>%editor%/materials/areasolid.mtl</Path>
+  <Path>%editor%/materials/shaderlist.xml</Path>
+  <Path>%editor%/objects/mtlobjects.mtl</Path>
+  <Path>%editor%/objects/mtlplane.cgf</Path>
+  <Path>%editor%/objects/mtlsphere.cgf</Path>
   <Path>%engine%/engineassets/icons/averagememoryusage.dds</Path>
   <Path>%engine%/engineassets/icons/highmemoryusage.dds</Path>
   <Path>%engine%/engineassets/icons/levelshadercachemiss.dds</Path>
@@ -16,6 +22,8 @@
   <Path>%engine%/engineassets/materials/fog/oceanoutoflowspec.mtl</Path>
   <Path>%engine%/engineassets/materials/lens_optics.mtl</Path>
   <Path>%engine%/engineassets/materials/material_terrain_default.mtl</Path>
+  <Path>%engine%/engineassets/materials/meshimporter/mi_previewvertexalpha.mtl</Path>
+  <Path>%engine%/engineassets/materials/meshimporter/mi_previewvertexcolor.mtl</Path>
   <Path>%engine%/engineassets/materials/water/ocean_default.mtl</Path>
   <Path>%engine%/engineassets/materials/water/wateroceanbottom.mtl</Path>
   <Path>%engine%/engineassets/objects/primitive_sphere.cgf</Path>
@@ -34,13 +42,17 @@
   <Path>%engine%/engineassets/shading/sonarvisiongradient.dds</Path>
   <Path>%engine%/engineassets/shading/thermalvisiongradient.dds</Path>
   <Path>%engine%/engineassets/shading/waterfoam.dds</Path>
+  <Path>%engine%/engineassets/texturemsg/color_black.dds</Path>
   <Path>%engine%/engineassets/texturemsg/defaultnouvs.dds</Path>
+  <Path>%engine%/engineassets/texturemsg/defaultsolids.mtl</Path>
   <Path>%engine%/engineassets/texturemsg/shadercompiling.dds</Path>
   <Path>%engine%/engineassets/texturemsg/shadererror.dds</Path>
   <Path>%engine%/engineassets/textures/alienhud_distortionimage.dds</Path>
   <Path>%engine%/engineassets/textures/alienhud_noise1.dds</Path>
   <Path>%engine%/engineassets/textures/caustics_sampler.dds</Path>
   <Path>%engine%/engineassets/textures/default_cch.dds</Path>
+  <Path>%engine%/engineassets/textures/default_probe_cm.dds</Path>
+  <Path>%engine%/engineassets/textures/default_probe_cm_diff.dds</Path>
   <Path>%engine%/engineassets/textures/detaildecalvariation.dds</Path>
   <Path>%engine%/engineassets/textures/dither_2.dds</Path>
   <Path>%engine%/engineassets/textures/dither_pattern_2d.dds</Path>
@@ -197,6 +209,9 @@
   <Path>kenneymodels/bowl/detailchalice.cgf</Path>
   <Path>kenneymodels/bowl/matbowl.mtl</Path>
   <Path>kenneymodels/bowl/matchalice.mtl</Path>
+  <Path>kenneymodels/characters/matvampire.mtl</Path>
+  <Path>kenneymodels/characters/matvampire.mtl</Path>
+  <Path>kenneymodels/characters/vampire.cgf</Path>
   <Path>kenneymodels/coffin/coffin.cgf</Path>
   <Path>kenneymodels/coffin/coffinold.cgf</Path>
   <Path>kenneymodels/coffin/matcoffin.mtl</Path>
@@ -281,6 +296,7 @@
   <Path>objects/weapons/sampleweapon/defaultweapon.cgf</Path>
   <Path>objects/weapons/sampleweapon/defaultweapon.mtl</Path>
   <Path>particles/fire.pfx</Path>
+  <Path>scripts/ai/factions.xml</Path>
   <Path>textures/cubemaps/graveyardmap/environmentprobe-1_cm.dds</Path>
   <Path>textures/cubemaps/graveyardmap/environmentprobe-1_cm_diff.dds</Path>
   <Path>textures/sprites/fireglow.dds</Path>

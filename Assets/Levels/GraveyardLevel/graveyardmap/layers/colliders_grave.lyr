@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="Colliders_Grave" FullName="Colliders_Grave" GUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1574965780">
+ <Layer Name="Colliders_Grave" FullName="Colliders_Grave" GUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1575029111">
   <LayerObjects>
    <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="2dc252d4-3e84-19ea-705e-18a8d34d8ccd" Name="GraveCollider-28" Pos="523.24933,504.0593,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
@@ -22,6 +22,38 @@
       </Transform>
       <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
        <Size x="1.4000001" y="0.79999995" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="e478641c-0d9a-4bd0-3100-6c9af468d8be" Name="GraveCollider-24" Pos="523.24933,486.02618,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
+       <Size x="1.4000001" y="0.39999992" z="1"/>
        <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
       </properties>
      </Component>
@@ -97,7 +129,71 @@
      </Component>
     </Components>
    </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="1aab7574-dadc-9879-104e-fc8caff4e621" Name="GraveCollider-22" Pos="530.0177,508.25073,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
+       <Size x="1.4000001" y="1.3000001" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
    <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="0917c2d8-ec1b-480b-0200-54bc5fd5e202" Name="GraveCollider-110" Pos="479.8678,474.59039,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
+       <Size x="1.4000001" y="0.49999991" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="253a46ca-4700-0c35-f21e-665bc03cd2ea" Name="GraveCollider-89" Pos="487.23502,460.87134,31.999756" Rotate="0.70710659,0,0,0.70710695" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
      <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
@@ -161,6 +257,166 @@
      </Component>
     </Components>
    </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="04aaf31d-aef3-1348-d1ad-9f18593f33d4" Name="GraveCollider-46" Pos="474.18756,472.14963,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
+       <Size x="1.4000001" y="0.49999991" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="39050d4a-9058-f9fc-3fd1-57b7fc4f954e" Name="GraveCollider-71" Pos="474.73578,457.91766,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
+       <Size x="1.4000001" y="0.49999991" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="d018012d-0615-4c5d-16de-095034b23dca" Name="GraveCollider-53" Pos="470.80289,471.98343,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
+       <Size x="1.4000001" y="0.49999991" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="fcef87b2-b222-490b-0210-ff8c1df641a5" Name="GraveCollider-70" Pos="471.11136,451.86975,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
+       <Size x="1.4000001" y="0.49999991" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="63150fb8-ad6a-14e6-7897-aaeeb61e70ad" Name="GraveCollider-86" Pos="480.06149,460.87134,31.999756" Rotate="0.70710659,0,0,0.70710695" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
+       <Size x="1.4000001" y="0.49999991" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
    <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="743499b6-b4e0-c510-a786-c242c733c726" Name="GraveCollider-21" Pos="530.0177,505.72754,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
@@ -182,6 +438,198 @@
       </Transform>
       <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
        <Size x="1.4000001" y="1.3000001" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="5239a197-f951-4cc3-84f4-bb36ea0dd858" Name="GraveCollider-37" Pos="514.6239,502.39835,31.999756" Rotate="0.70710659,0,0,-0.70710701" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
+       <Size x="1.4000001" y="0.40000001" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="4187a548-3e90-2c0e-e5ca-85c3b4a281b4" Name="GraveCollider-68" Pos="473.81476,452.55359,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
+       <Size x="1.4000001" y="0.49999991" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="aaa1ecba-9c2a-ecd1-04ba-39e7e07cfd73" Name="GraveCollider-109" Pos="479.8678,475.46365,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
+       <Size x="1.4000001" y="0.49999991" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="0714d55e-0fa2-6b4c-60d8-3509ce961a40" Name="GraveCollider-5" Pos="534.82343,493.95148,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
+       <Size x="1.4000001" y="0.49999991" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="e3448411-f9da-9452-e9af-2a1dd047cd3c" Name="GraveCollider-51" Pos="470.36786,477.707,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
+       <Size x="1.4000001" y="0.49999991" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="407e5191-4edf-6ed9-fe09-7a95fff2280a" Name="GraveCollider-26" Pos="523.24933,494.34634,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
+       <Size x="1.4000001" y="1.1" z="1"/>
        <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
       </properties>
      </Component>
@@ -257,6 +705,38 @@
      </Component>
     </Components>
    </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="ea1ecc0d-8488-a8ec-5737-fab8028efcb6" Name="GraveCollider-15" Pos="530.0177,486.12204,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
+       <Size x="1.4000001" y="1.3000001" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
    <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="68efc6e6-a8dc-ea5c-98df-8cf7ee60055a" Name="GraveCollider-30" Pos="523.05664,507.73599,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
@@ -289,7 +769,71 @@
      </Component>
     </Components>
    </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="5010ff01-0896-136f-9842-b8e02e3d6aa2" Name="GraveCollider-63" Pos="470.72736,467.68561,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="a02a3f8d-f438-a588-ce52-088aa8ff1ec0" Name="GraveCollider-76" Pos="474.53043,456.3118,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
+       <Size x="1.4000001" y="0.49999991" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="9ce1ec8f-316b-d1b3-2fd7-65c7c24a9701" Name="GraveCollider-31" Pos="518.21198,489.36691,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
+       <Size x="1.4000001" y="1.9000002" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="f7213301-1b64-8ff9-7527-75a8cd434942" Name="GraveCollider-58" Pos="474.18756,465.49368,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
      <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
@@ -342,6 +886,134 @@
       </Transform>
       <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
        <Size x="1.4000001" y="0.49999991" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="5010ff01-0896-136f-9842-b8e02e3d6aa2" Name="GraveCollider-63" Pos="470.72736,467.68561,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
+       <Size x="1.4000001" y="0.49999991" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="878c90b9-1dc9-a83f-8829-73b9416205e8" Name="GraveCollider-97" Pos="488.77032,467.42068,31.999756" Rotate="0.70710659,0,0,0.70710695" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
+       <Size x="1.4000001" y="0.49999991" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="9d5fea97-9451-84c9-5163-99a5139451d1" Name="GraveCollider-73" Pos="474.53043,454.05981,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
+       <Size x="1.4000001" y="0.49999991" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="0a8f755e-e2ab-c6ef-de01-4430c8cf38dd" Name="GraveCollider-20" Pos="530.0177,503.16336,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
+       <Size x="1.4000001" y="1.3000001" z="1"/>
        <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
       </properties>
      </Component>
@@ -406,6 +1078,390 @@
       </Transform>
       <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
        <Size x="1.4000001" y="1.7000002" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="0bda80b4-c34c-0a03-f46b-1332e60c8d0b" Name="GraveCollider-88" Pos="484.97263,460.87134,31.999756" Rotate="0.70710659,0,0,0.70710695" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
+       <Size x="1.4000001" y="0.49999991" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="4324a2cc-cbb6-211c-d116-1f31df219e24" Name="GraveCollider-41" Pos="501.80496,502.39835,31.999756" Rotate="0.70710659,0,0,-0.70710701" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
+       <Size x="1.4000001" y="0.9000001" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="9b945645-6eab-dc1d-87c4-79b3bdcecdfe" Name="GraveCollider-60" Pos="470.72736,462.09183,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
+       <Size x="1.4000001" y="0.49999991" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="39012f24-aa7e-1d03-5fc2-8f0801423bdd" Name="GraveCollider-32" Pos="518.32538,493.31427,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
+       <Size x="1.4000001" y="0.5999999" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="f4c27e11-7c89-7fd9-3097-e4fc32829b25" Name="GraveCollider-83" Pos="492.15918,455.4581,31.999756" Rotate="0.70710659,0,0,0.70710695" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
+       <Size x="1.4000001" y="0.49999991" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="39826658-a555-c0a8-8169-cbe7c05a3877" Name="GraveCollider-33" Pos="518.32538,495.58563,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
+       <Size x="1.4000001" y="0.69999993" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="1392e9de-f68f-3d64-43bc-7bf3cbad6884" Name="GraveCollider-79" Pos="482.9176,455.35828,31.999756" Rotate="0.70710659,0,0,0.70710695" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
+       <Size x="1.4000001" y="0.49999991" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="ded1f472-0f5c-9fdd-2cf2-67f720f047ff" Name="GraveCollider-77" Pos="480.49664,455.35828,31.999756" Rotate="0.70710659,0,0,0.70710695" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
+       <Size x="1.4000001" y="0.49999991" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="5576f975-aca2-bfae-35da-607001ab98ce" Name="GraveCollider-64" Pos="470.72736,457.86124,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
+       <Size x="1.4000001" y="0.49999991" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="c0162a80-4bf3-1c6b-ac99-ff835a15efb5" Name="GraveCollider-11" Pos="534.79877,513.83746,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
+       <Size x="1.4000001" y="1.2" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="cab3816f-b33c-dfe7-4400-6770d7efa4ec" Name="GraveCollider-35" Pos="518.32538,501.95209,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
+       <Size x="1.4000001" y="0.79999995" z="1"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="07f163e3-3add-8603-adfc-8060b056ec10" Name="GraveCollider-43" Pos="502.82935,497.1459,31.999756" Rotate="0.70710659,0,0,-0.70710701" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
+       <Size x="1.4000001" y="0.5" z="1"/>
        <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
       </properties>
      </Component>
@@ -534,38 +1590,6 @@
       </Transform>
       <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
        <Size x="1.4000001" y="0.49999991" z="1"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="39012f24-aa7e-1d03-5fc2-8f0801423bdd" Name="GraveCollider-32" Pos="518.32538,493.31427,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
-       <Size x="1.4000001" y="0.5999999" z="1"/>
        <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
       </properties>
      </Component>
@@ -738,70 +1762,6 @@
     </Components>
    </Object>
    <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="69c7f664-dcd2-bd8c-a1a4-aa805ce97ddf" Name="GraveCollider-84" Pos="494.78009,455.4581,31.999756" Rotate="0.70710659,0,0,0.70710695" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
-       <Size x="1.4000001" y="0.49999991" z="1"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="f4c27e11-7c89-7fd9-3097-e4fc32829b25" Name="GraveCollider-83" Pos="492.15918,455.4581,31.999756" Rotate="0.70710659,0,0,0.70710695" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
-       <Size x="1.4000001" y="0.49999991" z="1"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="1392e9de-f68f-3d64-43bc-7bf3cbad6884" Name="GraveCollider-79" Pos="482.9176,455.35828,31.999756" Rotate="0.70710659,0,0,0.70710695" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
      <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
@@ -1057,134 +2017,6 @@
      </Component>
     </Components>
    </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="407e5191-4edf-6ed9-fe09-7a95fff2280a" Name="GraveCollider-26" Pos="523.24933,494.34634,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
-       <Size x="1.4000001" y="1.1" z="1"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="e478641c-0d9a-4bd0-3100-6c9af468d8be" Name="GraveCollider-24" Pos="523.24933,486.02618,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
-       <Size x="1.4000001" y="0.39999992" z="1"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="07f163e3-3add-8603-adfc-8060b056ec10" Name="GraveCollider-43" Pos="502.82935,497.1459,31.999756" Rotate="0.70710659,0,0,-0.70710701" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
-       <Size x="1.4000001" y="0.5" z="1"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="cab3816f-b33c-dfe7-4400-6770d7efa4ec" Name="GraveCollider-35" Pos="518.32538,501.95209,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
-       <Size x="1.4000001" y="0.79999995" z="1"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
    <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="829b127b-9c22-3e07-aee7-79f571b167eb" Name="GraveCollider-3" Pos="534.91266,491.21417,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
@@ -1206,38 +2038,6 @@
       </Transform>
       <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
        <Size x="1.4000001" y="0.39999992" z="1"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="aaa1ecba-9c2a-ecd1-04ba-39e7e07cfd73" Name="GraveCollider-109" Pos="479.8678,475.46365,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
-       <Size x="1.4000001" y="0.49999991" z="1"/>
        <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
       </properties>
      </Component>
@@ -1345,38 +2145,6 @@
      </Component>
     </Components>
    </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="0bda80b4-c34c-0a03-f46b-1332e60c8d0b" Name="GraveCollider-88" Pos="484.97263,460.87134,31.999756" Rotate="0.70710659,0,0,0.70710695" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
-       <Size x="1.4000001" y="0.49999991" z="1"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
    <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="970c2820-9081-9087-c95b-83ad111447e1" Name="GraveCollider" Pos="534.91266,486.02618,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
@@ -1398,38 +2166,6 @@
       </Transform>
       <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
        <Size x="1.4000001" y="0.39999992" z="1"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="0714d55e-0fa2-6b4c-60d8-3509ce961a40" Name="GraveCollider-5" Pos="534.82343,493.95148,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
-       <Size x="1.4000001" y="0.49999991" z="1"/>
        <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
       </properties>
      </Component>
@@ -1569,38 +2305,6 @@
      </Component>
     </Components>
    </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="c0162a80-4bf3-1c6b-ac99-ff835a15efb5" Name="GraveCollider-11" Pos="534.79877,513.83746,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
-       <Size x="1.4000001" y="1.2" z="1"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
    <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="7df4141e-2f33-3954-600f-3d10968060d1" Name="GraveCollider-12" Pos="536.06226,502.59955,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
@@ -1622,38 +2326,6 @@
       </Transform>
       <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
        <Size x="0.39999992" y="0.49999991" z="1"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="ea1ecc0d-8488-a8ec-5737-fab8028efcb6" Name="GraveCollider-15" Pos="530.0177,486.12204,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
-       <Size x="1.4000001" y="1.3000001" z="1"/>
        <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
       </properties>
      </Component>
@@ -1793,70 +2465,6 @@
      </Component>
     </Components>
    </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="0a8f755e-e2ab-c6ef-de01-4430c8cf38dd" Name="GraveCollider-20" Pos="530.0177,503.16336,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
-       <Size x="1.4000001" y="1.3000001" z="1"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="1aab7574-dadc-9879-104e-fc8caff4e621" Name="GraveCollider-22" Pos="530.0177,508.25073,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
-       <Size x="1.4000001" y="1.3000001" z="1"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
    <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="f9a7ae48-e5b3-236d-a338-5266f7e802c1" Name="GraveCollider-23" Pos="530.0177,511.14441,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
@@ -1921,70 +2529,6 @@
      </Component>
     </Components>
    </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="9ce1ec8f-316b-d1b3-2fd7-65c7c24a9701" Name="GraveCollider-31" Pos="518.21198,489.36691,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
-       <Size x="1.4000001" y="1.9000002" z="1"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="39826658-a555-c0a8-8169-cbe7c05a3877" Name="GraveCollider-33" Pos="518.32538,495.58563,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
-       <Size x="1.4000001" y="0.69999993" z="1"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
    <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="81987955-61cb-a279-aad8-5579e84237c8" Name="GraveCollider-34" Pos="518.32538,498.06638,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
@@ -2006,38 +2550,6 @@
       </Transform>
       <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
        <Size x="1.4000001" y="0.49999991" z="1"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="5239a197-f951-4cc3-84f4-bb36ea0dd858" Name="GraveCollider-37" Pos="514.6239,502.39835,31.999756" Rotate="0.70710659,0,0,-0.70710701" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
-       <Size x="1.4000001" y="0.40000001" z="1"/>
        <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
       </properties>
      </Component>
@@ -2081,38 +2593,6 @@
      </Component>
     </Components>
    </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="44338940-17c5-3a73-fd33-983fa42fb71a" Name="GraveCollider-48" Pos="474.18756,474.85623,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
-       <Size x="1.4000001" y="0.49999991" z="1"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
    <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="5ff693b2-98b2-b442-0b0c-540495b54a15" Name="GraveCollider-40" Pos="511.28433,502.39835,31.999756" Rotate="0.70710659,0,0,-0.70710701" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
@@ -2145,71 +2625,7 @@
      </Component>
     </Components>
    </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="4324a2cc-cbb6-211c-d116-1f31df219e24" Name="GraveCollider-41" Pos="501.80496,502.39835,31.999756" Rotate="0.70710659,0,0,-0.70710701" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
-       <Size x="1.4000001" y="0.9000001" z="1"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="39050d4a-9058-f9fc-3fd1-57b7fc4f954e" Name="GraveCollider-71" Pos="474.73578,457.91766,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
-       <Size x="1.4000001" y="0.49999991" z="1"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="04aaf31d-aef3-1348-d1ad-9f18593f33d4" Name="GraveCollider-46" Pos="474.18756,472.14963,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="44338940-17c5-3a73-fd33-983fa42fb71a" Name="GraveCollider-48" Pos="474.18756,474.85623,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
      <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
@@ -2305,103 +2721,7 @@
      </Component>
     </Components>
    </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="e3448411-f9da-9452-e9af-2a1dd047cd3c" Name="GraveCollider-51" Pos="470.36786,477.707,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
-       <Size x="1.4000001" y="0.49999991" z="1"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
    <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="240637ba-2260-f654-26d8-dd7dc481054f" Name="GraveCollider-52" Pos="470.36786,474.48615,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
-       <Size x="1.4000001" y="0.49999991" z="1"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="fcef87b2-b222-490b-0210-ff8c1df641a5" Name="GraveCollider-70" Pos="471.11136,451.86975,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
-       <Size x="1.4000001" y="0.49999991" z="1"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="d018012d-0615-4c5d-16de-095034b23dca" Name="GraveCollider-53" Pos="470.80289,471.98343,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
      <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
@@ -2529,103 +2849,7 @@
      </Component>
     </Components>
    </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="f7213301-1b64-8ff9-7527-75a8cd434942" Name="GraveCollider-58" Pos="474.18756,465.49368,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
-       <Size x="1.4000001" y="0.49999991" z="1"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="9b945645-6eab-dc1d-87c4-79b3bdcecdfe" Name="GraveCollider-60" Pos="470.72736,462.09183,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
-       <Size x="1.4000001" y="0.49999991" z="1"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
    <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="fb1bdf59-aa89-0273-0748-89343b3fdf2b" Name="GraveCollider-61" Pos="470.72736,464.14673,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
-       <Size x="1.4000001" y="0.49999991" z="1"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="5576f975-aca2-bfae-35da-607001ab98ce" Name="GraveCollider-64" Pos="470.72736,457.86124,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
      <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
@@ -2721,38 +2945,6 @@
      </Component>
     </Components>
    </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="7b388e31-5ad6-990b-916a-52ae7770a8e1" Name="GraveCollider-69" Pos="473.81476,451.86975,31.999754" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
-       <Size x="1.4000001" y="0.49999991" z="1"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
    <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="f5ad6ba5-0257-39b6-e0a8-cd8b6d7fdf0c" Name="GraveCollider-67" Pos="470.54309,453.52716,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
@@ -2785,7 +2977,7 @@
      </Component>
     </Components>
    </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="4187a548-3e90-2c0e-e5ca-85c3b4a281b4" Name="GraveCollider-68" Pos="473.81476,452.55359,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="7b388e31-5ad6-990b-916a-52ae7770a8e1" Name="GraveCollider-69" Pos="473.81476,451.86975,31.999754" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
      <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
@@ -2849,103 +3041,7 @@
      </Component>
     </Components>
    </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="9d5fea97-9451-84c9-5163-99a5139451d1" Name="GraveCollider-73" Pos="474.53043,454.05981,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
-       <Size x="1.4000001" y="0.49999991" z="1"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
    <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="89da8e39-bbf5-6490-2b67-b470bf59f287" Name="GraveCollider-75" Pos="474.53043,452.60577,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
-       <Size x="1.4000001" y="0.49999991" z="1"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="a02a3f8d-f438-a588-ce52-088aa8ff1ec0" Name="GraveCollider-76" Pos="474.53043,456.3118,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
-       <Size x="1.4000001" y="0.49999991" z="1"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="ded1f472-0f5c-9fdd-2cf2-67f720f047ff" Name="GraveCollider-77" Pos="480.49664,455.35828,31.999756" Rotate="0.70710659,0,0,0.70710695" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
      <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
@@ -3074,70 +3170,6 @@
     </Components>
    </Object>
    <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="e399deb5-97c8-5305-85c5-a0de5cccf5c0" Name="GraveCollider-85" Pos="479.25217,460.87134,31.999756" Rotate="0.70710659,0,0,0.70710695" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
-       <Size x="1.4000001" y="0.49999991" z="1"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="63150fb8-ad6a-14e6-7897-aaeeb61e70ad" Name="GraveCollider-86" Pos="480.06149,460.87134,31.999756" Rotate="0.70710659,0,0,0.70710695" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
-       <Size x="1.4000001" y="0.49999991" z="1"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="253a46ca-4700-0c35-f21e-665bc03cd2ea" Name="GraveCollider-89" Pos="487.23502,460.87134,31.999756" Rotate="0.70710659,0,0,0.70710695" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
      <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
@@ -3298,38 +3330,6 @@
     </Components>
    </Object>
    <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="bd1fd628-8815-2f7c-f5a9-18c25a8cd5df" Name="GraveCollider-96" Pos="489.81033,467.42068,31.999756" Rotate="0.70710659,0,0,0.70710695" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
-       <Size x="1.4000001" y="0.49999991" z="1"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="55c861b5-e035-f4ef-f621-8a9a29dea795" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Grave" LayerGUID="a5267124-e57d-ec49-2899-d4fe2a49c4a6" Id="878c90b9-1dc9-a83f-8829-73b9416205e8" Name="GraveCollider-97" Pos="488.77032,467.42068,31.999756" Rotate="0.70710659,0,0,0.70710695" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
      <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="62568a1c-78e8-7176-4d64-4eed65828363" Name="" UserAdded="true">

@@ -1,6 +1,38 @@
 <ObjectLayer>
- <Layer Name="Colliders_Crypt" FullName="Colliders_Crypt" GUID="503d6cb0-7e96-27f4-678e-dd3d1b06e59e" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1574965779">
+ <Layer Name="Colliders_Crypt" FullName="Colliders_Crypt" GUID="503d6cb0-7e96-27f4-678e-dd3d1b06e59e" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1575029110">
   <LayerObjects>
+   <Object Type="EntityWithComponent" Layer="Colliders_Crypt" LayerGUID="503d6cb0-7e96-27f4-678e-dd3d1b06e59e" Id="a0289831-9fd0-6d29-c9bf-309fc0640760" Name="CryptCollider-8" Pos="522.51306,450.17166,31.786766" Rotate="0.70710629,0,0,0.70710725" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="1344c98c-8994-52b6-5377-8b314e2d9f30" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
+       <Size x="2.6999998" y="1.9000002" z="2.3999999"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="ec415e72-eb5b-d159-a8e1-25014f76588d" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
    <Object Type="EntityWithComponent" Layer="Colliders_Crypt" LayerGUID="503d6cb0-7e96-27f4-678e-dd3d1b06e59e" Id="35dc1610-304f-f847-8a8a-a177d6b1494e" Name="CryptCollider-17" Pos="483.78592,510.34277,31.999756" Rotate="0.70710665,0,0,0.70710689" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
@@ -214,38 +246,6 @@
       </Transform>
       <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
        <Size x="2.9999993" y="2.5999997" z="2.2"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="ec415e72-eb5b-d159-a8e1-25014f76588d" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
-   <Object Type="EntityWithComponent" Layer="Colliders_Crypt" LayerGUID="503d6cb0-7e96-27f4-678e-dd3d1b06e59e" Id="a0289831-9fd0-6d29-c9bf-309fc0640760" Name="CryptCollider-8" Pos="522.51306,450.17166,31.786766" Rotate="0.70710629,0,0,0.70710725" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="1344c98c-8994-52b6-5377-8b314e2d9f30" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Surface="GraveyardStoneGrave" ReactToCollisions="true">
-       <Size x="2.6999998" y="1.9000002" z="2.3999999"/>
        <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
       </properties>
      </Component>
