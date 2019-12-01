@@ -17,9 +17,7 @@ sources_platform(ALL)
 add_sources("Code_uber.cpp"
     PROJECTS GraveyardGame
     SOURCE_GROUP "Root"
-		"GamePlugin.cpp"
 		"StdAfx.cpp"
-		"GamePlugin.h"
 		"StdAfx.h"
 )
 add_sources("Components_uber.cpp"
@@ -59,6 +57,12 @@ add_sources("SpawnPoint_uber.cpp"
     SOURCE_GROUP "Components\\\\SpawnPoint"
 		"Components/SpawnPoint/SpawnPoint.cpp"
 		"Components/SpawnPoint/SpawnPoint.h"
+)
+add_sources("GamePlugin_uber.cpp"
+    PROJECTS GraveyardGame
+    SOURCE_GROUP "GamePlugin"
+		"GamePlugin/GamePlugin.cpp"
+		"GamePlugin/GamePlugin.h"
 )
 add_sources("Player_uber.cpp"
     PROJECTS GraveyardGame

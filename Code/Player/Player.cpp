@@ -2,7 +2,7 @@
 #include "Player.h"
 #include "Bullet.h"
 #include "Components/SpawnPoint/SpawnPoint.h"
-#include "GamePlugin.h"
+#include "GamePlugin/GamePlugin.h"
 
 #include <CryRenderer/IRenderAuxGeom.h>
 #include <CryInput/IHardwareMouse.h>
