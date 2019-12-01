@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="Rocks" FullName="Rocks" GUID="bf136191-78dc-6b6f-6523-70c02099081f" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1575029111">
+ <Layer Name="Rocks" FullName="Rocks" GUID="bf136191-78dc-6b6f-6523-70c02099081f" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1575213083">
   <LayerObjects>
    <Object Type="Brush" Layer="Rocks" LayerGUID="bf136191-78dc-6b6f-6523-70c02099081f" Id="6cb36915-7fce-6a42-df49-6424a9315a8f" Name="rocks-10" Pos="489.47,464.60703,32.559235" Rotate="0.88701087,0,0,0.46174857" Scale="2,2,2" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="kenneymodels/rocks/rocks.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
     <CollisionFiltering />

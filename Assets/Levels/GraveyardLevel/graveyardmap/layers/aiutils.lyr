@@ -1,0 +1,17 @@
+<ObjectLayer>
+ <Layer Name="AIUtils" FullName="AIUtils" GUID="7a17d243-c389-bc33-cff9-c8cece9da522" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1575213083">
+  <LayerObjects>
+   <Object Type="NavigationArea" Layer="AIUtils" LayerGUID="7a17d243-c389-bc33-cff9-c8cece9da522" Id="5e6fdb5f-e223-a531-fe5f-c0dc5afa8460" Name="GraveyardNavigationArea" Pos="541.74292,443.96835,29.218735" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="9846784" UseCustomLevelLayerColor="0" MinSpec="0" Height="5" Exclusion="0" RemoveInaccessibleTriangles="1" DisplayFilled="0" HasEntity="0">
+    <AffectedAgentTypes MediumSizedCharacters="1"/>
+    <Properties />
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="-79.14917,-1.0206909,-0.00048446655"/>
+     <Point Pos="-79.9664,76.486969,-0.00048446655"/>
+     <Point Pos="-0.3104248,76.446808,-0.00048446655"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Roof="0" Floor="0"/>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

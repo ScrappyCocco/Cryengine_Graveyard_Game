@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="Main" FullName="Main" GUID="4d9d644b-2238-f76a-3318-47b8f2f7bb05" Hidden="0" Frozen="0" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1575029111">
+ <Layer Name="Main" FullName="Main" GUID="4d9d644b-2238-f76a-3318-47b8f2f7bb05" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1575213083">
   <LayerObjects>
    <Object Type="EmptyEntity" Layer="Main" LayerGUID="4d9d644b-2238-f76a-3318-47b8f2f7bb05" Id="fef4cfbc-c199-4759-f5ee-82b220bdad42" Name="CenterObject" Pos="498.99637,483.02606,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" Flags="4" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
