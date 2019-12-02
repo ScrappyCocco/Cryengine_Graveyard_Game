@@ -72,19 +72,6 @@
 
 	<Config name="default">
 		<Stimuli>
-
-			<Stimulus name="VisualPrimary" hostileOnly="1" peak="5.0" attack="2.0" decay="3.0" sustain="0.2" release="5.0">
-				<Modifiers>
-					<Distance limit="200" value="50" />
-				</Modifiers>
-			</Stimulus>
-
-			<Stimulus name="VisualSecondary" hostileOnly="1" peak="3.0" attack="2.0" decay="3.0" sustain="0.2" release="5.0">
-				<Modifiers>
-					<Distance limit="200" value="50" />
-				</Modifiers>
-			</Stimulus>
-
 		</Stimuli>
 	</Config>
 
