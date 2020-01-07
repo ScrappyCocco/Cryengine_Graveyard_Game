@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="RopeLights" FullName="RopeLights" GUID="b764ad85-1fd4-08e7-fc40-7e8eb386ee57" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1575213083">
+ <Layer Name="RopeLights" FullName="RopeLights" GUID="b764ad85-1fd4-08e7-fc40-7e8eb386ee57" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1576167206">
   <LayerObjects>
    <Object Type="EntityWithStaticMeshComponent" Layer="RopeLights" LayerGUID="b764ad85-1fd4-08e7-fc40-7e8eb386ee57" Id="6f72ac17-ae03-2916-ad02-33cbeceabcb9" Name="LightPillar-2" Pos="501.68799,484.52582,35.305481" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />

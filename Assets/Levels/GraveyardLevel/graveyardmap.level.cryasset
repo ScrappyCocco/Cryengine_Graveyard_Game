@@ -1,24 +1,15 @@
-<AssetMetadata version="0" type="Level" guid="01d42173-a9a0-f24b-1d41-7aff55f6badf" source="" timestamp="1575213083">
+<AssetMetadata version="0" type="Level" guid="01d42173-a9a0-f24b-1d41-7aff55f6badf" source="" timestamp="1576167207">
  <Files>
   <File path="graveyardmap/graveyardmap.level"/>
  </Files>
  <Dependencies>
+  <Path>%engine%/config/defaultscripts/compressionpolicy.xml</Path>
   <Path>%engine%/engineassets/icons/averagememoryusage.dds</Path>
   <Path>%engine%/engineassets/icons/highmemoryusage.dds</Path>
   <Path>%engine%/engineassets/icons/levelshadercachemiss.dds</Path>
   <Path>%engine%/engineassets/icons/livepreview.dds</Path>
   <Path>%engine%/engineassets/icons/lowmemoryusage.dds</Path>
-  <Path>%engine%/engineassets/materials/fog/fogvolumebox.mtl</Path>
-  <Path>%engine%/engineassets/materials/fog/fogvolumeellipsoid.mtl</Path>
-  <Path>%engine%/engineassets/materials/fog/oceaninto.mtl</Path>
-  <Path>%engine%/engineassets/materials/fog/oceanintolowspec.mtl</Path>
-  <Path>%engine%/engineassets/materials/fog/oceanoutof.mtl</Path>
-  <Path>%engine%/engineassets/materials/fog/oceanoutoflowspec.mtl</Path>
-  <Path>%engine%/engineassets/materials/lens_optics.mtl</Path>
-  <Path>%engine%/engineassets/materials/material_terrain_default.mtl</Path>
   <Path>%engine%/engineassets/materials/water/ocean_default.mtl</Path>
-  <Path>%engine%/engineassets/materials/water/wateroceanbottom.mtl</Path>
-  <Path>%engine%/engineassets/objects/primitive_sphere.cgf</Path>
   <Path>%engine%/engineassets/screenspace/areatex.dds</Path>
   <Path>%engine%/engineassets/screenspace/bokeh_pentagon.dds</Path>
   <Path>%engine%/engineassets/screenspace/grain_bayer_mul.dds</Path>
@@ -34,7 +25,6 @@
   <Path>%engine%/engineassets/shading/sonarvisiongradient.dds</Path>
   <Path>%engine%/engineassets/shading/thermalvisiongradient.dds</Path>
   <Path>%engine%/engineassets/shading/waterfoam.dds</Path>
-  <Path>%engine%/engineassets/texturemsg/defaultnouvs.dds</Path>
   <Path>%engine%/engineassets/texturemsg/shadercompiling.dds</Path>
   <Path>%engine%/engineassets/texturemsg/shadererror.dds</Path>
   <Path>%engine%/engineassets/textures/alienhud_distortionimage.dds</Path>
@@ -119,69 +109,11 @@
   <Path>%engine%/engineassets/textures/white_cm.dds</Path>
   <Path usageCount="1">Libs/environmentpresets/example.env</Path>
   <Path usageCount="1">Libs/environmentpresets/graveyardenviroment.env</Path>
-  <Path>animations/mannequin/adb/firstpersoncontrollerdefinition.xml</Path>
-  <Path>animations/mannequin/adb/playerfragmentids.xml</Path>
-  <Path>animations/mannequin/adb/playertags.xml</Path>
-  <Path>animations/motusanims/ide2move/idle_to_jog_3p.caf</Path>
-  <Path>animations/motusanims/ide2move/idle_to_run_3p.caf</Path>
-  <Path>animations/motusanims/ide2move/idle_to_walk_3p.caf</Path>
-  <Path>animations/motusanims/ide2move/jog_to_idle_3p.caf</Path>
-  <Path>animations/motusanims/ide2move/run_to_idle_3p.caf</Path>
-  <Path>animations/motusanims/ide2move/walk_to_idle_3p.caf</Path>
-  <Path>animations/motusanims/idle_3p.caf</Path>
-  <Path>animations/motusanims/jog_bck_3p.caf</Path>
-  <Path>animations/motusanims/jog_fwd_3p.caf</Path>
-  <Path>animations/motusanims/rifleanims/rifleaim_idle_3p.caf</Path>
-  <Path>animations/motusanims/rifleanims/riflewalkaim_bwd_3p.caf</Path>
-  <Path>animations/motusanims/rifleanims/riflewalkaim_fwd_3p.caf</Path>
-  <Path>animations/motusanims/rifleanims/steprifleaimrotate_lft_90_3p.caf</Path>
-  <Path>animations/motusanims/rifleanims/steprifleaimrotate_rgt_90_3p.caf</Path>
-  <Path>animations/motusanims/rifleanims/walkcrossrifleaim_bck_lft_3p.caf</Path>
-  <Path>animations/motusanims/rifleanims/walkcrossrifleaim_bck_rgt_3p.caf</Path>
-  <Path>animations/motusanims/rifleanims/walkcrossrifleaim_fwd_lft_3p.caf</Path>
-  <Path>animations/motusanims/rifleanims/walkcrossrifleaim_fwd_rgt_3p.caf</Path>
-  <Path>animations/motusanims/rifleanims/walkstraferifleaim_lft_3p.caf</Path>
-  <Path>animations/motusanims/rifleanims/walkstraferifleaim_rgt_3p.caf</Path>
-  <Path>animations/motusanims/run_fwd_3p.caf</Path>
-  <Path>animations/motusanims/steprotate/steprotate_lft_135_3p.caf</Path>
-  <Path>animations/motusanims/steprotate/steprotate_lft_180_3p.caf</Path>
-  <Path>animations/motusanims/steprotate/steprotate_lft_45_3p.caf</Path>
-  <Path>animations/motusanims/steprotate/steprotate_lft_90_3p.caf</Path>
-  <Path>animations/motusanims/steprotate/steprotate_rgt_135_3p.caf</Path>
-  <Path>animations/motusanims/steprotate/steprotate_rgt_180_3p.caf</Path>
-  <Path>animations/motusanims/steprotate/steprotate_rgt_45_3p.caf</Path>
-  <Path>animations/motusanims/steprotate/steprotate_rgt_90_3p.caf</Path>
-  <Path>animations/motusanims/strafe/jogcross_bck_lft_3p.caf</Path>
-  <Path>animations/motusanims/strafe/jogcross_bck_rgt_3p.caf</Path>
-  <Path>animations/motusanims/strafe/jogcross_fwd_lft_3p.caf</Path>
-  <Path>animations/motusanims/strafe/jogcross_fwd_rgt_3p.caf</Path>
-  <Path>animations/motusanims/strafe/jogstrafe_lft_3p.caf</Path>
-  <Path>animations/motusanims/strafe/jogstrafe_rgt_3p.caf</Path>
-  <Path>animations/motusanims/strafe/runcross_fwd_lft_3p.caf</Path>
-  <Path>animations/motusanims/strafe/runcross_fwd_rgt_3p.caf</Path>
-  <Path>animations/motusanims/strafe/runstrafe_lft_3p.caf</Path>
-  <Path>animations/motusanims/strafe/runstrafe_rgt_3p.caf</Path>
-  <Path>animations/motusanims/strafe/walkcross_bck_lft_3p.caf</Path>
-  <Path>animations/motusanims/strafe/walkcross_bck_rgt_3p.caf</Path>
-  <Path>animations/motusanims/strafe/walkcross_fwd_lft_3p.caf</Path>
-  <Path>animations/motusanims/strafe/walkcross_fwd_rgt_3p.caf</Path>
-  <Path>animations/motusanims/strafe/walkstrafe_lft_3p.caf</Path>
-  <Path>animations/motusanims/strafe/walkstrafe_rgt_3p.caf</Path>
-  <Path>animations/motusanims/turns/jogturn_lft_3p.caf</Path>
-  <Path>animations/motusanims/turns/jogturn_rgt_3p.caf</Path>
-  <Path>animations/motusanims/turns/runturn_lft_3p.caf</Path>
-  <Path>animations/motusanims/turns/runturn_rgt_3p.caf</Path>
-  <Path>animations/motusanims/turns/walkturn_lft_3p.caf</Path>
-  <Path>animations/motusanims/turns/walkturn_rgt_3p.caf</Path>
-  <Path>animations/motusanims/walk_bck_3p.caf</Path>
-  <Path>animations/motusanims/walk_fwd_3p.caf</Path>
-  <Path>editor/resourcecache/objects/characters/samplecharacter/mcg_ddna.dds</Path>
-  <Path>editor/resourcecache/objects/characters/samplecharacter/mcg_diff.dds</Path>
-  <Path>editor/resourcecache/objects/characters/samplecharacter/mcg_spec.dds</Path>
   <Path>editor/resourcecache/textures/cubemaps/graveyardmap/environmentprobe-1_cm.dds</Path>
   <Path>editor/resourcecache/textures/cubemaps/graveyardmap/environmentprobe-1_cm_diff.dds</Path>
   <Path>editor/resourcecache/textures/sprites/fireglow.dds</Path>
   <Path>editor/resourcecache/textures/sprites/firespritesheet.dds</Path>
+  <Path>engineassets/textures/white.dds</Path>
   <Path>kenneymodels/altar/altarstone.cgf</Path>
   <Path>kenneymodels/altar/mataltarstone.mtl</Path>
   <Path>kenneymodels/baseterrain/baseroad.cgf</Path>
@@ -268,17 +200,14 @@
   <Path>kenneymodels/trunk/mattrunklong.mtl</Path>
   <Path>kenneymodels/trunk/trunk.cgf</Path>
   <Path>kenneymodels/trunk/trunklong.cgf</Path>
-  <Path>materials/cursor_emissive.mtl</Path>
-  <Path>objects/characters/samplecharacter/mcg_ddna.dds</Path>
-  <Path>objects/characters/samplecharacter/mcg_diff.dds</Path>
-  <Path>objects/characters/samplecharacter/mcg_spec.dds</Path>
   <Path>objects/characters/samplecharacter/motusbody.skin</Path>
-  <Path>objects/characters/samplecharacter/motusbodymat.mtl</Path>
   <Path>objects/characters/samplecharacter/skelproxy.chr</Path>
   <Path>objects/characters/samplecharacter/thirdperson.cdf</Path>
   <Path>objects/weapons/sampleweapon/defaultweapon.cgf</Path>
-  <Path>objects/weapons/sampleweapon/defaultweapon.mtl</Path>
   <Path>particles/fire.pfx</Path>
+  <Path>scripts/network/compressionpolicy.xml</Path>
+  <Path>textures/cubemaps/example/environmentprobe1_cm.dds</Path>
+  <Path>textures/cubemaps/example/environmentprobe1_cm_diff.dds</Path>
   <Path>textures/cubemaps/graveyardmap/environmentprobe-1_cm.dds</Path>
   <Path>textures/cubemaps/graveyardmap/environmentprobe-1_cm_diff.dds</Path>
   <Path>textures/sprites/fireglow.dds</Path>

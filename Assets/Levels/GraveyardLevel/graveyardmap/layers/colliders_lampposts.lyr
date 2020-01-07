@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="Colliders_LampPosts" FullName="Colliders_LampPosts" GUID="14e14e88-6c9f-74ec-4716-efd2ee14ef42" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1575213083">
+ <Layer Name="Colliders_LampPosts" FullName="Colliders_LampPosts" GUID="14e14e88-6c9f-74ec-4716-efd2ee14ef42" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1576167206">
   <LayerObjects>
    <Object Type="EmptyEntity" Layer="Colliders_LampPosts" LayerGUID="14e14e88-6c9f-74ec-4716-efd2ee14ef42" Id="fc22dc3e-156d-e82a-2aa8-8b504b6cd85d" Name="LamPostCollider-5" Pos="491.35144,474.40308,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
