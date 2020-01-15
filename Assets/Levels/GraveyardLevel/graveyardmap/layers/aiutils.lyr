@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="AIUtils" FullName="AIUtils" GUID="7a17d243-c389-bc33-cff9-c8cece9da522" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1576167206">
+ <Layer Name="AIUtils" FullName="AIUtils" GUID="7a17d243-c389-bc33-cff9-c8cece9da522" Hidden="0" Frozen="0" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1579112868">
   <LayerObjects>
    <Object Type="NavigationArea" Layer="AIUtils" LayerGUID="7a17d243-c389-bc33-cff9-c8cece9da522" Id="5e6fdb5f-e223-a531-fe5f-c0dc5afa8460" Name="GraveyardNavigationArea" Pos="541.74292,443.96835,29.218735" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="9846784" UseCustomLevelLayerColor="0" MinSpec="0" Height="5" Exclusion="0" RemoveInaccessibleTriangles="1" DisplayFilled="0" HasEntity="0">
     <AffectedAgentTypes MediumSizedCharacters="1"/>

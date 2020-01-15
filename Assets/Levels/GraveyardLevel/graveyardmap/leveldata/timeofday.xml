@@ -1,6 +1,6 @@
 <TimeOfDay Time="24" TimeStart="0" TimeEnd="24" TimeAnimSpeed="0">
  <Presets>
-  <Preset Name="Libs/environmentpresets/example.env" Default="1"/>
-  <Preset Name="Libs/environmentpresets/graveyardenviroment.env"/>
+  <Preset Name="Libs/environmentpresets/example.env"/>
+  <Preset Name="Libs/environmentpresets/graveyardenviroment.env" Default="1"/>
  </Presets>
 </TimeOfDay>

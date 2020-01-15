@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="Colliders_Tree" FullName="Colliders_Tree" GUID="2596bea7-9d88-ec0f-2aa6-fa3059ff9336" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1576167207">
+ <Layer Name="Colliders_Tree" FullName="Colliders_Tree" GUID="2596bea7-9d88-ec0f-2aa6-fa3059ff9336" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1579112868">
   <LayerObjects>
    <Object Type="EmptyEntity" Layer="Colliders_Tree" LayerGUID="2596bea7-9d88-ec0f-2aa6-fa3059ff9336" Id="2a53939c-26a8-ae6c-c60f-af90e0e1b86e" Name="TreeCollider-15" Pos="535.80109,455.96585,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
@@ -193,7 +193,7 @@
      </Component>
     </Components>
    </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Tree" LayerGUID="2596bea7-9d88-ec0f-2aa6-fa3059ff9336" Id="cd351e21-97a9-8d28-5b14-6da18bbaa892" Name="TreeCollider-14" Pos="533.72852,453.61563,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+   <Object Type="EmptyEntity" Layer="Colliders_Tree" LayerGUID="2596bea7-9d88-ec0f-2aa6-fa3059ff9336" Id="d88d81b9-d06b-eee9-8c2a-2589e002ed34" Name="TreeCollider-21" Pos="519.05743,449.85556,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
      <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="2b428b08-7762-f69d-4ed1-81aee6c0d6ba" Name="" UserAdded="true">
@@ -225,7 +225,7 @@
      </Component>
     </Components>
    </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Tree" LayerGUID="2596bea7-9d88-ec0f-2aa6-fa3059ff9336" Id="d88d81b9-d06b-eee9-8c2a-2589e002ed34" Name="TreeCollider-21" Pos="519.05743,449.85556,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+   <Object Type="EmptyEntity" Layer="Colliders_Tree" LayerGUID="2596bea7-9d88-ec0f-2aa6-fa3059ff9336" Id="cd351e21-97a9-8d28-5b14-6da18bbaa892" Name="TreeCollider-14" Pos="533.72852,453.61563,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
      <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="2b428b08-7762-f69d-4ed1-81aee6c0d6ba" Name="" UserAdded="true">
@@ -769,6 +769,38 @@
      </Component>
     </Components>
    </Object>
+   <Object Type="EmptyEntity" Layer="Colliders_Tree" LayerGUID="2596bea7-9d88-ec0f-2aa6-fa3059ff9336" Id="bde7580e-d5a8-f949-7b69-b01f8c6ad19f" Name="TreeCollider-29" Pos="508.45764,488.29248,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="2b428b08-7762-f69d-4ed1-81aee6c0d6ba" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Surface="GraveyardWood" ReactToCollisions="true">
+       <Size x="1" y="1" z="2.5999997"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="fcb13ea4-2669-66aa-81e9-f7f17858ba48" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
+       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
    <Object Type="EmptyEntity" Layer="Colliders_Tree" LayerGUID="2596bea7-9d88-ec0f-2aa6-fa3059ff9336" Id="f15c9df7-d52a-751f-0db9-a34f6ab2626c" Name="TreeCollider-17" Pos="532.09009,448.79959,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
@@ -801,7 +833,7 @@
      </Component>
     </Components>
    </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Tree" LayerGUID="2596bea7-9d88-ec0f-2aa6-fa3059ff9336" Id="bde7580e-d5a8-f949-7b69-b01f8c6ad19f" Name="TreeCollider-29" Pos="508.45764,488.29248,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+   <Object Type="EmptyEntity" Layer="Colliders_Tree" LayerGUID="2596bea7-9d88-ec0f-2aa6-fa3059ff9336" Id="bdf44554-40b5-aab0-adc6-832e5f5c5474" Name="TreeCollider-4" Pos="507.85065,478.10608,31.999754" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
      <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="2b428b08-7762-f69d-4ed1-81aee6c0d6ba" Name="" UserAdded="true">
@@ -897,7 +929,7 @@
      </Component>
     </Components>
    </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Tree" LayerGUID="2596bea7-9d88-ec0f-2aa6-fa3059ff9336" Id="bdf44554-40b5-aab0-adc6-832e5f5c5474" Name="TreeCollider-4" Pos="507.85065,478.10608,31.999754" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+   <Object Type="EmptyEntity" Layer="Colliders_Tree" LayerGUID="2596bea7-9d88-ec0f-2aa6-fa3059ff9336" Id="6d7468b2-14c6-ddf7-8c1c-40e63872b622" Name="TreeCollider-6" Pos="518.04694,471.85324,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
      <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="2b428b08-7762-f69d-4ed1-81aee6c0d6ba" Name="" UserAdded="true">
@@ -930,38 +962,6 @@
     </Components>
    </Object>
    <Object Type="EmptyEntity" Layer="Colliders_Tree" LayerGUID="2596bea7-9d88-ec0f-2aa6-fa3059ff9336" Id="6541d6ff-982f-d9cc-6151-419973e07de6" Name="TreeCollider-26" Pos="486.13684,452.00546,31.999754" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="2b428b08-7762-f69d-4ed1-81aee6c0d6ba" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Surface="GraveyardWood" ReactToCollisions="true">
-       <Size x="1" y="1" z="2.5999997"/>
-       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
-      </properties>
-     </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="fcb13ea4-2669-66aa-81e9-f7f17858ba48" Name="" UserAdded="true">
-      <properties Networked="false" EnabledByDefault="true" Resting="true" Type="Static" SendCollisionSignal="false">
-       <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Tree" LayerGUID="2596bea7-9d88-ec0f-2aa6-fa3059ff9336" Id="6d7468b2-14c6-ddf7-8c1c-40e63872b622" Name="TreeCollider-6" Pos="518.04694,471.85324,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
      <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="2b428b08-7762-f69d-4ed1-81aee6c0d6ba" Name="" UserAdded="true">
@@ -1281,7 +1281,7 @@
      </Component>
     </Components>
    </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Tree" LayerGUID="2596bea7-9d88-ec0f-2aa6-fa3059ff9336" Id="f2e8c685-6a6c-9a89-5346-86b43d3330e2" Name="TreeCollider-27" Pos="476.99536,447.83603,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+   <Object Type="EmptyEntity" Layer="Colliders_Tree" LayerGUID="2596bea7-9d88-ec0f-2aa6-fa3059ff9336" Id="7d9c921e-0b6d-3f57-7f36-fa0577c428ed" Name="TreeCollider-56" Pos="486.57153,486.93713,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
      <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="2b428b08-7762-f69d-4ed1-81aee6c0d6ba" Name="" UserAdded="true">
@@ -1313,7 +1313,7 @@
      </Component>
     </Components>
    </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Tree" LayerGUID="2596bea7-9d88-ec0f-2aa6-fa3059ff9336" Id="7d9c921e-0b6d-3f57-7f36-fa0577c428ed" Name="TreeCollider-56" Pos="486.57153,486.93713,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+   <Object Type="EmptyEntity" Layer="Colliders_Tree" LayerGUID="2596bea7-9d88-ec0f-2aa6-fa3059ff9336" Id="f2e8c685-6a6c-9a89-5346-86b43d3330e2" Name="TreeCollider-27" Pos="476.99536,447.83603,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
      <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="2b428b08-7762-f69d-4ed1-81aee6c0d6ba" Name="" UserAdded="true">
@@ -1537,7 +1537,7 @@
      </Component>
     </Components>
    </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Tree" LayerGUID="2596bea7-9d88-ec0f-2aa6-fa3059ff9336" Id="ba4119b6-8990-0ccc-8060-12fcc5b8228f" Name="TreeCollider-19" Pos="530.26361,450.91669,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+   <Object Type="EmptyEntity" Layer="Colliders_Tree" LayerGUID="2596bea7-9d88-ec0f-2aa6-fa3059ff9336" Id="a5b0a2ee-2d26-db9f-9f24-f98fbe508ad2" Name="TreeCollider-62" Pos="494.22626,472.29028,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
      <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="2b428b08-7762-f69d-4ed1-81aee6c0d6ba" Name="" UserAdded="true">
@@ -1569,7 +1569,7 @@
      </Component>
     </Components>
    </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Tree" LayerGUID="2596bea7-9d88-ec0f-2aa6-fa3059ff9336" Id="a5b0a2ee-2d26-db9f-9f24-f98fbe508ad2" Name="TreeCollider-62" Pos="494.22626,472.29028,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+   <Object Type="EmptyEntity" Layer="Colliders_Tree" LayerGUID="2596bea7-9d88-ec0f-2aa6-fa3059ff9336" Id="ba4119b6-8990-0ccc-8060-12fcc5b8228f" Name="TreeCollider-19" Pos="530.26361,450.91669,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
      <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="2b428b08-7762-f69d-4ed1-81aee6c0d6ba" Name="" UserAdded="true">
@@ -1889,7 +1889,7 @@
      </Component>
     </Components>
    </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Tree" LayerGUID="2596bea7-9d88-ec0f-2aa6-fa3059ff9336" Id="4ea38772-e528-d251-796c-afaf6fa9d02e" Name="TreeCollider-58" Pos="482.54816,485.69147,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+   <Object Type="EmptyEntity" Layer="Colliders_Tree" LayerGUID="2596bea7-9d88-ec0f-2aa6-fa3059ff9336" Id="5f567ca7-51e5-1640-2342-61dc7c1082ab" Name="TreeCollider-63" Pos="502.53229,506.72165,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
      <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="2b428b08-7762-f69d-4ed1-81aee6c0d6ba" Name="" UserAdded="true">
@@ -1921,7 +1921,7 @@
      </Component>
     </Components>
    </Object>
-   <Object Type="EmptyEntity" Layer="Colliders_Tree" LayerGUID="2596bea7-9d88-ec0f-2aa6-fa3059ff9336" Id="5f567ca7-51e5-1640-2342-61dc7c1082ab" Name="TreeCollider-63" Pos="502.53229,506.72165,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+   <Object Type="EmptyEntity" Layer="Colliders_Tree" LayerGUID="2596bea7-9d88-ec0f-2aa6-fa3059ff9336" Id="4ea38772-e528-d251-796c-afaf6fa9d02e" Name="TreeCollider-58" Pos="482.54816,485.69147,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
      <Component CryXmlVersion="2" TypeGUID="52431c11-77ee-410a-a7a7-a7fa69e79685" TypeName="Cry::DefaultComponents::CBoxPrimitiveComponent" GUID="2b428b08-7762-f69d-4ed1-81aee6c0d6ba" Name="" UserAdded="true">
