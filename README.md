@@ -5,7 +5,7 @@
 ## Description
 This is a small ~~game~~ made in CryENGINE, to learn the basics of the engine and how to use it (basic physics, collision, AI movement and similar).
 
-Due to the engine being very difficult to use without adding GameSDK stuff, currently it's more a **demo level** built on the TopDown C++ Template. The initial idea was to add swarms of small enemies to kill.
+Due to the engine being very difficult to use without adding [GameSDK](https://www.cryengine.com/marketplace/product/CRYENGINE%20GameSDK%20Sample%20Project#) stuff, because the lack of examples, currently it's more a **demo level** built on the TopDown C++ Template. The initial idea was to add swarms of small enemies to kill.
 
 I will keep this level here for now, in case someone wants to take it to give the engine a try, or for future use when the engine is improved or i want to test something else in a pre-made level. It's also useful to link the project to report engine problems to Crytek.
 
