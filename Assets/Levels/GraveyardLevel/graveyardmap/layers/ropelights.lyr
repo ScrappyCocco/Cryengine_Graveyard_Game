@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="RopeLights" FullName="RopeLights" GUID="b764ad85-1fd4-08e7-fc40-7e8eb386ee57" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1579112868">
+ <Layer Name="RopeLights" FullName="RopeLights" GUID="b764ad85-1fd4-08e7-fc40-7e8eb386ee57" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1579113063">
   <LayerObjects>
    <Object Type="EntityWithStaticMeshComponent" Layer="RopeLights" LayerGUID="b764ad85-1fd4-08e7-fc40-7e8eb386ee57" Id="6f72ac17-ae03-2916-ad02-33cbeceabcb9" Name="LightPillar-2" Pos="501.68799,484.52582,35.305481" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
@@ -145,7 +145,7 @@
     </Points>
     <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
    </Object>
-   <Object Type="Rope" Layer="RopeLights" LayerGUID="b764ad85-1fd4-08e7-fc40-7e8eb386ee57" Id="a7490d8c-5185-747b-9a84-84a49a9c0432" Name="Rope-2" Pos="503.19098,480.86996,34.549129" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65280" UseCustomLevelLayerColor="0" Material="kenneymodels/baseterrain/ropematerial" MinSpec="0" MatLayersMask="0" EntityClass="RopeEntity" HasEntity="1">
+   <Object Type="Rope" Layer="RopeLights" LayerGUID="b764ad85-1fd4-08e7-fc40-7e8eb386ee57" Id="a7490d8c-5185-747b-9a84-84a49a9c0432" Name="Rope-2" Pos="503.19098,480.86996,34.549129" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" Material="kenneymodels/baseterrain/ropematerial" MinSpec="0" MatLayersMask="0" EntityClass="RopeEntity" HasEntity="1">
     <Rope flags="5123" radius="0.02" anchor_radius="0.1" num_seg="8" num_sides="4" texu="1" texv="10" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="0" wind="0,0,0" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="0" max_iters="650" max_time_step="0.02" stiffness="10" hardness="8" damping="0.2" sleepSpeed="0.039999999" sizeChange="0" smoothIters="2" segObjLen="1" segObjRot="0" segObjRot0="0" segObjAxis="3" segmentObj=""/>
     <Properties />
     <Components>

@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="Colliders_Crypt" FullName="Colliders_Crypt" GUID="503d6cb0-7e96-27f4-678e-dd3d1b06e59e" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1579112868">
+ <Layer Name="Colliders_Crypt" FullName="Colliders_Crypt" GUID="503d6cb0-7e96-27f4-678e-dd3d1b06e59e" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1579113063">
   <LayerObjects>
    <Object Type="EntityWithComponent" Layer="Colliders_Crypt" LayerGUID="503d6cb0-7e96-27f4-678e-dd3d1b06e59e" Id="a0289831-9fd0-6d29-c9bf-309fc0640760" Name="CryptCollider-8" Pos="522.51306,450.17166,31.786766" Rotate="0.70710629,0,0,0.70710725" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
