@@ -1,4 +1,4 @@
-<AssetMetadata version="0" type="Level" guid="01d42173-a9a0-f24b-1d41-7aff55f6badf" source="" timestamp="1579113063">
+<AssetMetadata version="0" type="Level" guid="01d42173-a9a0-f24b-1d41-7aff55f6badf" source="" timestamp="1579113158">
  <Files>
   <File path="graveyardmap/graveyardmap.level"/>
  </Files>
@@ -61,7 +61,6 @@
   <Path>%engine%/engineassets/textures/hex_rand.dds</Path>
   <Path>%engine%/engineassets/textures/interference.dds</Path>
   <Path>%engine%/engineassets/textures/jumpnoisehighfrequency_x27y19.dds</Path>
-  <Path>%engine%/engineassets/textures/lights/softedge.dds</Path>
   <Path>%engine%/engineassets/textures/nightvis_grad.dds</Path>
   <Path>%engine%/engineassets/textures/noise.dds</Path>
   <Path>%engine%/engineassets/textures/noise3d.dds</Path>
@@ -119,7 +118,6 @@
   <Path>%engine%/engineassets/textures/water_gloss.dds</Path>
   <Path>%engine%/engineassets/textures/white.dds</Path>
   <Path>%engine%/engineassets/textures/white_cm.dds</Path>
-  <Path usageCount="1">Libs/environmentpresets/example.env</Path>
   <Path usageCount="1">Libs/environmentpresets/graveyardenviroment.env</Path>
   <Path>animations/mannequin/adb/firstpersoncontrollerdefinition.xml</Path>
   <Path>animations/mannequin/adb/playerfragmentids.xml</Path>
@@ -281,7 +279,6 @@
   <Path>objects/weapons/sampleweapon/defaultweapon.cgf</Path>
   <Path>objects/weapons/sampleweapon/defaultweapon.mtl</Path>
   <Path>particles/fire.pfx</Path>
-  <Path>scripts/ai/factions.xml</Path>
   <Path>textures/cubemaps/graveyardmap/environmentprobe-1_cm.dds</Path>
   <Path>textures/cubemaps/graveyardmap/environmentprobe-1_cm_diff.dds</Path>
   <Path>textures/sprites/fireglow.dds</Path>
